@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2025-06-01
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+🔬 Joined **Prof. Wentao Zhang's lab** at the International Center for Machine Learning, Peking University, as a research intern on Data-Centric AI, Agentic RL, and Multimodal LLMs.

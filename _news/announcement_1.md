@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2026-04-01
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+🎉 Our paper **BrowseComp-V³** has been accepted to **SIGIR 2026 (CCF-A)**! A multimodal browsing benchmark with Visual, Vertical, and Verifiable properties, with OmniSeeker agentic framework.

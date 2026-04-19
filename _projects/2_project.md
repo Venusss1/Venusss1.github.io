@@ -1,81 +1,37 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: BrowseComp-V³
+description: "SIGIR 2026 (CCF-A) — Multimodal browsing benchmark"
 img: assets/img/3.jpg
 importance: 2
-category: work
-giscus_comments: true
+category: research
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0">
+    <span class="badge" style="background-color:#e74c3c; color:white; padding:4px 8px; border-radius:4px; font-size:12px;">SIGIR 2026 (CCF-A)</span>
+    &nbsp;
+    <a href="https://github.com/OpenDCAI/AgentFlow" target="_blank" class="btn btn-sm z-depth-0" role="button" style="font-size:12px;">
+      <i class="fa-brands fa-github"></i> Code
+    </a>
   </div>
 </div>
-```
 
-{% endraw %}
+**BrowseComp-V³** is a multimodal web-search benchmark that emphasizes three core properties:
+
+- **Visual (视觉多模态)**: Tasks require understanding of images, web screenshots, and visual content
+- **Vertical (深度多跳推理)**: Tasks require deep multi-hop reasoning across pages and sources
+- **Verifiable (子过程可验证)**: Sub-processes can be independently verified for correctness
+
+### OmniSeeker Framework
+
+Along with the benchmark, we release **OmniSeeker**, a general-purpose agentic framework that integrates diverse search and perception tools to help models tackle complex real-world browsing tasks.
+
+### My Role
+
+I independently led the **full pipeline** (data synthesis, annotation, and verification) for a major sub-domain of the benchmark, and contributed to experimental analysis. This is my **first research paper** as **Core Contributor**.
+
+### Affiliation
+
+This work is from the **International Center for Machine Learning, Peking University**, supervised by Prof. Wentao Zhang.
