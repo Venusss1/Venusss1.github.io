@@ -3,25 +3,25 @@ title = "Awards"
 description = "Honors and awards I have received."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2025"
-content = "Description of the award."
-
-[[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "Meritorious Winner (M Prize)"
+subtitle = "MCM/ICM (Mathematical Contest in Modeling)"
 date = "2024"
-content = "Description of the award."
+content = "Responsible for mathematical modeling and paper writing."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "ACM Training Team Member"
+subtitle = "Ocean University of China"
 date = "2023"
-content = "Description of the award."
+content = "Selected through campus competition to join the ACM training team."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2022"
-content = "Description of the award."
+title = "Lanqiao Cup / CCF Algorithm Elite Contest / CCPC"
+subtitle = "Algorithm Competitions"
+date = "2023-2024"
+content = "Achieved awards in multiple algorithm competitions."
+
+[[items]]
+title = "Overall Ranking 1/36"
+subtitle = "Ocean University of China"
+date = "2024"
+content = "Comprehensive assessment ranking 1st among 36 students in the major."

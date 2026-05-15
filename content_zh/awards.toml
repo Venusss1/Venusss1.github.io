@@ -3,25 +3,25 @@ title = "奖项"
 description = "我获得的荣誉与奖项。"
 
 [[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
-date = "2025"
-content = "奖项说明。"
-
-[[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
+title = "Meritorious Winner (M奖)"
+subtitle = "美国大学生数学建模竞赛 (MCM/ICM)"
 date = "2024"
-content = "奖项说明。"
+content = "主要负责建模论文撰写。"
 
 [[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
+title = "ACM 集训队成员"
+subtitle = "中国海洋大学"
 date = "2023"
-content = "奖项说明。"
+content = "通过校内选拔加入校 ACM 集训队。"
 
 [[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
-date = "2022"
-content = "奖项说明。"
+title = "蓝桥杯 / CCF 全国算法精英大赛 / CCPC"
+subtitle = "算法竞赛"
+date = "2023-2024"
+content = "在多项算法竞赛中取得成绩。"
+
+[[items]]
+title = "综合排名 1/36"
+subtitle = "中国海洋大学"
+date = "2024"
+content = "数据科学与大数据技术专业综合成绩排名第一。"
