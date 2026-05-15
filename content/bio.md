@@ -20,10 +20,10 @@ I am an undergraduate student majoring in Data Science and Big Data Technology a
 
 | Course | Score |
 |--------|-------|
-| Innovation & Entrepreneurship | 97 |
-| Contemporary Chinese Government & Politics | 96 |
-| Tennis | 95 |
-| Digital Economics | 95 |
+| Innovation Team Building & Enterprise Management | 100 |
+| Digital Economics | 99 |
+| Contemporary Government & Market | 98 |
+| Physical Education (Tennis) | 96 |
 
 ## Technical Skills
 
