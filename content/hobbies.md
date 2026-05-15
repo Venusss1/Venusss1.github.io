@@ -1,3 +1,12 @@
+## General Education Courses
+
+| Course | Score |
+|--------|-------|
+| Innovation Team Building & Enterprise Management | 100 |
+| Digital Economics | 99 |
+| Contemporary Government & Market | 98 |
+| Physical Education (Tennis) | 96 |
+
 ## Sports
 
 - Badminton enthusiast

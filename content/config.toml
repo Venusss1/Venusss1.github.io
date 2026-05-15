@@ -59,7 +59,7 @@ target = "research"
 href = "/research"
 
 [[navigation]]
-title = "Hobbies"
+title = "Development"
 type = "page"
 target = "hobbies"
 href = "/hobbies"

@@ -28,7 +28,7 @@ target = "research"
 href = "/research"
 
 [[navigation]]
-title = "兴趣爱好"
+title = "综合发展"
 type = "page"
 target = "hobbies"
 href = "/hobbies"

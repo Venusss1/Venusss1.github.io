@@ -16,15 +16,6 @@ I am a junior undergraduate (Class of 2023) majoring in Data Science and Big Dat
 | Operating Systems | 92.5 |
 | Computer Networks | 91.5 |
 
-## General Education Courses
-
-| Course | Score |
-|--------|-------|
-| Innovation Team Building & Enterprise Management | 100 |
-| Digital Economics | 99 |
-| Contemporary Government & Market | 98 |
-| Physical Education (Tennis) | 96 |
-
 ## Technical Skills
 
 - **Programming:** Python, C/C++, PyTorch
