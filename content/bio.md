@@ -6,7 +6,7 @@ I am an undergraduate student majoring in Data Science and Big Data Technology a
 - **CET-6:** 502
 - **Political Status:** Probationary CPC Member
 
-## Key Courses
+## Core Courses
 
 | Course | Score |
 |--------|-------|
@@ -15,6 +15,15 @@ I am an undergraduate student majoring in Data Science and Big Data Technology a
 | Parallel & Distributed Computing | 93 |
 | Operating Systems | 92.5 |
 | Computer Networks | 91.5 |
+
+## General Education Courses
+
+| Course | Score |
+|--------|-------|
+| Innovation & Entrepreneurship | 97 |
+| Contemporary Chinese Government & Politics | 96 |
+| Tennis | 95 |
+| Digital Economics | 95 |
 
 ## Technical Skills
 
