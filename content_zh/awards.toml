@@ -12,16 +12,22 @@ content = "主要负责建模论文撰写。"
 title = "ACM 集训队成员"
 subtitle = "中国海洋大学"
 date = "2023"
-content = "通过校内选拔加入校 ACM 集训队。"
+content = "大二上通过校内竞赛选拔加入校 ACM 集训队。"
 
 [[items]]
-title = "蓝桥杯 / CCF 全国算法精英大赛 / CCPC"
+title = "蓝桥杯省奖"
 subtitle = "算法竞赛"
 date = "2023-2024"
-content = "在多项算法竞赛中取得成绩。"
+content = "蓝桥杯程序设计竞赛省级奖项。"
 
 [[items]]
-title = "综合排名 1/36"
+title = "计挑赛省奖"
+subtitle = "算法竞赛"
+date = "2023-2024"
+content = "计算机创新挑战赛省级奖项。"
+
+[[items]]
+title = "综合排名 1/37"
 subtitle = "中国海洋大学"
 date = "2024"
 content = "数据科学与大数据技术专业综合成绩排名第一。"

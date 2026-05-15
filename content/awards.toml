@@ -12,16 +12,22 @@ content = "Responsible for mathematical modeling and paper writing."
 title = "ACM Training Team Member"
 subtitle = "Ocean University of China"
 date = "2023"
-content = "Selected through campus competition to join the ACM training team."
+content = "Selected through campus competition in sophomore year."
 
 [[items]]
-title = "Lanqiao Cup / CCF Algorithm Elite Contest / CCPC"
-subtitle = "Algorithm Competitions"
+title = "Provincial Award - Lanqiao Cup"
+subtitle = "Algorithm Competition"
 date = "2023-2024"
-content = "Achieved awards in multiple algorithm competitions."
+content = "Provincial-level award in the Lanqiao Cup programming contest."
 
 [[items]]
-title = "Overall Ranking 1/36"
+title = "Provincial Award - Ji Tiao Sai (计挑赛)"
+subtitle = "Algorithm Competition"
+date = "2023-2024"
+content = "Provincial-level award in the Computer Innovation Challenge."
+
+[[items]]
+title = "Overall Ranking 1/37"
 subtitle = "Ocean University of China"
 date = "2024"
-content = "Comprehensive assessment ranking 1st among 36 students in the major."
+content = "Comprehensive assessment ranking 1st among 37 students in the major."
