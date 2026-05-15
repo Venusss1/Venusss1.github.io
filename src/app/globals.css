@@ -15,17 +15,17 @@
 :root,
 .light {
   /* Light theme colors */
-  --background: #fefffe;
+  --background: #f8fafc;
   --foreground: #0f172a;
-  
-  /* Brand colors - Deep Navy & Gold */
+
+  /* Brand colors - Modern Blue & Teal */
   --primary: #1e293b;
   --primary-light: #334155;
   --primary-dark: #0f172a;
-  --accent: #d4a562;
-  --accent-light: #e4b976;
-  --accent-dark: #b8914d;
-  
+  --accent: #0ea5e9;
+  --accent-light: #38bdf8;
+  --accent-dark: #0284c7;
+
   /* Neutral colors */
   --neutral-50: #f8fafc;
   --neutral-100: #f1f5f9;
@@ -37,17 +37,17 @@
   --neutral-700: #334155;
   --neutral-800: #1e293b;
   --neutral-900: #0f172a;
-  
+
   /* Semantic colors */
   --success: #10b981;
   --warning: #f59e0b;
   --error: #ef4444;
   --info: #3b82f6;
-  
+
   /* Glass effect */
-  --glass-bg: rgba(255, 255, 255, 0.1);
-  --glass-border: rgba(255, 255, 255, 0.2);
-  --glass-shadow: rgba(0, 0, 0, 0.1);
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.8);
+  --glass-shadow: rgba(0, 0, 0, 0.08);
 }
 
 @theme inline {
@@ -146,15 +146,15 @@ html[data-locale^="zh"] {
 .dark {
   --background: #0f172a;
   --foreground: #f8fafc;
-  
+
   /* Adjust colors for dark mode */
   --primary: #f8fafc;
   --primary-light: #e2e8f0;
   --primary-dark: #cbd5e1;
-  --accent: #e4b976;
-  --accent-light: #f0c674;
-  --accent-dark: #d4a562;
-  
+  --accent: #38bdf8;
+  --accent-light: #7dd3fc;
+  --accent-dark: #0ea5e9;
+
   /* Dark mode glass effect */
   --glass-bg: rgba(15, 23, 42, 0.8);
   --glass-border: rgba(255, 255, 255, 0.1);
@@ -176,12 +176,21 @@ html[data-locale^="zh"] {
 
 body {
   background: var(--background);
+  background-image:
+    radial-gradient(ellipse at top right, rgba(14, 165, 233, 0.05) 0%, transparent 50%),
+    radial-gradient(ellipse at bottom left, rgba(99, 102, 241, 0.05) 0%, transparent 50%);
   color: var(--foreground);
   font-family: var(--font-sans);
   line-height: var(--line-height-normal);
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.dark body {
+  background-image:
+    radial-gradient(ellipse at top right, rgba(56, 189, 248, 0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at bottom left, rgba(99, 102, 241, 0.06) 0%, transparent 50%);
 }
 
 /* Typography utilities */

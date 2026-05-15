@@ -32,15 +32,17 @@ export default function DynamicPageClient({ dataByLocale, defaultLocale }: Dynam
 
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      {pageData.type === 'publication' && (
-        <PublicationsList config={pageData.config} publications={pageData.publications} />
-      )}
-      {pageData.type === 'text' && (
-        <TextPage config={pageData.config} content={pageData.content} />
-      )}
-      {pageData.type === 'card' && (
-        <CardPage config={pageData.config} />
-      )}
+      <div className="bg-white dark:bg-neutral-800/50 rounded-2xl shadow-lg p-6 sm:p-8 backdrop-blur-sm border border-neutral-200/50 dark:border-neutral-700/50">
+        {pageData.type === 'publication' && (
+          <PublicationsList config={pageData.config} publications={pageData.publications} />
+        )}
+        {pageData.type === 'text' && (
+          <TextPage config={pageData.config} content={pageData.content} />
+        )}
+        {pageData.type === 'card' && (
+          <CardPage config={pageData.config} />
+        )}
+      </div>
     </div>
   );
 }
