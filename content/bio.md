@@ -1,4 +1,4 @@
-I am an undergraduate student majoring in Data Science and Big Data Technology at [Ocean University of China](https://www.ouc.edu.cn) (985 Project).
+I am a junior undergraduate (Class of 2023) majoring in Data Science and Big Data Technology at [Ocean University of China](https://www.ouc.edu.cn) (985 Project).
 
 ## Basic Information
 
