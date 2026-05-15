@@ -16,25 +16,19 @@ location_details = [
 ]
 
 [[navigation]]
-title = "关于我"
+title = "基本情况"
 type = "page"
 target = "about"
 href = "/"
 
 [[navigation]]
-title = "论文"
+title = "科研经历"
 type = "page"
-target = "publications"
-href = "/publications"
+target = "research"
+href = "/research"
 
 [[navigation]]
-title = "奖项"
+title = "兴趣爱好"
 type = "page"
-target = "awards"
-href = "/awards"
-
-[[navigation]]
-title = "简历"
-type = "page"
-target = "cv"
-href = "/cv"
+target = "hobbies"
+href = "/hobbies"

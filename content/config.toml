@@ -8,7 +8,7 @@ last_updated = "May 2025"
 name = "Yanzhe Shan"
 title = "Undergraduate Student"
 institution = "Ocean University of China"
-avatar = "/bio.jpg"
+avatar = "/bio.png"
 
 [social]
 # Contact information (leave blank or delete to hide)
@@ -21,6 +21,7 @@ location_details = [
   "Ocean University of China, Qingdao, China"
 ]
 github = "https://github.com/Venusss1"
+phone = "19963927952"
 
 [features]
 # Show a like button on the about page
@@ -52,19 +53,13 @@ target = "about"
 href = "/"
 
 [[navigation]]
-title = "Publications"
+title = "Research"
 type = "page"
-target = "publications"
-href = "/publications"
+target = "research"
+href = "/research"
 
 [[navigation]]
-title = "Awards"
+title = "Hobbies"
 type = "page"
-target = "awards"
-href = "/awards"
-
-[[navigation]]
-title = "CV"
-type = "page"
-target = "cv"
-href = "/cv"
+target = "hobbies"
+href = "/hobbies"

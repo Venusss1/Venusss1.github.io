@@ -1,12 +1,36 @@
-我是[中国海洋大学](https://www.ouc.edu.cn)数据科学与大数据技术专业本科生。学业成绩排名 **2/37**，综合成绩排名 **1/37**，GPA 3.69/4.0。
+我是[中国海洋大学](https://www.ouc.edu.cn)（985）数据科学与大数据技术专业本科生。
 
-我的研究兴趣集中在 **Data-Centric AI**、**多模态智能体** 和 **AI for Science (AI4SCI)** 方向，关注高质量数据合成、智能体后训练和可验证评测。
+## 基本信息
 
-科研经历：
-- **北京大学** - 国际机器学习研究中心（张文涛教授课题组），作为核心开发者参与 [OpenDCAI/AgentFlow](https://github.com/OpenDCAI/AgentFlow) 项目，参与 [BrowseComp-V³](https://arxiv.org/abs/2602.12876) 和 MMDeepSearch 工作。同时参与构建 [OmniSeeker](https://github.com/Halcyon-Zhang/BrowseComp-V3/tree/main/omniseeker) 通用智能体框架。
-- **清华大学** - TLLM Lab，参与基于持续学习的晶圆缺陷检测研究。
-- **哈尔滨工业大学（深圳）** - 参与基于 MotionRAG 的可控视频生成研究。
+- **学业排名：** 2/37 | **综合排名：** 1/37 | **GPA：** 3.69/4.0
+- **英语六级：** 502
+- **政治面貌：** 中共预备党员
 
-目前正在寻求研究生深造机会，希望在 DCAI4SCI 和多模态智能体方向继续开展研究。
+## 核心课程
+
+| 课程 | 成绩 |
+|------|------|
+| 概率统计 | 97.5 |
+| Python科学计算 | 94.5 |
+| 并行与分布式计算 | 93 |
+| 操作系统 | 92.5 |
+| 计算机网络 | 91.5 |
+
+## 技术能力
+
+- **编程语言：** Python, C/C++, PyTorch
+- **大模型训练：** LlamaFactory, Verl, vLLM/SGLang, DeepSpeed, Ms-Swift, VlmEvalkit
+- **训练范式：** SFT/RL, AgentLoop/FunctionCalling, PPO/DPO/GRPO, LLM-as-Judge, RAG
+- **基础设施：** Linux, Git, Docker, Conda, tmux, 多机多卡训练 (A100/H20/4090)
+- **写作工具：** LaTeX/Overleaf，具备流畅的英文论文阅读与写作能力
+
+## 获奖经历
+
+- **Meritorious Winner (M奖)** - 美国大学生数学建模竞赛 (2024)
+- **ACM 集训队成员** - 中国海洋大学 (2023)
+- **省级奖项** - 蓝桥杯、计挑赛 (2023-2024)
+- **综合排名 1/37** - 专业综合测评 (2024)
+
+## 联系方式
 
 📧 dyz8327@stu.ouc.edu.cn | 📱 19963927952（微信同号）
