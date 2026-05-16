@@ -2,20 +2,30 @@ I am a junior undergraduate (Class of 2023) majoring in Data Science and Big Dat
 
 ## Basic Information
 
-### Academic Profile
-
-- **Academic Ranking:** 2/37
-- **Overall Ranking:** 1/37  
-- **GPA:** 3.69/4.0
-- **CET-6:** 502
-
-### Personal Details
-
-- **University:** Ocean University of China (985 Project)
-- **Major:** Data Science and Big Data Technology
-- **Political Status:** Probationary CPC Member
-- **Contact:** dyz8327@stu.ouc.edu.cn
-- **Phone/WeChat:** 19963927952
+<!-- CARDS_START -->
+<div class="cards-container">
+  <div class="academic-card">
+    <h3 class="text-lg font-semibold text-primary mb-4 pb-2 border-b border-neutral-200 dark:border-neutral-600">Academic Profile</h3>
+    <ul class="space-y-3">
+      <li class="flex justify-between"><span class="text-neutral-600 dark:text-neutral-400">Academic Ranking</span><span class="font-medium">2/37</span></li>
+      <li class="flex justify-between"><span class="text-neutral-600 dark:text-neutral-400">Overall Ranking</span><span class="font-medium">1/37</span></li>
+      <li class="flex justify-between"><span class="text-neutral-600 dark:text-neutral-400">GPA</span><span class="font-semibold text-accent">3.69/4.0</span></li>
+      <li class="flex justify-between"><span class="text-neutral-600 dark:text-neutral-400">CET-6</span><span class="font-medium">502</span></li>
+    </ul>
+  </div>
+  
+  <div class="personal-card">
+    <h3 class="text-lg font-semibold text-primary mb-4 pb-2 border-b border-neutral-200 dark:border-neutral-600">Personal Details</h3>
+    <ul class="space-y-3">
+      <li class="flex justify-between"><span class="text-neutral-600 dark:text-neutral-400">University</span><span class="font-medium">Ocean University of China (985)</span></li>
+      <li class="flex justify-between"><span class="text-neutral-600 dark:text-neutral-400">Major</span><span class="font-medium">Data Science & Big Data Technology</span></li>
+      <li class="flex justify-between"><span class="text-neutral-600 dark:text-neutral-400">Political Status</span><span class="font-medium">Probationary CPC Member</span></li>
+      <li class="flex justify-between"><span class="text-neutral-600 dark:text-neutral-400">Contact</span><span class="font-medium">dyz8327@stu.ouc.edu.cn</span></li>
+      <li class="flex justify-between"><span class="text-neutral-600 dark:text-neutral-400">Phone/WeChat</span><span class="font-medium">19963927952</span></li>
+    </ul>
+  </div>
+</div>
+<!-- CARDS_END -->
 
 ## Core Courses
 

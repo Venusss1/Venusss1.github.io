@@ -26,6 +26,7 @@ export default function About({ content, title }: AboutProps) {
                 <ReactMarkdown
                     remarkPlugins={[remarkGfm]}
                     rehypePlugins={[rehypeRaw]}
+                    skipHtml={false}
                     components={{
                         h1: ({ children }) => <h1 className="text-3xl font-serif font-bold text-primary mt-8 mb-4">{children}</h1>,
                         h2: ({ children }) => <h2 className="text-2xl font-serif font-bold text-primary mt-8 mb-4 border-b border-neutral-200 dark:border-neutral-800 pb-2">{children}</h2>,
@@ -53,9 +54,24 @@ export default function About({ content, title }: AboutProps) {
                         thead: ({ children }) => <thead className="bg-neutral-100 dark:bg-neutral-800">{children}</thead>,
                         th: ({ children }) => <th className="border border-neutral-200 dark:border-neutral-700 px-3 py-2 text-left font-semibold text-primary">{children}</th>,
                         td: ({ children }) => <td className="border border-neutral-200 dark:border-neutral-700 px-3 py-2">{children}</td>,
-                        div: ({ className, children }) => (
-                            <div className={className}>{children}</div>
-                        ),
+                        div: ({ className, children, ...props }) => {
+                            // 处理卡片布局
+                            if (className?.includes('cards-container')) {
+                                return (
+                                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+                                        {children}
+                                    </div>
+                                );
+                            }
+                            if (className?.includes('academic-card') || className?.includes('personal-card')) {
+                                return (
+                                    <div className="bg-white dark:bg-neutral-800 rounded-lg border border-neutral-200 dark:border-neutral-700 p-6 shadow-sm hover:shadow-md transition-all duration-200">
+                                        {children}
+                                    </div>
+                                );
+                            }
+                            return <div className={className} {...props}>{children}</div>;
+                        },
                     }}
                 >
                     {content}

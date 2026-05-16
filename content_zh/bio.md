@@ -2,20 +2,30 @@
 
 ## 基本信息
 
-### 学业档案
-
-- **学业排名：** 2/37
-- **综合排名：** 1/37
-- **GPA：** 3.69/4.0
-- **英语六级：** 502
-
-### 个人信息
-
-- **学校：** 中国海洋大学 (985工程)
-- **专业：** 数据科学与大数据技术
-- **政治面貌：** 中共预备党员
-- **联系方式：** dyz8327@stu.ouc.edu.cn
-- **手机/微信：** 19963927952
+<!-- CARDS_START -->
+<div class="cards-container">
+  <div class="academic-card">
+    <h3 class="text-lg font-semibold text-primary mb-4 pb-2 border-b border-neutral-200 dark:border-neutral-600">学业档案</h3>
+    <ul class="space-y-3">
+      <li class="flex justify-between"><span class="text-neutral-600 dark:text-neutral-400">学业排名</span><span class="font-medium">2/37</span></li>
+      <li class="flex justify-between"><span class="text-neutral-600 dark:text-neutral-400">综合排名</span><span class="font-medium">1/37</span></li>
+      <li class="flex justify-between"><span class="text-neutral-600 dark:text-neutral-400">GPA</span><span class="font-semibold text-accent">3.69/4.0</span></li>
+      <li class="flex justify-between"><span class="text-neutral-600 dark:text-neutral-400">英语六级</span><span class="font-medium">502</span></li>
+    </ul>
+  </div>
+  
+  <div class="personal-card">
+    <h3 class="text-lg font-semibold text-primary mb-4 pb-2 border-b border-neutral-200 dark:border-neutral-600">个人信息</h3>
+    <ul class="space-y-3">
+      <li class="flex justify-between"><span class="text-neutral-600 dark:text-neutral-400">学校</span><span class="font-medium">中国海洋大学 (985)</span></li>
+      <li class="flex justify-between"><span class="text-neutral-600 dark:text-neutral-400">专业</span><span class="font-medium">数据科学与大数据技术</span></li>
+      <li class="flex justify-between"><span class="text-neutral-600 dark:text-neutral-400">政治面貌</span><span class="font-medium">中共预备党员</span></li>
+      <li class="flex justify-between"><span class="text-neutral-600 dark:text-neutral-400">联系方式</span><span class="font-medium">dyz8327@stu.ouc.edu.cn</span></li>
+      <li class="flex justify-between"><span class="text-neutral-600 dark:text-neutral-400">手机/微信</span><span class="font-medium">19963927952</span></li>
+    </ul>
+  </div>
+</div>
+<!-- CARDS_END -->
 
 ## 核心课程
 
