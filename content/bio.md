@@ -68,10 +68,24 @@ I am a junior undergraduate (Class of 2023) majoring in Data Science and Big Dat
 
 ## Awards
 
-- **Meritorious Winner (M Prize)** - MCM/ICM Mathematical Modeling Contest (2025)
-- **ACM Training Team Member (Rank 5)** - Ocean University of China (2025)
-- **Provincial Award** - Lanqiao Cup Programming Contest (2025)
-- **Provincial Award** - Computer Challenge Competition (2025)
+<div class="awards-list">
+  <div class="award-item flex justify-between items-center py-2 border-b border-neutral-200/50 dark:border-neutral-700/30 last:border-b-0">
+    <span class="text-neutral-600 dark:text-neutral-400 text-sm">2025.05</span>
+    <span class="font-medium text-right">Meritorious Winner (M Prize) - MCM/ICM Mathematical Modeling Contest</span>
+  </div>
+  <div class="award-item flex justify-between items-center py-2 border-b border-neutral-200/50 dark:border-neutral-700/30 last:border-b-0">
+    <span class="text-neutral-600 dark:text-neutral-400 text-sm">2025</span>
+    <span class="font-medium text-right">ACM Training Team Member (Rank 5) - Ocean University of China</span>
+  </div>
+  <div class="award-item flex justify-between items-center py-2 border-b border-neutral-200/50 dark:border-neutral-700/30 last:border-b-0">
+    <span class="text-neutral-600 dark:text-neutral-400 text-sm">2025.05-06</span>
+    <span class="font-medium text-right">Provincial Award - Lanqiao Cup Programming Contest</span>
+  </div>
+  <div class="award-item flex justify-between items-center py-2 border-b border-neutral-200/50 dark:border-neutral-700/30 last:border-b-0">
+    <span class="text-neutral-600 dark:text-neutral-400 text-sm">2025.05-06</span>
+    <span class="font-medium text-right">Provincial Award - Computer Challenge Competition</span>
+  </div>
+</div>
 
 ## Technical Skills
 

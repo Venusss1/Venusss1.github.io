@@ -68,10 +68,24 @@
 
 ## 获奖经历
 
-- **Meritorious Winner (M奖)** - 美国大学生数学建模竞赛 (2025)
-- **ACM 集训队成员 (排名第5)** - 中国海洋大学 (2025)
-- **省级奖项** - 蓝桥杯程序设计竞赛 (2025)
-- **省级奖项** - 计算机挑战赛 (2025)
+<div class="awards-list">
+  <div class="award-item flex justify-between items-center py-2 border-b border-neutral-200/50 dark:border-neutral-700/30 last:border-b-0">
+    <span class="text-neutral-600 dark:text-neutral-400 text-sm">2025.05</span>
+    <span class="font-medium text-right">Meritorious Winner (M奖) - 美国大学生数学建模竞赛</span>
+  </div>
+  <div class="award-item flex justify-between items-center py-2 border-b border-neutral-200/50 dark:border-neutral-700/30 last:border-b-0">
+    <span class="text-neutral-600 dark:text-neutral-400 text-sm">2025</span>
+    <span class="font-medium text-right">ACM 集训队成员 (排名第5) - 中国海洋大学</span>
+  </div>
+  <div class="award-item flex justify-between items-center py-2 border-b border-neutral-200/50 dark:border-neutral-700/30 last:border-b-0">
+    <span class="text-neutral-600 dark:text-neutral-400 text-sm">2025.05-06</span>
+    <span class="font-medium text-right">省级奖项 - 蓝桥杯程序设计竞赛</span>
+  </div>
+  <div class="award-item flex justify-between items-center py-2 border-b border-neutral-200/50 dark:border-neutral-700/30 last:border-b-0">
+    <span class="text-neutral-600 dark:text-neutral-400 text-sm">2025.05-06</span>
+    <span class="font-medium text-right">省级奖项 - 计算机挑战赛</span>
+  </div>
+</div>
 
 ## 技术能力
 
