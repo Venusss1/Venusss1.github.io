@@ -2,11 +2,27 @@
 
 ## 基本信息
 
-- **学业排名：** 2/37 | **综合排名：** 1/37 | **GPA：** 3.69/4.0
-- **英语六级：** 502
-- **政治面貌：** 中共预备党员
-- **邮箱：** dyz8327@stu.ouc.edu.cn
-- **手机/微信：** 19963927952
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
+  <div class="glass-card p-4 rounded-lg border border-neutral-200 dark:border-neutral-800">
+    <h3 class="font-semibold text-primary mb-2">学业表现</h3>
+    <p><strong>排名：</strong> 2/37 (学业) | 1/37 (综合)</p>
+    <p><strong>GPA：</strong> 3.69/4.0</p>
+  </div>
+  
+  <div class="glass-card p-4 rounded-lg border border-neutral-200 dark:border-neutral-800">
+    <h3 class="font-semibold text-primary mb-2">语言能力 & 联系方式</h3>
+    <p><strong>英语六级：</strong> 502</p>
+    <p><strong>邮箱：</strong> dyz8327@stu.ouc.edu.cn</p>
+    <p><strong>手机/微信：</strong> 19963927952</p>
+  </div>
+  
+  <div class="glass-card p-4 rounded-lg border border-neutral-200 dark:border-neutral-800">
+    <h3 class="font-semibold text-primary mb-2">背景信息</h3>
+    <p><strong>政治面貌：</strong> 中共预备党员</p>
+    <p><strong>专业：</strong> 数据科学与大数据技术</p>
+    <p><strong>学校：</strong> 中国海洋大学 (985)</p>
+  </div>
+</div>
 
 ## 核心课程
 

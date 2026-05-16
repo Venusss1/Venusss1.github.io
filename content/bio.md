@@ -2,11 +2,27 @@ I am a junior undergraduate (Class of 2023) majoring in Data Science and Big Dat
 
 ## Basic Information
 
-- **Academic Ranking:** 2/37 | **Overall Ranking:** 1/37 | **GPA:** 3.69/4.0
-- **CET-6:** 502
-- **Political Status:** Probationary CPC Member
-- **Email:** dyz8327@stu.ouc.edu.cn
-- **Phone/WeChat:** 19963927952
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
+  <div class="glass-card p-4 rounded-lg border border-neutral-200 dark:border-neutral-800">
+    <h3 class="font-semibold text-primary mb-2">Academic Performance</h3>
+    <p><strong>Ranking:</strong> 2/37 (Academic) | 1/37 (Overall)</p>
+    <p><strong>GPA:</strong> 3.69/4.0</p>
+  </div>
+  
+  <div class="glass-card p-4 rounded-lg border border-neutral-200 dark:border-neutral-800">
+    <h3 class="font-semibold text-primary mb-2">Language & Contact</h3>
+    <p><strong>CET-6:</strong> 502</p>
+    <p><strong>Email:</strong> dyz8327@stu.ouc.edu.cn</p>
+    <p><strong>Phone/WeChat:</strong> 19963927952</p>
+  </div>
+  
+  <div class="glass-card p-4 rounded-lg border border-neutral-200 dark:border-neutral-800">
+    <h3 class="font-semibold text-primary mb-2">Background</h3>
+    <p><strong>Political Status:</strong> Probationary CPC Member</p>
+    <p><strong>Major:</strong> Data Science & Big Data Technology</p>
+    <p><strong>University:</strong> Ocean University of China (985)</p>
+  </div>
+</div>
 
 ## Core Courses
 
