@@ -2,56 +2,20 @@
 
 ## 基本信息
 
-<div class="mb-8">
-  <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-    <!-- 学业信息 -->
-    <div class="bg-white dark:bg-neutral-800 rounded-lg border border-neutral-200 dark:border-neutral-700 p-6">
-      <h3 class="text-lg font-semibold text-primary mb-4 pb-2 border-b border-neutral-200 dark:border-neutral-600">学业档案</h3>
-      <div class="space-y-3">
-        <div class="flex justify-between">
-          <span class="text-neutral-600 dark:text-neutral-400">学业排名</span>
-          <span class="font-medium">2/37</span>
-        </div>
-        <div class="flex justify-between">
-          <span class="text-neutral-600 dark:text-neutral-400">综合排名</span>
-          <span class="font-medium">1/37</span>
-        </div>
-        <div class="flex justify-between">
-          <span class="text-neutral-600 dark:text-neutral-400">GPA</span>
-          <span class="font-semibold text-accent">3.69/4.0</span>
-        </div>
-        <div class="flex justify-between">
-          <span class="text-neutral-600 dark:text-neutral-400">英语六级</span>
-          <span class="font-medium">502</span>
-        </div>
-      </div>
-    </div>
+### 学业档案
 
-    <!-- 个人信息 -->
-    <div class="bg-white dark:bg-neutral-800 rounded-lg border border-neutral-200 dark:border-neutral-700 p-6">
-      <h3 class="text-lg font-semibold text-primary mb-4 pb-2 border-b border-neutral-200 dark:border-neutral-600">个人信息</h3>
-      <div class="space-y-3">
-        <div>
-          <span class="text-neutral-600 dark:text-neutral-400">学校</span>
-          <p class="font-medium mt-1">中国海洋大学 (985工程)</p>
-        </div>
-        <div>
-          <span class="text-neutral-600 dark:text-neutral-400">专业</span>
-          <p class="font-medium mt-1">数据科学与大数据技术</p>
-        </div>
-        <div>
-          <span class="text-neutral-600 dark:text-neutral-400">政治面貌</span>
-          <p class="font-medium mt-1">中共预备党员</p>
-        </div>
-        <div>
-          <span class="text-neutral-600 dark:text-neutral-400">联系方式</span>
-          <p class="font-medium mt-1">dyz8327@stu.ouc.edu.cn</p>
-          <p class="text-sm text-neutral-500 mt-1">手机/微信：19963927952</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+- **学业排名：** 2/37
+- **综合排名：** 1/37
+- **GPA：** 3.69/4.0
+- **英语六级：** 502
+
+### 个人信息
+
+- **学校：** 中国海洋大学 (985工程)
+- **专业：** 数据科学与大数据技术
+- **政治面貌：** 中共预备党员
+- **联系方式：** dyz8327@stu.ouc.edu.cn
+- **手机/微信：** 19963927952
 
 ## 核心课程
 

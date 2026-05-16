@@ -2,56 +2,20 @@ I am a junior undergraduate (Class of 2023) majoring in Data Science and Big Dat
 
 ## Basic Information
 
-<div class="mb-8">
-  <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-    <!-- Academic Information -->
-    <div class="bg-white dark:bg-neutral-800 rounded-lg border border-neutral-200 dark:border-neutral-700 p-6">
-      <h3 class="text-lg font-semibold text-primary mb-4 pb-2 border-b border-neutral-200 dark:border-neutral-600">Academic Profile</h3>
-      <div class="space-y-3">
-        <div class="flex justify-between">
-          <span class="text-neutral-600 dark:text-neutral-400">Academic Ranking</span>
-          <span class="font-medium">2/37</span>
-        </div>
-        <div class="flex justify-between">
-          <span class="text-neutral-600 dark:text-neutral-400">Overall Ranking</span>
-          <span class="font-medium">1/37</span>
-        </div>
-        <div class="flex justify-between">
-          <span class="text-neutral-600 dark:text-neutral-400">GPA</span>
-          <span class="font-semibold text-accent">3.69/4.0</span>
-        </div>
-        <div class="flex justify-between">
-          <span class="text-neutral-600 dark:text-neutral-400">CET-6</span>
-          <span class="font-medium">502</span>
-        </div>
-      </div>
-    </div>
+### Academic Profile
 
-    <!-- Personal Information -->
-    <div class="bg-white dark:bg-neutral-800 rounded-lg border border-neutral-200 dark:border-neutral-700 p-6">
-      <h3 class="text-lg font-semibold text-primary mb-4 pb-2 border-b border-neutral-200 dark:border-neutral-600">Personal Details</h3>
-      <div class="space-y-3">
-        <div>
-          <span class="text-neutral-600 dark:text-neutral-400">University</span>
-          <p class="font-medium mt-1">Ocean University of China (985 Project)</p>
-        </div>
-        <div>
-          <span class="text-neutral-600 dark:text-neutral-400">Major</span>
-          <p class="font-medium mt-1">Data Science and Big Data Technology</p>
-        </div>
-        <div>
-          <span class="text-neutral-600 dark:text-neutral-400">Political Status</span>
-          <p class="font-medium mt-1">Probationary CPC Member</p>
-        </div>
-        <div>
-          <span class="text-neutral-600 dark:text-neutral-400">Contact</span>
-          <p class="font-medium mt-1">dyz8327@stu.ouc.edu.cn</p>
-          <p class="text-sm text-neutral-500 mt-1">Phone/WeChat: 19963927952</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+- **Academic Ranking:** 2/37
+- **Overall Ranking:** 1/37  
+- **GPA:** 3.69/4.0
+- **CET-6:** 502
+
+### Personal Details
+
+- **University:** Ocean University of China (985 Project)
+- **Major:** Data Science and Big Data Technology
+- **Political Status:** Probationary CPC Member
+- **Contact:** dyz8327@stu.ouc.edu.cn
+- **Phone/WeChat:** 19963927952
 
 ## Core Courses
 
