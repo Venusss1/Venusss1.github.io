@@ -65,8 +65,13 @@ export default function About({ content, title }: AboutProps) {
                             }
                             if (className?.includes('academic-card') || className?.includes('personal-card')) {
                                 return (
-                                    <div className="bg-white dark:bg-neutral-800 rounded-lg border border-neutral-200 dark:border-neutral-700 p-6 shadow-sm hover:shadow-md transition-all duration-200">
-                                        {children}
+                                    <div className="group bg-white/80 dark:bg-neutral-800/80 backdrop-blur-sm rounded-xl border border-neutral-200/60 dark:border-neutral-700/60 p-6 shadow-sm hover:shadow-lg transition-all duration-300 hover:scale-[1.02] hover:border-accent/20 relative overflow-hidden">
+                                        {/* 渐变装饰 */}
+                                        <div className="absolute inset-0 bg-gradient-to-br from-accent/5 to-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                                        {/* 内容 */}
+                                        <div className="relative z-10">
+                                            {children}
+                                        </div>
                                     </div>
                                 );
                             }
