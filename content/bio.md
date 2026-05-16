@@ -2,25 +2,37 @@ I am a junior undergraduate (Class of 2023) majoring in Data Science and Big Dat
 
 ## Basic Information
 
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
-  <div class="glass-card p-4 rounded-lg border border-neutral-200 dark:border-neutral-800">
-    <h3 class="font-semibold text-primary mb-2">Academic Performance</h3>
-    <p><strong>Ranking:</strong> 2/37 (Academic) | 1/37 (Overall)</p>
-    <p><strong>GPA:</strong> 3.69/4.0</p>
+<div class="space-y-4 mb-6">
+  <div class="bg-white/50 dark:bg-neutral-800/30 backdrop-blur-sm rounded-xl p-6 border border-neutral-200/50 dark:border-neutral-700/50 shadow-sm hover:shadow-md transition-all duration-200">
+    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
+      <div class="mb-4 sm:mb-0">
+        <h3 class="text-lg font-semibold text-primary mb-2">Academic Excellence</h3>
+        <p class="text-neutral-600 dark:text-neutral-400">Ranked 2/37 academically and 1/37 overall with a 3.69/4.0 GPA</p>
+      </div>
+      <div class="text-accent font-bold text-xl">3.69/4.0</div>
+    </div>
   </div>
-  
-  <div class="glass-card p-4 rounded-lg border border-neutral-200 dark:border-neutral-800">
-    <h3 class="font-semibold text-primary mb-2">Language & Contact</h3>
-    <p><strong>CET-6:</strong> 502</p>
-    <p><strong>Email:</strong> dyz8327@stu.ouc.edu.cn</p>
-    <p><strong>Phone/WeChat:</strong> 19963927952</p>
-  </div>
-  
-  <div class="glass-card p-4 rounded-lg border border-neutral-200 dark:border-neutral-800">
-    <h3 class="font-semibold text-primary mb-2">Background</h3>
-    <p><strong>Political Status:</strong> Probationary CPC Member</p>
-    <p><strong>Major:</strong> Data Science & Big Data Technology</p>
-    <p><strong>University:</strong> Ocean University of China (985)</p>
+
+  <div class="bg-white/50 dark:bg-neutral-800/30 backdrop-blur-sm rounded-xl p-6 border border-neutral-200/50 dark:border-neutral-700/50 shadow-sm hover:shadow-md transition-all duration-200">
+    <h3 class="text-lg font-semibold text-primary mb-4">Contact Information</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div>
+        <p class="text-sm text-neutral-500 dark:text-neutral-500 mb-1">Email</p>
+        <p class="font-medium">dyz8327@stu.ouc.edu.cn</p>
+      </div>
+      <div>
+        <p class="text-sm text-neutral-500 dark:text-neutral-500 mb-1">Phone/WeChat</p>
+        <p class="font-medium">19963927952</p>
+      </div>
+      <div>
+        <p class="text-sm text-neutral-500 dark:text-neutral-500 mb-1">English Proficiency</p>
+        <p class="font-medium">CET-6: 502</p>
+      </div>
+      <div>
+        <p class="text-sm text-neutral-500 dark:text-neutral-500 mb-1">University</p>
+        <p class="font-medium">Ocean University of China (985)</p>
+      </div>
+    </div>
   </div>
 </div>
 
