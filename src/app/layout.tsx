@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import '@/styles/research.css';
 import Navigation from '@/components/layout/Navigation';
 import Footer from '@/components/layout/Footer';
 import { ThemeProvider } from '@/components/ui/ThemeProvider';
