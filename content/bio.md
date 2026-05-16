@@ -15,10 +15,6 @@ I am a junior undergraduate (Class of 2023) majoring in Data Science and Big Dat
         <span class="font-medium bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">2/37</span>
       </li>
       <li class="flex justify-between items-center py-1 border-b border-neutral-100/50 dark:border-neutral-700/30 last:border-b-0">
-        <span class="text-neutral-600 dark:text-neutral-400 text-sm">Overall Ranking</span>
-        <span class="font-medium bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">1/37</span>
-      </li>
-      <li class="flex justify-between items-center py-1 border-b border-neutral-100/50 dark:border-neutral-700/30 last:border-b-0">
         <span class="text-neutral-600 dark:text-neutral-400 text-sm">GPA</span>
         <span class="font-semibold text-accent bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">3.69/4.0</span>
       </li>
@@ -72,10 +68,10 @@ I am a junior undergraduate (Class of 2023) majoring in Data Science and Big Dat
 
 ## Awards
 
-- **Meritorious Winner (M Prize)** - MCM/ICM Mathematical Modeling Contest (2024)
-- **ACM Training Team Member** - Ocean University of China (2023)
-- **Provincial Award** - Lanqiao Cup & Ji Tiao Sai (2023-2024)
-- **Overall Ranking 1/37** - Comprehensive Assessment (2024)
+- **Meritorious Winner (M Prize)** - MCM/ICM Mathematical Modeling Contest (2025)
+- **ACM Training Team Member (Rank 5)** - Ocean University of China (2025)
+- **Provincial Award** - Lanqiao Cup Programming Contest (2025)
+- **Provincial Award** - Computer Challenge Competition (2025)
 
 ## Technical Skills
 

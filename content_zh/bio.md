@@ -15,10 +15,6 @@
         <span class="font-medium bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">2/37</span>
       </li>
       <li class="flex justify-between items-center py-1 border-b border-neutral-100/50 dark:border-neutral-700/30 last:border-b-0">
-        <span class="text-neutral-600 dark:text-neutral-400 text-sm">综合排名</span>
-        <span class="font-medium bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">1/37</span>
-      </li>
-      <li class="flex justify-between items-center py-1 border-b border-neutral-100/50 dark:border-neutral-700/30 last:border-b-0">
         <span class="text-neutral-600 dark:text-neutral-400 text-sm">GPA</span>
         <span class="font-semibold text-accent bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">3.69/4.0</span>
       </li>
@@ -72,10 +68,10 @@
 
 ## 获奖经历
 
-- **Meritorious Winner (M奖)** - 美国大学生数学建模竞赛 (2024)
-- **ACM 集训队成员** - 中国海洋大学 (2023)
-- **省级奖项** - 蓝桥杯、计挑赛 (2023-2024)
-- **综合排名 1/37** - 专业综合测评 (2024)
+- **Meritorious Winner (M奖)** - 美国大学生数学建模竞赛 (2025)
+- **ACM 集训队成员 (排名第5)** - 中国海洋大学 (2025)
+- **省级奖项** - 蓝桥杯程序设计竞赛 (2025)
+- **省级奖项** - 计算机挑战赛 (2025)
 
 ## 技术能力
 
