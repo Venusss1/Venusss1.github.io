@@ -1,5 +1,5 @@
 type = "about"
-title = "关于我"
+title = "基本情况"
 
 [profile]
 research_interests = [
@@ -13,7 +13,7 @@ research_interests = [
 id = "about"
 type = "markdown"
 source = "bio.md"
-title = "关于我"
+title = ""
 
 [[sections]]
 id = "news"
