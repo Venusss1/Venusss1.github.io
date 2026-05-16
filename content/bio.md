@@ -2,35 +2,52 @@ I am a junior undergraduate (Class of 2023) majoring in Data Science and Big Dat
 
 ## Basic Information
 
-<div class="space-y-4 mb-6">
-  <div class="bg-white/50 dark:bg-neutral-800/30 backdrop-blur-sm rounded-xl p-6 border border-neutral-200/50 dark:border-neutral-700/50 shadow-sm hover:shadow-md transition-all duration-200">
-    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
-      <div class="mb-4 sm:mb-0">
-        <h3 class="text-lg font-semibold text-primary mb-2">Academic Excellence</h3>
-        <p class="text-neutral-600 dark:text-neutral-400">Ranked 2/37 academically and 1/37 overall with a 3.69/4.0 GPA</p>
+<div class="mb-8">
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+    <!-- Academic Information -->
+    <div class="bg-white dark:bg-neutral-800 rounded-lg border border-neutral-200 dark:border-neutral-700 p-6">
+      <h3 class="text-lg font-semibold text-primary mb-4 pb-2 border-b border-neutral-200 dark:border-neutral-600">Academic Profile</h3>
+      <div class="space-y-3">
+        <div class="flex justify-between">
+          <span class="text-neutral-600 dark:text-neutral-400">Academic Ranking</span>
+          <span class="font-medium">2/37</span>
+        </div>
+        <div class="flex justify-between">
+          <span class="text-neutral-600 dark:text-neutral-400">Overall Ranking</span>
+          <span class="font-medium">1/37</span>
+        </div>
+        <div class="flex justify-between">
+          <span class="text-neutral-600 dark:text-neutral-400">GPA</span>
+          <span class="font-semibold text-accent">3.69/4.0</span>
+        </div>
+        <div class="flex justify-between">
+          <span class="text-neutral-600 dark:text-neutral-400">CET-6</span>
+          <span class="font-medium">502</span>
+        </div>
       </div>
-      <div class="text-accent font-bold text-xl">3.69/4.0</div>
     </div>
-  </div>
 
-  <div class="bg-white/50 dark:bg-neutral-800/30 backdrop-blur-sm rounded-xl p-6 border border-neutral-200/50 dark:border-neutral-700/50 shadow-sm hover:shadow-md transition-all duration-200">
-    <h3 class="text-lg font-semibold text-primary mb-4">Contact Information</h3>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-      <div>
-        <p class="text-sm text-neutral-500 dark:text-neutral-500 mb-1">Email</p>
-        <p class="font-medium">dyz8327@stu.ouc.edu.cn</p>
-      </div>
-      <div>
-        <p class="text-sm text-neutral-500 dark:text-neutral-500 mb-1">Phone/WeChat</p>
-        <p class="font-medium">19963927952</p>
-      </div>
-      <div>
-        <p class="text-sm text-neutral-500 dark:text-neutral-500 mb-1">English Proficiency</p>
-        <p class="font-medium">CET-6: 502</p>
-      </div>
-      <div>
-        <p class="text-sm text-neutral-500 dark:text-neutral-500 mb-1">University</p>
-        <p class="font-medium">Ocean University of China (985)</p>
+    <!-- Personal Information -->
+    <div class="bg-white dark:bg-neutral-800 rounded-lg border border-neutral-200 dark:border-neutral-700 p-6">
+      <h3 class="text-lg font-semibold text-primary mb-4 pb-2 border-b border-neutral-200 dark:border-neutral-600">Personal Details</h3>
+      <div class="space-y-3">
+        <div>
+          <span class="text-neutral-600 dark:text-neutral-400">University</span>
+          <p class="font-medium mt-1">Ocean University of China (985 Project)</p>
+        </div>
+        <div>
+          <span class="text-neutral-600 dark:text-neutral-400">Major</span>
+          <p class="font-medium mt-1">Data Science and Big Data Technology</p>
+        </div>
+        <div>
+          <span class="text-neutral-600 dark:text-neutral-400">Political Status</span>
+          <p class="font-medium mt-1">Probationary CPC Member</p>
+        </div>
+        <div>
+          <span class="text-neutral-600 dark:text-neutral-400">Contact</span>
+          <p class="font-medium mt-1">dyz8327@stu.ouc.edu.cn</p>
+          <p class="text-sm text-neutral-500 mt-1">Phone/WeChat: 19963927952</p>
+        </div>
       </div>
     </div>
   </div>
