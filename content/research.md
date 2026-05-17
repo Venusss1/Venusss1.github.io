@@ -2,39 +2,39 @@
 
 ## Research Timeline
 
-<div class=”research-timeline”>
-  <div class=”timeline-container”>
-    <div class=”timeline-item”>
-      <div class=”timeline-date”>2025.04</div>
-      <div class=”timeline-content”>
+<div class="research-timeline">
+  <div class="timeline-container">
+    <div class="timeline-item">
+      <div class="timeline-date">2025.04</div>
+      <div class="timeline-content">
         <h4>OUC 都勇老师</h4>
         <p>3D Gaussian Splatting (3DGS) 方向入门</p>
       </div>
     </div>
-    <div class=”timeline-item”>
-      <div class=”timeline-date”>2025.09</div>
-      <div class=”timeline-content”>
+    <div class="timeline-item">
+      <div class="timeline-date">2025.09</div>
+      <div class="timeline-content">
         <h4>OUC 高峰老师</h4>
         <p>新芽训练营 - 深度学习基础训练</p>
       </div>
     </div>
-    <div class=”timeline-item”>
-      <div class=”timeline-date”>2025.10</div>
-      <div class=”timeline-content”>
+    <div class="timeline-item">
+      <div class="timeline-date">2025.10</div>
+      <div class="timeline-content">
         <h4>北京大学 OpenDCAI/AgentFlow</h4>
         <p>多模态深度搜索与智能体研究</p>
       </div>
     </div>
-    <div class=”timeline-item”>
-      <div class=”timeline-date”>2026.01</div>
-      <div class=”timeline-content”>
+    <div class="timeline-item">
+      <div class="timeline-date">2026.01</div>
+      <div class="timeline-content">
         <h4>清华大学 TLLM 项目组</h4>
         <p>工业大模型与晶圆缺陷检测</p>
       </div>
     </div>
-    <div class=”timeline-item”>
-      <div class=”timeline-date”>2026.03</div>
-      <div class=”timeline-content”>
+    <div class="timeline-item">
+      <div class="timeline-date">2026.03</div>
+      <div class="timeline-content">
         <h4>哈工深 徐洋洋老师</h4>
         <p>视频生成与物理对齐方向</p>
       </div>
@@ -44,15 +44,15 @@
 
 ## Project Details
 
-<div class=”research-projects”>
+<div class="research-projects">
   
   <!-- OUC 都勇老师 - 3DGS -->
-  <details class=”project-item”>
-    <summary class=”project-header”>
+  <details class="project-item">
+    <summary class="project-header">
       <h3>OUC 都勇老师 - 3D Gaussian Splatting 方向</h3>
-      <span class=”project-period”>2025.04 - 2025.09</span>
+      <span class="project-period">2025.04 - 2025.09</span>
     </summary>
-    <div class=”project-content”>
+    <div class="project-content">
       <p><strong>研究方向：</strong>3D 场景重建与渲染技术</p>
       <p><strong>时间线：</strong></p>
       <ul>
@@ -65,7 +65,7 @@
       <ul>
         <li>阅读 3D Gaussian Splatting 相关论文，理解方法流程和实现原理</li>
         <li>配置复杂的实验环境依赖，解决代码复现中的技术问题</li>
-        <li>理解科研任务不只是”看懂论文”，还需要把论文方法、代码实现、运行环境和实验结果串成完整链路</li>
+        <li>理解科研任务不只是"看懂论文"，还需要把论文方法、代码实现、运行环境和实验结果串成完整链路</li>
         <li>通过新芽训练营补足从课程学习进入 AI 科研实践所需的基础能力</li>
         <li>为后续多模态检索、浏览智能体等复杂任务奠定深度学习基础</li>
       </ul>
@@ -75,12 +75,12 @@
   </details>
 
   <!-- 北京大学 OpenDCAI/AgentFlow - 多模态深度搜索 -->
-  <details class=”project-item”>
-    <summary class=”project-header”>
+  <details class="project-item">
+    <summary class="project-header">
       <h3>北京大学 OpenDCAI/AgentFlow - 多模态深度搜索</h3>
-      <span class=”project-period”>2025.10 - 2026.03</span>
+      <span class="project-period">2025.10 - 2026.03</span>
     </summary>
-    <div class=”project-content”>
+    <div class="project-content">
       <p><strong>研究方向：</strong>Data-Centric AI、多模态智能体、Deep Search Benchmark 构造</p>
       <p><strong>时间线：</strong></p>
       <ul>
@@ -119,12 +119,12 @@
   </details>
 
   <!-- 清华大学 TLLM 项目组 - 工业大模型与缺陷检测 -->
-  <details class=”project-item”>
-    <summary class=”project-header”>
+  <details class="project-item">
+    <summary class="project-header">
       <h3>清华大学 TLLM 项目组 - 工业大模型与缺陷检测</h3>
-      <span class=”project-period”>2026.01 - 2026.05</span>
+      <span class="project-period">2026.01 - 2026.05</span>
     </summary>
-    <div class=”project-content”>
+    <div class="project-content">
       <p><strong>研究方向：</strong>工业大模型、晶圆缺陷检测、故障预测与健康管理 (PHM)</p>
       <p><strong>主要工作：</strong></p>
       <ul>
@@ -137,12 +137,12 @@
   </details>
 
   <!-- 哈工深 徐洋洋老师 - 视频生成与物理对齐 -->
-  <details class=”project-item”>
-    <summary class=”project-header”>
+  <details class="project-item">
+    <summary class="project-header">
       <h3>哈工深 徐洋洋老师 - 视频生成与物理对齐</h3>
-      <span class=”project-period”>2026.03 - 2026.05</span>
+      <span class="project-period">2026.03 - 2026.05</span>
     </summary>
-    <div class=”project-content”>
+    <div class="project-content">
       <p><strong>研究方向：</strong>视频生成、Motion RAG、物理一致性对齐</p>
       <p><strong>主要工作：</strong></p>
       <ul>
