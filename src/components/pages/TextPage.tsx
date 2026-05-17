@@ -55,6 +55,18 @@ export default function TextPage({ config, content, embedded = false }: TextPage
                         thead: ({ children }) => <thead className="bg-neutral-100 dark:bg-neutral-800">{children}</thead>,
                         th: ({ children }) => <th className="border border-neutral-200 dark:border-neutral-700 px-3 py-2 text-left font-semibold text-primary">{children}</th>,
                         td: ({ children }) => <td className="border border-neutral-200 dark:border-neutral-700 px-3 py-2">{children}</td>,
+                        div: ({ node, ...props }) => {
+                            const { className } = props;
+                            return <div className={className} {...props} />;
+                        },
+                        details: ({ node, ...props }) => {
+                            const { className } = props;
+                            return <details className={className} {...props} />;
+                        },
+                        summary: ({ node, ...props }) => {
+                            const { className } = props;
+                            return <summary className={className} {...props} />;
+                        },
                     }}
                 >
                     {content}
