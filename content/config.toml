@@ -63,9 +63,3 @@ title = "Development"
 type = "page"
 target = "hobbies"
 href = "/hobbies"
-
-[[navigation]]
-title = "Gallery"
-type = "page"
-target = "gallery"
-href = "/gallery"
