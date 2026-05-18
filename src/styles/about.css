@@ -29,10 +29,22 @@
 
 .academic-section-card {
   margin: 1.25rem 0 2.25rem;
-  padding: 1.15rem 1.25rem;
-  border: 1px solid rgba(226, 232, 240, 0.9);
-  border-radius: 0.9rem;
-  background: rgba(255, 255, 255, 0.65);
+  padding: 1.2rem 1.3rem;
+  border: 1px solid rgba(203, 213, 225, 0.85);
+  border-radius: 1rem;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(248, 250, 252, 0.78));
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.06);
+  position: relative;
+  overflow: hidden;
+}
+
+.academic-section-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 4px;
+  background: linear-gradient(180deg, var(--accent), rgba(14, 165, 233, 0.15));
 }
 
 .education-row {
@@ -81,7 +93,7 @@
   align-items: center;
   border: 1px solid rgba(226, 232, 240, 0.95);
   border-radius: 999px;
-  background: rgba(248, 250, 252, 0.9);
+  background: rgba(255, 255, 255, 0.9);
   color: var(--neutral-600);
   font-size: 0.82rem;
   font-weight: 700;
@@ -102,35 +114,41 @@
 .snapshot-list {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 0;
+  gap: 0.85rem;
   margin: 1.25rem 0 2.25rem;
-  border: 1px solid rgba(226, 232, 240, 0.9);
-  border-radius: 0.9rem;
-  overflow: hidden;
-  background: rgba(255, 255, 255, 0.65);
+  border: 0;
+  border-radius: 0;
+  overflow: visible;
+  background: transparent;
 }
 
 .snapshot-list div {
-  padding: 1rem;
-  border-right: 1px solid rgba(226, 232, 240, 0.75);
+  padding: 1.05rem 1rem;
+  border: 1px solid rgba(203, 213, 225, 0.82);
+  border-radius: 0.95rem;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(248, 250, 252, 0.82));
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.05);
 }
 
 .snapshot-list div:last-child {
-  border-right: 0;
+  border-right: 1px solid rgba(203, 213, 225, 0.82);
 }
 
 .snapshot-list strong {
   display: block;
   margin-bottom: 0.35rem;
   color: var(--primary);
-  font-size: 1.35rem;
+  font-size: 1.45rem;
   font-weight: 850;
+  letter-spacing: -0.02em;
 }
 
 .snapshot-list span {
   color: var(--neutral-500);
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   font-weight: 700;
+  letter-spacing: 0.04em;
 }
 
 .course-table,
@@ -138,10 +156,11 @@
 .academic-skill-list {
   display: grid;
   margin: 1.25rem 0 2.25rem;
-  border: 1px solid rgba(226, 232, 240, 0.9);
-  border-radius: 0.9rem;
+  border: 1px solid rgba(203, 213, 225, 0.85);
+  border-radius: 1rem;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.65);
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 16px 38px rgba(15, 23, 42, 0.055);
 }
 
 .course-table div,
@@ -149,8 +168,15 @@
 .academic-skill-list div {
   display: grid;
   gap: 0.75rem;
-  padding: 0.85rem 1rem;
+  padding: 0.9rem 1rem;
   border-bottom: 1px solid rgba(226, 232, 240, 0.75);
+  transition: background 160ms ease, transform 160ms ease;
+}
+
+.course-table div:hover,
+.honor-list div:hover,
+.academic-skill-list div:hover {
+  background: rgba(14, 165, 233, 0.045);
 }
 
 .course-table div:last-child,
@@ -210,20 +236,32 @@
 }
 
 .dark .academic-section-card,
-.dark .snapshot-list,
 .dark .course-table,
 .dark .honor-list,
 .dark .academic-skill-list {
   border-color: rgba(148, 163, 184, 0.24);
-  background: rgba(15, 23, 42, 0.45);
+  background: rgba(15, 23, 42, 0.58);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.22);
+}
+
+.dark .snapshot-list div {
+  border-color: rgba(148, 163, 184, 0.24);
+  background:
+    linear-gradient(180deg, rgba(15, 23, 42, 0.72), rgba(30, 41, 59, 0.48));
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.2);
 }
 
 .dark .education-row,
-.dark .snapshot-list div,
 .dark .course-table div,
 .dark .honor-list div,
 .dark .academic-skill-list div {
   border-color: rgba(148, 163, 184, 0.2);
+}
+
+.dark .course-table div:hover,
+.dark .honor-list div:hover,
+.dark .academic-skill-list div:hover {
+  background: rgba(56, 189, 248, 0.07);
 }
 
 .dark .education-meta span,
@@ -239,11 +277,11 @@
   }
 
   .snapshot-list div:nth-child(2) {
-    border-right: 0;
+    border-right: 1px solid rgba(203, 213, 225, 0.82);
   }
 
   .snapshot-list div:nth-child(-n + 2) {
-    border-bottom: 1px solid rgba(226, 232, 240, 0.75);
+    border-bottom: 1px solid rgba(203, 213, 225, 0.82);
   }
 
   .dark .snapshot-list div:nth-child(-n + 2) {
@@ -268,12 +306,12 @@
 
   .snapshot-list div,
   .snapshot-list div:nth-child(2) {
-    border-right: 0;
-    border-bottom: 1px solid rgba(226, 232, 240, 0.75);
+    border-right: 1px solid rgba(203, 213, 225, 0.82);
+    border-bottom: 1px solid rgba(203, 213, 225, 0.82);
   }
 
   .snapshot-list div:last-child {
-    border-bottom: 0;
+    border-bottom: 1px solid rgba(203, 213, 225, 0.82);
   }
 
   .dark .snapshot-list div,

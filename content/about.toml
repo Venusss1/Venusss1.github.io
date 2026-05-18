@@ -15,9 +15,3 @@ type = "markdown"
 source = "bio.md"
 title = ""
 
-[[sections]]
-id = "news"
-type = "list"
-title = "News"
-source = "news.toml"
-
