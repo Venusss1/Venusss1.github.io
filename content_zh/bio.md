@@ -1,10 +1,10 @@
 <div class="academic-intro">
   <div class="academic-title">单衍喆</div>
   <p class="academic-subtitle">2023 级本科生 · 数据科学与大数据技术 · 中国海洋大学</p>
-  <p>我目前关注 Data-Centric AI、多模态智能体、AI for Science 与大语言模型训练。近期科研经历围绕多模态浏览智能体评测、Agent 数据合成、工业 AI 与物理一致性视频生成展开。</p>
+  <p>我目前关注数据中心人工智能、多模态智能体、科学智能与大语言模型训练。近期科研经历围绕多模态浏览智能体评测、智能体数据合成、工业智能与物理一致性视频生成展开。</p>
 </div>
 
-## Education
+## 教育背景
 
 <div class="academic-section-card">
   <div class="education-row">
@@ -12,27 +12,27 @@
       <strong>中国海洋大学（985）</strong>
       <p>数据科学与大数据技术，2023 级本科生</p>
     </div>
-    <span>2023 - Present</span>
+    <span>2023 至今</span>
   </div>
   <div class="education-meta">
-    <span>GPA: 3.69/4.0</span>
-    <span>Ranking: 2/37</span>
-    <span>CET-6: 502</span>
+    <span>绩点：3.69/4.0</span>
+    <span>专业排名：2/37</span>
+    <span>英语六级：502</span>
     <span>中共预备党员</span>
   </div>
 </div>
 
-## Research Interests
+## 研究兴趣
 
 <div class="academic-tags">
-  <span>Data-Centric AI</span>
+  <span>数据中心人工智能</span>
   <span>多模态智能体</span>
-  <span>Agent Evaluation</span>
-  <span>AI for Science</span>
-  <span>Large Language Models</span>
+  <span>智能体评测</span>
+  <span>科学智能</span>
+  <span>大语言模型</span>
 </div>
 
-## Academic Snapshot
+## 学术概览
 
 <div class="snapshot-list">
   <div>
@@ -41,19 +41,19 @@
   </div>
   <div>
     <strong>3.69/4.0</strong>
-    <span>GPA</span>
+    <span>绩点</span>
   </div>
   <div>
-    <strong>Rank 5</strong>
+    <strong>第 5 名</strong>
     <span>ACM 集训队</span>
   </div>
   <div>
     <strong>502</strong>
-    <span>CET-6</span>
+    <span>英语六级</span>
   </div>
 </div>
 
-## Relevant Coursework
+## 相关课程
 
 <div class="course-table">
   <div><span>概率统计</span><strong>97.5</strong></div>
@@ -63,12 +63,12 @@
   <div><span>计算机网络</span><strong>91.5</strong></div>
 </div>
 
-## Selected Honors
+## 荣誉奖项
 
 <div class="honor-list">
   <div>
     <time>2025.05</time>
-    <p><strong>Meritorious Winner（M 奖）</strong>，美国大学生数学建模竞赛</p>
+    <p><strong>美国大学生数学建模竞赛 M 奖</strong></p>
   </div>
   <div>
     <time>2025</time>
@@ -84,27 +84,27 @@
   </div>
 </div>
 
-## Research Skills
+## 科研技能
 
 <div class="academic-skill-list">
   <div>
-    <strong>Programming & ML</strong>
+    <strong>编程与机器学习</strong>
     <p>Python, C/C++, PyTorch</p>
   </div>
   <div>
-    <strong>LLM / Agent Training</strong>
+    <strong>大模型与智能体训练</strong>
     <p>LlamaFactory, Verl, vLLM/SGLang, DeepSpeed, Ms-Swift, VLMEvalKit</p>
   </div>
   <div>
-    <strong>Training & Evaluation</strong>
+    <strong>训练与评测方法</strong>
     <p>SFT/RL, AgentLoop, Function Calling, PPO/DPO/GRPO, LLM-as-Judge, RAG</p>
   </div>
   <div>
-    <strong>Systems</strong>
-    <p>Linux, Git, Docker, Conda, tmux, multi-GPU training on A100/H20/4090</p>
+    <strong>系统与工程</strong>
+    <p>Linux, Git, Docker, Conda, tmux, A100/H20/4090 多卡训练</p>
   </div>
   <div>
-    <strong>Academic Writing</strong>
-    <p>LaTeX, Overleaf, English paper reading and academic writing</p>
+    <strong>学术写作</strong>
+    <p>LaTeX, Overleaf, 英文论文阅读与写作</p>
   </div>
 </div>
