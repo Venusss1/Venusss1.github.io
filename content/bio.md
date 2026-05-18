@@ -67,27 +67,27 @@
   </div>
 </div>
 
-## Research Skills
+## Research Experience and Outcomes
 
-<div class="academic-skill-list">
+<div class="academic-skill-list research-achievement-list">
   <div>
-    <strong>Programming & ML</strong>
-    <p>Python, C/C++, PyTorch</p>
+    <strong>OpenDCAI / AgentFlow</strong>
+    <p>Research intern in Prof. Wentao Zhang's group at the PKU International Machine Learning Research Center. As a core developer of AgentFlow, I contribute to a unified agent data-synthesis framework covering RAG, multimodal document understanding, Deep Research, GUI, Text2SQL, data analysis, and embodied-agent tasks.</p>
   </div>
   <div>
-    <strong>LLM / Agent Training</strong>
-    <p>LlamaFactory, Verl, vLLM/SGLang, DeepSpeed, Ms-Swift, VLMEvalKit</p>
+    <strong>BrowseComp-V³</strong>
+    <p>Core contributor to a multimodal web-browsing agent benchmark. I independently handled data synthesis, annotation, and verification for a major subdomain and participated in experimental analysis; the work is submitted to SIGIR 2026.</p>
   </div>
   <div>
-    <strong>Training & Evaluation</strong>
-    <p>SFT/RL, AgentLoop, Function Calling, PPO/DPO/GRPO, LLM-as-Judge, RAG</p>
+    <strong>MMDeepSearch</strong>
+    <p>Worked on multimodal long-horizon search agents, focusing on automatic data synthesis and SFT/RL post-training. I rebuilt Search-R1 with Verl AgentLoop and Function Calling, and reproduced related DeepEyes / Vision-DeepResearch training and evaluation pipelines.</p>
   </div>
   <div>
-    <strong>Systems</strong>
-    <p>Linux, Git, Docker, Conda, tmux, multi-GPU training on A100/H20/4090</p>
+    <strong>Industrial AI and Scientific Data</strong>
+    <p>Participated in Tsinghua TLLM Lab projects on wafer defect detection and continual learning, covering attention-mechanism surveys, Continuous-Learning code adaptation, and dataset processing for scarce-label and class-incremental industrial scenarios.</p>
   </div>
   <div>
-    <strong>Academic Writing</strong>
-    <p>LaTeX, Overleaf, English paper reading and academic writing</p>
+    <strong>MotionRAG Video Generation</strong>
+    <p>Participated in controllable video-generation research at HITSZ, focusing on MotionRAG reproduction, failure analysis, and dataset surveys, which broadened my understanding of RAG, multimodal generation, physics-consistency modeling, and AIGC.</p>
   </div>
 </div>

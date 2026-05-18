@@ -460,3 +460,28 @@
     </div>
   </details>
 </div>
+
+## 科研技能
+
+<div class="academic-skill-list">
+  <div>
+    <strong>编程与机器学习</strong>
+    <p>Python, C/C++, PyTorch</p>
+  </div>
+  <div>
+    <strong>大模型与智能体训练</strong>
+    <p>LlamaFactory, Verl, vLLM/SGLang, DeepSpeed, Ms-Swift, VLMEvalKit</p>
+  </div>
+  <div>
+    <strong>训练与评测方法</strong>
+    <p>SFT/RL, AgentLoop, Function Calling, PPO/DPO/GRPO, LLM-as-Judge, RAG</p>
+  </div>
+  <div>
+    <strong>系统与工程</strong>
+    <p>Linux, Git, Docker, Conda, tmux, A100/H20/4090 多卡训练</p>
+  </div>
+  <div>
+    <strong>学术写作</strong>
+    <p>LaTeX, Overleaf, 英文论文阅读与写作</p>
+  </div>
+</div>

@@ -345,3 +345,28 @@
     </div>
   </details>
 </div>
+
+## Research Skills
+
+<div class="academic-skill-list">
+  <div>
+    <strong>Programming & ML</strong>
+    <p>Python, C/C++, PyTorch</p>
+  </div>
+  <div>
+    <strong>LLM / Agent Training</strong>
+    <p>LlamaFactory, Verl, vLLM/SGLang, DeepSpeed, Ms-Swift, VLMEvalKit</p>
+  </div>
+  <div>
+    <strong>Training & Evaluation</strong>
+    <p>SFT/RL, AgentLoop, Function Calling, PPO/DPO/GRPO, LLM-as-Judge, RAG</p>
+  </div>
+  <div>
+    <strong>Systems</strong>
+    <p>Linux, Git, Docker, Conda, tmux, multi-GPU training on A100/H20/4090</p>
+  </div>
+  <div>
+    <strong>Academic Writing</strong>
+    <p>LaTeX, Overleaf, English paper reading and academic writing</p>
+  </div>
+</div>

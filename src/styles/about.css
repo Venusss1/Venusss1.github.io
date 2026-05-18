@@ -223,6 +223,20 @@
   grid-template-columns: 12rem minmax(0, 1fr);
 }
 
+.research-achievement-list div {
+  grid-template-columns: 10.5rem minmax(0, 1fr);
+  align-items: start;
+  padding: 1rem 1.05rem;
+}
+
+.research-achievement-list strong {
+  letter-spacing: -0.01em;
+}
+
+.research-achievement-list p {
+  font-size: 0.94rem;
+}
+
 .dark .academic-intro {
   border-bottom-color: rgba(148, 163, 184, 0.24);
 }
@@ -292,7 +306,8 @@
 @media (max-width: 640px) {
   .education-row,
   .honor-list div,
-  .academic-skill-list div {
+  .academic-skill-list div,
+  .research-achievement-list div {
     grid-template-columns: 1fr;
   }
 

@@ -67,27 +67,27 @@
   </div>
 </div>
 
-## 科研技能
+## 科研经历和成果
 
-<div class="academic-skill-list">
+<div class="academic-skill-list research-achievement-list">
   <div>
-    <strong>编程与机器学习</strong>
-    <p>Python, C/C++, PyTorch</p>
+    <strong>OpenDCAI / AgentFlow</strong>
+    <p>北京大学国际机器学习研究中心张文涛教授课题组研究实习生，作为 AgentFlow 核心开发者参与统一 Agent 数据合成框架建设，覆盖 RAG、多模态文档理解、Deep Research、GUI、Text2SQL、数据分析和具身智能等任务场景。</p>
   </div>
   <div>
-    <strong>大模型与智能体训练</strong>
-    <p>LlamaFactory, Verl, vLLM/SGLang, DeepSpeed, Ms-Swift, VLMEvalKit</p>
+    <strong>BrowseComp-V³</strong>
+    <p>Core Contributor，参与面向多模态网页浏览智能体的评测基准构建，独立负责主要子领域的数据合成、标注与检验流程，并参与实验结果分析；工作投稿 SIGIR 2026。</p>
   </div>
   <div>
-    <strong>训练与评测方法</strong>
-    <p>SFT/RL, AgentLoop, Function Calling, PPO/DPO/GRPO, LLM-as-Judge, RAG</p>
+    <strong>MMDeepSearch</strong>
+    <p>参与多模态长程搜索智能体研究，围绕自动化数据合成和 SFT/RL 后训练展开工作，基于 Verl AgentLoop 与 Function Calling 重构 Search-R1，并复现 DeepEyes / Vision-DeepResearch 相关训练与评测流程。</p>
   </div>
   <div>
-    <strong>系统与工程</strong>
-    <p>Linux, Git, Docker, Conda, tmux, A100/H20/4090 多卡训练</p>
+    <strong>工业 AI 与科学数据</strong>
+    <p>参与清华大学 TLLM Lab 晶圆缺陷检测与持续学习项目，负责注意力机制调研、Continuous-Learning 代码适配和数据集处理，关注真实工业场景中的样本稀缺、类别增量和标注成本问题。</p>
   </div>
   <div>
-    <strong>学术写作</strong>
-    <p>LaTeX, Overleaf, 英文论文阅读与写作</p>
+    <strong>MotionRAG 视频生成</strong>
+    <p>参与哈尔滨工业大学（深圳）可控视频生成研究，负责 MotionRAG 复现、问题分析和数据集调研，拓展了对 RAG、多模态生成、物理一致性建模和 AIGC 的理解。</p>
   </div>
 </div>
