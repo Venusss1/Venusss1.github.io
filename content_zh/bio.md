@@ -115,23 +115,53 @@
     </section>
   </div>
 
-  <div class="research-flow">
-    <span>Benchmark 构造</span>
-    <span>证据链核查</span>
-    <span>过程评测</span>
-    <span>错误归因</span>
-    <span>数据合成</span>
-    <span>Agent 后训练</span>
+  <article class="research-paper research-paper-ongoing">
+    <div class="research-paper-main">
+      <span class="research-label">进行中</span>
+      <h3>MMDeepSearch</h3>
+      <p>MMDeepSearch 是 OpenDCAI / AgentFlow 项目组内正在推进的多模态长程搜索智能体方向，延续 BrowseComp-V³ 对“复杂开放网页环境、可验证证据链、过程级评测”的关注，进一步面向自动化数据合成和 Agent 后训练。目前我已参与相关准备与工程复现工作，后续将继续在正式任务中推进。</p>
+    </div>
+    <div class="research-paper-stats">
+      <div><strong>Agent</strong><span>多模态长程搜索</span></div>
+      <div><strong>Data</strong><span>自动化轨迹合成</span></div>
+      <div><strong>SFT / RL</strong><span>后训练流程</span></div>
+      <div><strong>Eval</strong><span>过程评测与错误归因</span></div>
+    </div>
+  </article>
+
+  <div class="research-paper-columns">
+    <section>
+      <h4>研究目标</h4>
+      <ul>
+        <li>从高质量 Benchmark 进一步转向可训练的搜索轨迹和工具调用数据。</li>
+        <li>探索多模态长程搜索任务中的自动数据合成、质量筛选和过程监督。</li>
+        <li>结合 SFT / RL 后训练方法，提升模型在真实网页搜索场景中的工具使用和多步推理能力。</li>
+      </ul>
+    </section>
+    <section>
+      <h4>当前参与</h4>
+      <ul>
+        <li>整理图像驱动多跳 QA 合成样例、seed380 数据和 Wikidata 实体关系抽取流程。</li>
+        <li>排查 Explore Chat Gateway 流式 / 非流式返回差异，保证数据合成链路稳定。</li>
+        <li>基于 Verl AgentLoop 与 Function Calling 理解和重构 Search-R1，并复现 DeepEyes / Vision-DeepResearch 相关 SFT/RL 流程。</li>
+      </ul>
+    </section>
   </div>
+
+  <section class="research-line research-line-secondary">
+    <span class="research-label">其他科研探索</span>
+    <h3>从工业数据到物理一致性生成</h3>
+    <p>除 AgentFlow 主线外，我也参与了工业 AI 与视频生成方向的科研训练。这些经历不作为主页主线展开，但共同补充了我对真实科学/工业数据、持续学习、物理一致性和可信评测问题的理解。</p>
+  </section>
 
   <div class="research-mini-grid">
     <article>
-      <h4>MMDeepSearch</h4>
-      <p>作为 OpenDCAI / AgentFlow 项目组内的延伸方向，我继续参与多模态长程搜索智能体和自动化数据合成研究，关注如何把高质量 Benchmark 转化为可训练轨迹数据，工作包括图像驱动多跳 QA 合成、seed380 样例整理、Wikidata 实体关系抽取、Explore Chat Gateway 排错、Search-R1 重构，以及 DeepEyes / Vision-DeepResearch 相关 SFT/RL 流程复现。</p>
+      <h4>清华大学 TLLM Lab</h4>
+      <p>参与晶圆缺陷检测与持续学习项目，负责注意力机制调研、Continuous-Learning 代码适配、MixedWM38 晶圆数据集处理和实验流程整理，关注工业场景中的样本稀缺、类别增量和标注成本问题。</p>
     </article>
     <article>
-      <h4>交叉科研探索</h4>
-      <p>除智能体主线外，我参与清华大学 TLLM Lab 晶圆缺陷检测与持续学习项目，以及哈尔滨工业大学（深圳）MotionRAG 可控视频生成研究。这些经历让我进一步关注真实科学/工业数据中的稀缺标注、持续学习、物理一致性和可信评测问题。</p>
+      <h4>哈尔滨工业大学（深圳）</h4>
+      <p>参与 MotionRAG 可控视频生成研究，负责论文与代码复现、问题分析和物理一致性数据集调研，关注检索增强视频生成、运动先验、物理规律和生成结果可信度。</p>
     </article>
   </div>
 </div>

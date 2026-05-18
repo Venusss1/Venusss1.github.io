@@ -115,23 +115,53 @@
     </section>
   </div>
 
-  <div class="research-flow">
-    <span>Benchmark Design</span>
-    <span>Evidence Check</span>
-    <span>Process Evaluation</span>
-    <span>Error Analysis</span>
-    <span>Data Synthesis</span>
-    <span>Agent Post-Training</span>
+  <article class="research-paper research-paper-ongoing">
+    <div class="research-paper-main">
+      <span class="research-label">Ongoing</span>
+      <h3>MMDeepSearch</h3>
+      <p>MMDeepSearch is an ongoing multimodal long-horizon search-agent track within OpenDCAI / AgentFlow. It extends the BrowseComp-V³ line from complex open-web evaluation, verifiable evidence chains, and process-level analysis toward automatic data synthesis and agent post-training. I have already participated in related preparation and engineering reproduction work, and will continue contributing as the project becomes formalized.</p>
+    </div>
+    <div class="research-paper-stats">
+      <div><strong>Agent</strong><span>multimodal long-horizon search</span></div>
+      <div><strong>Data</strong><span>automatic trajectory synthesis</span></div>
+      <div><strong>SFT / RL</strong><span>post-training pipeline</span></div>
+      <div><strong>Eval</strong><span>process evaluation and error analysis</span></div>
+    </div>
+  </article>
+
+  <div class="research-paper-columns">
+    <section>
+      <h4>Research Goal</h4>
+      <ul>
+        <li>Move from high-quality benchmarks toward trainable search trajectories and tool-interaction data.</li>
+        <li>Explore automatic data synthesis, quality filtering, and process supervision for multimodal long-horizon search.</li>
+        <li>Use SFT / RL post-training to improve tool use and multi-step reasoning in realistic web-search scenarios.</li>
+      </ul>
+    </section>
+    <section>
+      <h4>Current Involvement</h4>
+      <ul>
+        <li>Organized image-driven multi-hop QA samples, seed380 data, and Wikidata entity-relation extraction workflows.</li>
+        <li>Debugged streaming / non-streaming differences in Explore Chat Gateway to stabilize the data-synthesis pipeline.</li>
+        <li>Studied and reconstructed Search-R1 with Verl AgentLoop and Function Calling, and reproduced related DeepEyes / Vision-DeepResearch SFT/RL workflows.</li>
+      </ul>
+    </section>
   </div>
+
+  <section class="research-line research-line-secondary">
+    <span class="research-label">Other Research Exploration</span>
+    <h3>From industrial data to physics-consistent generation</h3>
+    <p>Beyond the AgentFlow track, I also received research training in industrial AI and video generation. These experiences are not the main narrative of this homepage section, but they broaden my understanding of scientific / industrial data, continual learning, physics consistency, and reliable evaluation.</p>
+  </section>
 
   <div class="research-mini-grid">
     <article>
-      <h4>MMDeepSearch</h4>
-      <p>As an extension within OpenDCAI / AgentFlow, I worked on multimodal long-horizon search agents and automatic data synthesis, focusing on how high-quality benchmarks can be transformed into trainable trajectory data, including image-driven multi-hop QA synthesis, seed380 organization, Wikidata entity-relation extraction, Explore Chat Gateway debugging, Search-R1 reconstruction, and DeepEyes / Vision-DeepResearch SFT/RL reproduction.</p>
+      <h4>Tsinghua University TLLM Lab</h4>
+      <p>Participated in wafer defect detection and continual learning projects, covering attention-mechanism surveys, Continuous-Learning code adaptation, MixedWM38 dataset processing, and experiment-pipeline organization, with attention to scarce labels, class-incremental learning, and annotation cost in industrial scenarios.</p>
     </article>
     <article>
-      <h4>Broader Research Exploration</h4>
-      <p>I also participated in Tsinghua TLLM Lab projects on wafer defect detection and continual learning, and MotionRAG-based controllable video generation research at HITSZ. These experiences strengthened my interest in scarce-label scientific data, continual learning, physics consistency, and reliable evaluation.</p>
+      <h4>Harbin Institute of Technology, Shenzhen</h4>
+      <p>Participated in MotionRAG-based controllable video generation research, focusing on paper/code reproduction, failure analysis, and physics-consistency dataset surveys, with attention to retrieval-augmented video generation, motion priors, physical laws, and output reliability.</p>
     </article>
   </div>
 </div>
