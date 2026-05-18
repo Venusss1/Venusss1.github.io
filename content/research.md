@@ -346,6 +346,84 @@
   </details>
 </div>
 
+## Project Thread and Representative Outcomes
+
+<div class="research-narrative">
+  <section class="research-line">
+    <span class="research-label">OpenDCAI / AgentFlow</span>
+    <h3>From benchmark construction to agent post-training</h3>
+    <p>This thread centers on multimodal browsing agents: BrowseComp-V³ builds high-quality and verifiable evaluation data to analyze model capability boundaries, while MMDeepSearch further explores how search trajectories, tool interactions, and process-evaluation signals can become trainable data for agent post-training.</p>
+  </section>
+
+  <article class="research-paper">
+    <div class="research-paper-main">
+      <span class="research-label">Representative Outcome</span>
+      <h3>BrowseComp-V³</h3>
+      <p><strong>Core Contributor</strong> to <a href="https://arxiv.org/abs/2602.12876">BrowseComp-V3: A Visual, Vertical, and Verifiable Benchmark for Multimodal Browsing Agents</a> and its <a href="https://github.com/Halcyon-Zhang/BrowseComp-V3">open-source repository</a>. The work introduces a multimodal deep-browsing benchmark in realistic open-web environments, emphasizing visual evidence, multi-hop search, public traceability, and process-level verification.</p>
+    </div>
+    <div class="research-paper-stats">
+      <div><strong>300</strong><span>hand-crafted questions</span></div>
+      <div><strong>383</strong><span>multimodal images</span></div>
+      <div><strong>5 / 24</strong><span>primary / sub-domains</span></div>
+      <div><strong>V³</strong><span>Visual · Vertical · Verifiable</span></div>
+    </div>
+  </article>
+
+  <div class="research-paper-columns">
+    <section>
+      <h4>Outcome</h4>
+      <ul>
+        <li>A multimodal deep-browsing benchmark in realistic open-web environments.</li>
+        <li>Public-search evidence to avoid reliance on model memory or non-reproducible sources.</li>
+        <li>Human-annotated trajectories, expert-validated subgoals, and Process Score for process-level evaluation.</li>
+        <li>OmniSeeker, a unified multimodal browsing-agent framework for systematic capability analysis.</li>
+      </ul>
+    </section>
+    <section>
+      <h4>My Contribution</h4>
+      <ul>
+        <li>Independently handled data synthesis, annotation conversion, evidence-chain verification, and quality checks for a major subdomain.</li>
+        <li>Participated in structured formatting and final validation for Culture, Science & Tech, and other domains.</li>
+        <li>Contributed to Human Evaluation, subgoal-completion annotation, Hop / Score analysis, and model error taxonomy.</li>
+        <li>Built end-to-end experience in benchmark research, from task definition and data production to quality control and experimental analysis.</li>
+      </ul>
+    </section>
+  </div>
+
+  <article class="research-paper research-paper-ongoing">
+    <div class="research-paper-main">
+      <span class="research-label">Ongoing</span>
+      <h3>MMDeepSearch</h3>
+      <p>MMDeepSearch is an ongoing multimodal long-horizon search-agent track within OpenDCAI / AgentFlow. It extends BrowseComp-V³ from complex open-web evaluation, verifiable evidence chains, and process-level analysis toward automatic data synthesis and agent post-training.</p>
+    </div>
+    <div class="research-paper-stats">
+      <div><strong>Agent</strong><span>multimodal long-horizon search</span></div>
+      <div><strong>Data</strong><span>automatic trajectory synthesis</span></div>
+      <div><strong>SFT / RL</strong><span>post-training pipeline</span></div>
+      <div><strong>Eval</strong><span>process evaluation and error analysis</span></div>
+    </div>
+  </article>
+
+  <div class="research-paper-columns">
+    <section>
+      <h4>Research Goal</h4>
+      <ul>
+        <li>Move from high-quality benchmarks toward trainable search trajectories and tool-interaction data.</li>
+        <li>Explore automatic data synthesis, quality filtering, and process supervision for multimodal long-horizon search.</li>
+        <li>Use SFT / RL post-training to improve tool use and multi-step reasoning in realistic web-search scenarios.</li>
+      </ul>
+    </section>
+    <section>
+      <h4>Current Involvement</h4>
+      <ul>
+        <li>Organized image-driven multi-hop QA samples, seed380 data, and Wikidata entity-relation extraction workflows.</li>
+        <li>Debugged streaming / non-streaming differences in Explore Chat Gateway to stabilize the data-synthesis pipeline.</li>
+        <li>Studied and reconstructed Search-R1 with Verl AgentLoop and Function Calling, and reproduced related DeepEyes / Vision-DeepResearch SFT/RL workflows.</li>
+      </ul>
+    </section>
+  </div>
+</div>
+
 ## Research Skills
 
 <div class="academic-skill-list">

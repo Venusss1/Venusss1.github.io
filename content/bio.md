@@ -73,7 +73,7 @@
   <section class="research-line">
     <span class="research-label">Research Thread</span>
     <h3><a href="https://github.com/OpenDCAI/AgentFlow">OpenDCAI / AgentFlow</a>: from agent data to verifiable evaluation</h3>
-    <p>I work in Prof. Wentao Zhang's group at the PKU International Machine Learning Research Center within the broader OpenDCAI / AgentFlow project group. My research follows a coherent path: building high-quality evaluation data, analyzing model capability boundaries, turning reliable search trajectories into trainable data, and moving toward agent post-training.</p>
+    <p>I work in Prof. Wentao Zhang's group at the PKU International Machine Learning Research Center within the broader OpenDCAI / AgentFlow project group, focusing on multimodal browsing-agent evaluation, data synthesis, and agent post-training.</p>
   </section>
 
   <article class="research-paper">
@@ -94,32 +94,11 @@
     </div>
   </article>
 
-  <div class="research-paper-columns">
-    <section>
-      <h4>Outcome</h4>
-      <ul>
-        <li>A multimodal deep-browsing benchmark in realistic open-web environments.</li>
-        <li>Public-search evidence to avoid reliance on model memory or non-reproducible sources.</li>
-        <li>Human-annotated trajectories, expert-validated subgoals, and Process Score for process-level evaluation.</li>
-        <li>OmniSeeker, a unified multimodal browsing-agent framework for systematic capability analysis.</li>
-      </ul>
-    </section>
-    <section>
-      <h4>My Contribution</h4>
-      <ul>
-        <li>Independently handled data synthesis, annotation conversion, evidence-chain verification, and quality checks for a major subdomain.</li>
-        <li>Participated in structured formatting and final validation for Culture, Science & Tech, and other domains.</li>
-        <li>Contributed to Human Evaluation, subgoal-completion annotation, Hop / Score analysis, and model error taxonomy.</li>
-        <li>Built end-to-end experience in benchmark research, from task definition and data production to quality control and experimental analysis.</li>
-      </ul>
-    </section>
-  </div>
-
   <article class="research-paper research-paper-ongoing">
     <div class="research-paper-main">
       <span class="research-label">Ongoing</span>
       <h3>MMDeepSearch</h3>
-      <p>MMDeepSearch is an ongoing multimodal long-horizon search-agent track within OpenDCAI / AgentFlow. It extends the BrowseComp-V³ line from complex open-web evaluation, verifiable evidence chains, and process-level analysis toward automatic data synthesis and agent post-training. I have already participated in related preparation and engineering reproduction work, and will continue contributing as the project becomes formalized.</p>
+      <p>MMDeepSearch is an ongoing multimodal long-horizon search-agent track within OpenDCAI / AgentFlow. It extends the BrowseComp-V³ line toward automatic data synthesis and agent post-training. For now, it is marked as work in progress.</p>
     </div>
     <div class="research-paper-stats">
       <div><strong>Agent</strong><span>multimodal long-horizon search</span></div>
@@ -129,39 +108,20 @@
     </div>
   </article>
 
-  <div class="research-paper-columns">
-    <section>
-      <h4>Research Goal</h4>
-      <ul>
-        <li>Move from high-quality benchmarks toward trainable search trajectories and tool-interaction data.</li>
-        <li>Explore automatic data synthesis, quality filtering, and process supervision for multimodal long-horizon search.</li>
-        <li>Use SFT / RL post-training to improve tool use and multi-step reasoning in realistic web-search scenarios.</li>
-      </ul>
-    </section>
-    <section>
-      <h4>Current Involvement</h4>
-      <ul>
-        <li>Organized image-driven multi-hop QA samples, seed380 data, and Wikidata entity-relation extraction workflows.</li>
-        <li>Debugged streaming / non-streaming differences in Explore Chat Gateway to stabilize the data-synthesis pipeline.</li>
-        <li>Studied and reconstructed Search-R1 with Verl AgentLoop and Function Calling, and reproduced related DeepEyes / Vision-DeepResearch SFT/RL workflows.</li>
-      </ul>
-    </section>
-  </div>
-
   <section class="research-line research-line-secondary">
     <span class="research-label">Other Research Exploration</span>
     <h3>From industrial data to physics-consistent generation</h3>
-    <p>Beyond the AgentFlow track, I also received research training in industrial AI and video generation. These experiences are not the main narrative of this homepage section, but they broaden my understanding of scientific / industrial data, continual learning, physics consistency, and reliable evaluation.</p>
+    <p>Beyond the AgentFlow track, I also received research training in industrial AI and video generation. The detailed timeline is placed on the research experience page.</p>
   </section>
 
   <div class="research-mini-grid">
     <article>
       <h4>Tsinghua University TLLM Lab</h4>
-      <p>Participated in wafer defect detection and continual learning projects, covering attention-mechanism surveys, Continuous-Learning code adaptation, MixedWM38 dataset processing, and experiment-pipeline organization, with attention to scarce labels, class-incremental learning, and annotation cost in industrial scenarios.</p>
+      <p>Wafer defect detection and continual learning, with attention to scarce labels, class-incremental learning, and annotation cost in industrial scenarios.</p>
     </article>
     <article>
       <h4>Harbin Institute of Technology, Shenzhen</h4>
-      <p>Participated in MotionRAG-based controllable video generation research, focusing on paper/code reproduction, failure analysis, and physics-consistency dataset surveys, with attention to retrieval-augmented video generation, motion priors, physical laws, and output reliability.</p>
+      <p>MotionRAG-based controllable video generation, focusing on retrieval-augmented generation, motion priors, physical laws, and output reliability.</p>
     </article>
   </div>
 </div>

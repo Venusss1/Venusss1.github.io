@@ -73,7 +73,7 @@
   <section class="research-line">
     <span class="research-label">研究主线</span>
     <h3><a href="https://github.com/OpenDCAI/AgentFlow">OpenDCAI / AgentFlow</a>：从智能体数据到可验证评测</h3>
-    <p>我在北京大学国际机器学习研究中心张文涛教授课题组参与 OpenDCAI / AgentFlow 大项目组，主要围绕 Data-Centric AI、多模态浏览智能体、数据合成、可信评测与后训练展开。我的工作不是孤立项目堆叠，而是沿着“构造高质量评测数据 → 分析模型能力边界 → 生成可训练轨迹数据 → 推进 Agent 后训练”的链路逐步展开。</p>
+    <p>我在北京大学国际机器学习研究中心张文涛教授课题组参与 OpenDCAI / AgentFlow 大项目组，当前主线围绕多模态浏览智能体评测、数据合成与 Agent 后训练展开。</p>
   </section>
 
   <article class="research-paper">
@@ -94,32 +94,11 @@
     </div>
   </article>
 
-  <div class="research-paper-columns">
-    <section>
-      <h4>成果产出</h4>
-      <ul>
-        <li>构建面向真实开放网页环境的多模态深度浏览 Benchmark。</li>
-        <li>要求证据公开可检索，避免依赖模型记忆或不可复现材料。</li>
-        <li>引入人工轨迹、专家验证子目标和 Process Score，支持过程级评测。</li>
-        <li>配套 OmniSeeker 统一多模态浏览智能体框架，用于系统评估模型能力边界。</li>
-      </ul>
-    </section>
-    <section>
-      <h4>我的贡献</h4>
-      <ul>
-        <li>独立负责主要子领域的数据合成、标注转化、证据链核查与质量检验。</li>
-        <li>参与 Culture、Science & Tech 等多领域样例的结构化整理和最终检查。</li>
-        <li>参与 Human Evaluation、子目标完成度标注、Hop / Score 分析和模型错误归因。</li>
-        <li>沉淀了从任务定义、数据生产、质量控制到实验分析的完整 Benchmark 研究经验。</li>
-      </ul>
-    </section>
-  </div>
-
   <article class="research-paper research-paper-ongoing">
     <div class="research-paper-main">
       <span class="research-label">进行中</span>
       <h3>MMDeepSearch</h3>
-      <p>MMDeepSearch 是 OpenDCAI / AgentFlow 项目组内正在推进的多模态长程搜索智能体方向，延续 BrowseComp-V³ 对“复杂开放网页环境、可验证证据链、过程级评测”的关注，进一步面向自动化数据合成和 Agent 后训练。目前我已参与相关准备与工程复现工作，后续将继续在正式任务中推进。</p>
+      <p>OpenDCAI / AgentFlow 项目组内正在推进的多模态长程搜索智能体方向，延续 BrowseComp-V³ 的评测与证据链思路，进一步面向自动化数据合成和 Agent 后训练。目前先标明为进行中。</p>
     </div>
     <div class="research-paper-stats">
       <div><strong>Agent</strong><span>多模态长程搜索</span></div>
@@ -129,39 +108,20 @@
     </div>
   </article>
 
-  <div class="research-paper-columns">
-    <section>
-      <h4>研究目标</h4>
-      <ul>
-        <li>从高质量 Benchmark 进一步转向可训练的搜索轨迹和工具调用数据。</li>
-        <li>探索多模态长程搜索任务中的自动数据合成、质量筛选和过程监督。</li>
-        <li>结合 SFT / RL 后训练方法，提升模型在真实网页搜索场景中的工具使用和多步推理能力。</li>
-      </ul>
-    </section>
-    <section>
-      <h4>当前参与</h4>
-      <ul>
-        <li>整理图像驱动多跳 QA 合成样例、seed380 数据和 Wikidata 实体关系抽取流程。</li>
-        <li>排查 Explore Chat Gateway 流式 / 非流式返回差异，保证数据合成链路稳定。</li>
-        <li>基于 Verl AgentLoop 与 Function Calling 理解和重构 Search-R1，并复现 DeepEyes / Vision-DeepResearch 相关 SFT/RL 流程。</li>
-      </ul>
-    </section>
-  </div>
-
   <section class="research-line research-line-secondary">
     <span class="research-label">其他科研探索</span>
     <h3>从工业数据到物理一致性生成</h3>
-    <p>除 AgentFlow 主线外，我也参与了工业 AI 与视频生成方向的科研训练。这些经历不作为主页主线展开，但共同补充了我对真实科学/工业数据、持续学习、物理一致性和可信评测问题的理解。</p>
+    <p>除 AgentFlow 主线外，我也参与过工业 AI 与视频生成方向的科研训练，详细过程放在科研经历页面展开。</p>
   </section>
 
   <div class="research-mini-grid">
     <article>
       <h4>清华大学 TLLM Lab</h4>
-      <p>参与晶圆缺陷检测与持续学习项目，负责注意力机制调研、Continuous-Learning 代码适配、MixedWM38 晶圆数据集处理和实验流程整理，关注工业场景中的样本稀缺、类别增量和标注成本问题。</p>
+      <p>晶圆缺陷检测与持续学习方向，关注工业场景中的样本稀缺、类别增量和标注成本问题。</p>
     </article>
     <article>
       <h4>哈尔滨工业大学（深圳）</h4>
-      <p>参与 MotionRAG 可控视频生成研究，负责论文与代码复现、问题分析和物理一致性数据集调研，关注检索增强视频生成、运动先验、物理规律和生成结果可信度。</p>
+      <p>MotionRAG 可控视频生成方向，关注检索增强生成、运动先验、物理规律和生成可信度。</p>
     </article>
   </div>
 </div>
