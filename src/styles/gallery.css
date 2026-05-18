@@ -2,33 +2,36 @@
 
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 2rem;
-  margin: 2rem 0;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0 2.5rem;
 }
 
 .gallery-item {
-  background: var(--neutral-50);
-  border: 1px solid var(--neutral-200);
-  border-radius: 1rem;
+  position: relative;
+  background: linear-gradient(180deg, #ffffff 0%, var(--neutral-50) 100%);
+  border: 1px solid rgba(226, 232, 240, 0.85);
+  border-radius: 1.25rem;
   overflow: hidden;
   transition: all 0.3s ease;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
 }
 
 .gallery-item:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  transform: translateY(-6px);
+  box-shadow: 0 22px 45px rgba(15, 23, 42, 0.14);
   border-color: var(--accent);
 }
 
 .image-container {
   position: relative;
   overflow: hidden;
-  height: 250px;
+  aspect-ratio: 4 / 3;
+  background: var(--neutral-100);
 }
 
 .image-container img {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -40,12 +43,13 @@
 }
 
 .caption {
-  padding: 1.5rem;
-  background: white;
+  min-height: 8.5rem;
+  padding: 1.25rem;
+  background: rgba(255, 255, 255, 0.92);
 }
 
 .caption h3 {
-  font-size: 1.125rem;
+  font-size: 1.05rem;
   font-weight: 600;
   color: var(--primary);
   margin-bottom: 0.5rem;
@@ -58,24 +62,30 @@
   margin: 0;
 }
 
-/* Dark mode support */
-@media (prefers-color-scheme: dark) {
-  .gallery-item {
-    background: var(--neutral-800);
-    border-color: var(--neutral-700);
-  }
+.dark .gallery-item {
+  background: linear-gradient(180deg, rgba(30, 41, 59, 0.96) 0%, rgba(15, 23, 42, 0.96) 100%);
+  border-color: rgba(148, 163, 184, 0.24);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.28);
+}
 
-  .caption {
-    background: var(--neutral-800);
-  }
+.dark .gallery-item:hover {
+  box-shadow: 0 22px 45px rgba(0, 0, 0, 0.38);
+}
 
-  .caption h3 {
-    color: var(--primary-light);
-  }
+.dark .image-container {
+  background: var(--neutral-800);
+}
 
-  .caption p {
-    color: var(--neutral-400);
-  }
+.dark .caption {
+  background: rgba(15, 23, 42, 0.72);
+}
+
+.dark .caption h3 {
+  color: var(--primary-light);
+}
+
+.dark .caption p {
+  color: var(--neutral-500);
 }
 
 /* Responsive design */
@@ -86,10 +96,11 @@
   }
 
   .image-container {
-    height: 200px;
+    aspect-ratio: 16 / 10;
   }
 
   .caption {
+    min-height: auto;
     padding: 1rem;
   }
 }
