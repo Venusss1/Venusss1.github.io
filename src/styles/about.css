@@ -237,6 +237,64 @@
   font-size: 0.94rem;
 }
 
+.research-brief-list {
+  display: grid;
+  margin: 1.1rem 0 2.1rem;
+  border-top: 1px solid rgba(203, 213, 225, 0.85);
+  border-bottom: 1px solid rgba(203, 213, 225, 0.85);
+}
+
+.research-brief-list > div {
+  display: grid;
+  grid-template-columns: 11rem minmax(0, 1fr);
+  gap: 1rem;
+  padding: 0.82rem 0.1rem;
+  border-bottom: 1px solid rgba(226, 232, 240, 0.75);
+}
+
+.research-brief-list > div:last-child {
+  border-bottom: 0;
+}
+
+.research-brief-list strong {
+  color: var(--primary);
+  font-weight: 850;
+  line-height: 1.45;
+}
+
+.research-brief-list strong span {
+  margin-left: 0.35rem;
+  color: var(--accent-dark);
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+.research-brief-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.research-brief-tags span,
+.research-brief-tags a {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid rgba(203, 213, 225, 0.82);
+  border-radius: 999px;
+  padding: 0.24rem 0.58rem;
+  background: rgba(248, 250, 252, 0.82);
+  color: var(--neutral-600);
+  font-size: 0.78rem;
+  font-weight: 750;
+  line-height: 1.35;
+}
+
+.research-brief-tags a {
+  color: var(--accent-dark) !important;
+  background: rgba(14, 165, 233, 0.08);
+  border-color: rgba(14, 165, 233, 0.2);
+}
+
 .research-narrative {
   display: grid;
   gap: 1rem;
@@ -457,6 +515,25 @@
   color: var(--neutral-500);
 }
 
+.dark .research-brief-list {
+  border-color: rgba(148, 163, 184, 0.24);
+}
+
+.dark .research-brief-list > div {
+  border-color: rgba(148, 163, 184, 0.2);
+}
+
+.dark .research-brief-tags span,
+.dark .research-brief-tags a {
+  border-color: rgba(148, 163, 184, 0.24);
+  background: rgba(15, 23, 42, 0.5);
+  color: var(--neutral-500);
+}
+
+.dark .research-brief-tags a {
+  color: var(--accent) !important;
+}
+
 .dark .research-line,
 .dark .research-paper,
 .dark .research-paper-columns section,
@@ -510,7 +587,8 @@
   .education-row,
   .honor-list div,
   .academic-skill-list div,
-  .research-achievement-list div {
+  .research-achievement-list div,
+  .research-brief-list > div {
     grid-template-columns: 1fr;
   }
 

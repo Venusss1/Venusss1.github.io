@@ -69,59 +69,41 @@
 
 ## 科研经历和成果
 
-<div class="research-narrative">
-  <section class="research-line">
-    <span class="research-label">研究主线</span>
-    <h3><a href="https://github.com/OpenDCAI/AgentFlow">OpenDCAI / AgentFlow</a>：从智能体数据到可验证评测</h3>
-    <p>我在北京大学国际机器学习研究中心张文涛教授课题组参与 OpenDCAI / AgentFlow 大项目组，当前主线围绕多模态浏览智能体评测、数据合成与 Agent 后训练展开。</p>
-  </section>
-
-  <article class="research-paper">
-    <div class="research-paper-main">
-      <span class="research-label">代表性成果</span>
-      <h3>BrowseComp-V³</h3>
-      <p><strong>Core Contributor</strong>，参与论文 <a href="https://arxiv.org/abs/2602.12876">BrowseComp-V3: A Visual, Vertical, and Verifiable Benchmark for Multimodal Browsing Agents</a> 与 <a href="https://github.com/Halcyon-Zhang/BrowseComp-V3">开源仓库</a>。该工作面向多模态深度浏览智能体，强调视觉线索、多跳检索、公开证据和过程可验证，是我目前最核心的科研产出。</p>
-      <div class="research-paper-links">
-        <a href="https://arxiv.org/abs/2602.12876">arXiv 论文</a>
-        <a href="https://github.com/Halcyon-Zhang/BrowseComp-V3">GitHub 仓库</a>
-      </div>
+<div class="research-brief-list">
+  <div>
+    <strong><a href="https://github.com/OpenDCAI/AgentFlow">OpenDCAI / AgentFlow</a></strong>
+    <div class="research-brief-tags">
+      <span>北大张文涛教授课题组</span>
+      <span>多模态浏览智能体评测</span>
+      <span>数据合成</span>
+      <span>Agent 后训练</span>
     </div>
-    <div class="research-paper-stats">
-      <div><strong>300</strong><span>手工设计难题</span></div>
-      <div><strong>383</strong><span>多模态图像</span></div>
-      <div><strong>5 / 24</strong><span>一级 / 二级领域</span></div>
-      <div><strong>V³</strong><span>Visual · Vertical · Verifiable</span></div>
+  </div>
+  <div>
+    <strong>BrowseComp-V³</strong>
+    <div class="research-brief-tags">
+      <span>Core Contributor</span>
+      <a href="https://arxiv.org/abs/2602.12876">arXiv</a>
+      <a href="https://github.com/Halcyon-Zhang/BrowseComp-V3">GitHub</a>
+      <span>多模态深度浏览 Benchmark</span>
     </div>
-  </article>
-
-  <article class="research-paper research-paper-ongoing">
-    <div class="research-paper-main">
-      <span class="research-label">进行中</span>
-      <h3>MMDeepSearch</h3>
-      <p>OpenDCAI / AgentFlow 项目组内正在推进的多模态长程搜索智能体方向，延续 BrowseComp-V³ 的评测与证据链思路，进一步面向自动化数据合成和 Agent 后训练。</p>
+  </div>
+  <div>
+    <strong>MMDeepSearch <span>进行中</span></strong>
+    <div class="research-brief-tags">
+      <span>多模态长程搜索智能体</span>
+      <span>自动化数据合成</span>
+      <span>SFT / RL</span>
+      <span>过程评测</span>
     </div>
-    <div class="research-paper-stats">
-      <div><strong>Agent</strong><span>多模态长程搜索</span></div>
-      <div><strong>Data</strong><span>自动化轨迹合成</span></div>
-      <div><strong>SFT / RL</strong><span>后训练流程</span></div>
-      <div><strong>Eval</strong><span>过程评测与错误归因</span></div>
+  </div>
+  <div>
+    <strong>其他科研探索</strong>
+    <div class="research-brief-tags">
+      <span>清华大学 TLLM Lab</span>
+      <span>晶圆缺陷检测</span>
+      <span>哈工深</span>
+      <span>MotionRAG</span>
     </div>
-  </article>
-
-  <section class="research-line research-line-secondary">
-    <span class="research-label">其他科研探索</span>
-    <h3>从工业数据到物理一致性生成</h3>
-    <p>除 AgentFlow 主线外，我也参与过工业 AI 与视频生成方向的科研训练，作为对多模态智能体和可信评测主线的补充。</p>
-  </section>
-
-  <div class="research-mini-grid">
-    <article>
-      <h4>清华大学 TLLM Lab</h4>
-      <p>晶圆缺陷检测与持续学习方向，关注工业场景中的样本稀缺、类别增量和标注成本问题。</p>
-    </article>
-    <article>
-      <h4>哈尔滨工业大学（深圳）</h4>
-      <p>MotionRAG 可控视频生成方向，关注检索增强生成、运动先验、物理规律和生成可信度。</p>
-    </article>
   </div>
 </div>

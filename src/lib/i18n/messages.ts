@@ -15,12 +15,16 @@ export interface LocaleMessages {
   };
   profile: {
     email: string;
+    phone: string;
+    wechat: string;
     location: string;
     workAddress: string;
     click: string;
     googleMap: string;
     send: string;
     sendEmail: string;
+    call: string;
+    callPhone: string;
     researchInterests: string;
     like: string;
     liked: string;
@@ -65,12 +69,16 @@ const en: LocaleMessages = {
   },
   profile: {
     email: 'Email',
+    phone: 'Phone',
+    wechat: 'WeChat',
     location: 'Location',
     workAddress: 'Work Address',
     click: 'Click',
     googleMap: 'Google Map',
     send: 'Send',
     sendEmail: 'Send Email',
+    call: 'Call',
+    callPhone: 'Call Phone',
     researchInterests: 'Research Interests',
     like: 'Like',
     liked: 'Liked',
@@ -115,12 +123,16 @@ const zh: LocaleMessages = {
   },
   profile: {
     email: '邮箱',
+    phone: '电话',
+    wechat: '微信',
     location: '地址',
     workAddress: '办公地址',
     click: '点击',
     googleMap: '谷歌地图',
     send: '发送',
     sendEmail: '发送邮件',
+    call: '拨打',
+    callPhone: '拨打电话',
     researchInterests: '研究兴趣',
     like: '点赞',
     liked: '已点赞',

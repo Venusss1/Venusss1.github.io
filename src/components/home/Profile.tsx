@@ -27,6 +27,18 @@ const OrcidIcon = ({ className }: { className?: string }) => (
     </svg>
 );
 
+const WeChatIcon = ({ className }: { className?: string }) => (
+    <svg
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        className={className}
+        xmlns="http://www.w3.org/2000/svg"
+    >
+        <path d="M8.25 4.35C3.72 4.35.25 7.13.25 10.76c0 2.08 1.17 3.9 3.03 5.08l-.68 2.04 2.38-1.19c.93.31 1.85.47 3.02.47.25 0 .49-.01.73-.03a5.7 5.7 0 0 1-.24-1.64c0-3.2 2.95-5.8 6.6-5.8.38 0 .75.03 1.11.09-.54-3.1-3.84-5.43-7.95-5.43Zm-2.5 3.26a.86.86 0 1 1 0 1.72.86.86 0 0 1 0-1.72Zm5 0a.86.86 0 1 1 0 1.72.86.86 0 0 1 0-1.72Z" />
+        <path d="M15.1 10.76c-3.02 0-5.46 2.06-5.46 4.6s2.44 4.6 5.46 4.6c.75 0 1.5-.12 2.14-.36l1.88.94-.54-1.62c1.22-.88 1.98-2.16 1.98-3.56 0-2.54-2.44-4.6-5.46-4.6Zm-1.8 2.32a.69.69 0 1 1 0 1.38.69.69 0 0 1 0-1.38Zm3.61 0a.69.69 0 1 1 0 1.38.69.69 0 0 1 0-1.38Z" />
+    </svg>
+);
+
 interface ProfileProps {
     author: SiteConfig['author'];
     social: SiteConfig['social'];
@@ -43,7 +55,11 @@ export default function Profile({ author, social, features, researchInterests }:
     const [isAddressPinned, setIsAddressPinned] = useState(false);
     const [showEmail, setShowEmail] = useState(false);
     const [isEmailPinned, setIsEmailPinned] = useState(false);
-    const [lastClickedTooltip, setLastClickedTooltip] = useState<'email' | 'address' | null>(null);
+    const [showPhone, setShowPhone] = useState(false);
+    const [isPhonePinned, setIsPhonePinned] = useState(false);
+    const [showWechat, setShowWechat] = useState(false);
+    const [isWechatPinned, setIsWechatPinned] = useState(false);
+    const [lastClickedTooltip, setLastClickedTooltip] = useState<'email' | 'address' | 'phone' | 'wechat' | null>(null);
 
     // Check local storage for user's like status
     useEffect(() => {
@@ -103,9 +119,16 @@ export default function Profile({ author, social, features, researchInterests }:
             icon: Linkedin,
         }] : []),
         ...(social.phone ? [{
-            name: 'Phone',
+            name: messages.profile.phone,
             href: `tel:${String(social.phone).replace(/[^0-9+]/g, '')}`,
             icon: Phone,
+            isPhone: true,
+        }] : []),
+        ...(social.wechat ? [{
+            name: messages.profile.wechat,
+            href: '#',
+            icon: WeChatIcon,
+            isWechat: true,
         }] : []),
     ];
 
@@ -222,69 +245,84 @@ export default function Profile({ author, social, features, researchInterests }:
                             </div>
                         );
                     }
-                    if (link.isEmail) {
+                    if (link.isEmail || link.isPhone || link.isWechat) {
+                        const contactType = link.isEmail ? 'email' : link.isPhone ? 'phone' : 'wechat';
+                        const isPinned = contactType === 'email' ? isEmailPinned : contactType === 'phone' ? isPhonePinned : isWechatPinned;
+                        const showContact = contactType === 'email' ? showEmail : contactType === 'phone' ? showPhone : showWechat;
+                        const setPinned = contactType === 'email' ? setIsEmailPinned : contactType === 'phone' ? setIsPhonePinned : setIsWechatPinned;
+                        const setShowContact = contactType === 'email' ? setShowEmail : contactType === 'phone' ? setShowPhone : setShowWechat;
+                        const title = contactType === 'email' ? messages.profile.email : contactType === 'phone' ? messages.profile.phone : messages.profile.wechat;
+                        const value = contactType === 'email'
+                            ? social.email?.replace('@', ' (at) ')
+                            : contactType === 'phone'
+                                ? social.phone
+                                : social.wechat;
+                        const ActionIcon = contactType === 'phone' ? Phone : EnvelopeIcon;
+
                         return (
                             <div key={link.name} className="relative">
                                 <button
                                     onMouseEnter={() => {
-                                        if (!isEmailPinned) setShowEmail(true);
-                                        setLastClickedTooltip('email');
+                                        if (!isPinned) setShowContact(true);
+                                        setLastClickedTooltip(contactType);
                                     }}
-                                    onMouseLeave={() => !isEmailPinned && setShowEmail(false)}
+                                    onMouseLeave={() => !isPinned && setShowContact(false)}
                                     onClick={() => {
-                                        setIsEmailPinned(!isEmailPinned);
-                                        setShowEmail(!isEmailPinned);
-                                        setLastClickedTooltip('email');
+                                        setPinned(!isPinned);
+                                        setShowContact(!isPinned);
+                                        setLastClickedTooltip(contactType);
                                     }}
-                                    className={`p-2 sm:p-2 transition-colors duration-200 ${isEmailPinned
+                                    className={`p-2 sm:p-2 transition-colors duration-200 ${isPinned
                                         ? 'text-accent'
                                         : 'text-neutral-600 dark:text-neutral-400 hover:text-accent'
                                         }`}
                                     aria-label={link.name}
                                 >
-                                    {isEmailPinned ? (
+                                    {link.isEmail && isPinned ? (
                                         <EnvelopeSolidIcon className="h-5 w-5" />
                                     ) : (
-                                        <EnvelopeIcon className="h-5 w-5" />
+                                        <IconComponent className="h-5 w-5" />
                                     )}
                                 </button>
 
-                                {/* Email tooltip */}
+                                {/* Contact tooltip */}
                                 <AnimatePresence>
-                                    {(showEmail || isEmailPinned) && (
+                                    {(showContact || isPinned) && (
                                         <motion.div
                                             initial={{ opacity: 0, y: 10, scale: 0.8 }}
                                             animate={{ opacity: 1, y: -10, scale: 1 }}
                                             exit={{ opacity: 0, y: -20, scale: 0.8 }}
-                                            className={`absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-full bg-neutral-800 text-white px-4 py-3 rounded-lg text-sm font-medium shadow-lg max-w-[calc(100vw-2rem)] sm:max-w-none sm:whitespace-nowrap ${lastClickedTooltip === 'email' ? 'z-20' : 'z-10'
+                                            className={`absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-full bg-neutral-800 text-white px-4 py-3 rounded-lg text-sm font-medium shadow-lg max-w-[calc(100vw-2rem)] sm:max-w-none sm:whitespace-nowrap ${lastClickedTooltip === contactType ? 'z-20' : 'z-10'
                                                 }`}
                                             onMouseEnter={() => {
-                                                if (!isEmailPinned) setShowEmail(true);
-                                                setLastClickedTooltip('email');
+                                                if (!isPinned) setShowContact(true);
+                                                setLastClickedTooltip(contactType);
                                             }}
-                                            onMouseLeave={() => !isEmailPinned && setShowEmail(false)}
+                                            onMouseLeave={() => !isPinned && setShowContact(false)}
                                         >
                                             <div className="text-center">
                                                 <div className="flex items-center justify-center space-x-2 mb-1">
-                                                    <p className="font-semibold">{messages.profile.email}</p>
-                                                    {!isEmailPinned && (
+                                                    <p className="font-semibold">{title}</p>
+                                                    {!isPinned && (
                                                         <div className="flex items-center space-x-0.5 text-xs text-neutral-400 opacity-60">
                                                             <Pin className="h-2.5 w-2.5" />
                                                             <span className="hidden sm:inline">{messages.profile.click}</span>
                                                         </div>
                                                     )}
                                                 </div>
-                                                <p className="break-words">{social.email?.replace('@', ' (at) ')}</p>
-                                                <div className="mt-2">
-                                                    <a
-                                                        href={link.href}
-                                                        className="inline-flex items-center justify-center space-x-2 bg-accent hover:bg-accent-dark text-white px-3 py-1 rounded-md text-xs font-medium transition-colors duration-200 w-full sm:w-auto"
-                                                    >
-                                                        <EnvelopeIcon className="h-4 w-4" />
-                                                        <span className="sm:hidden">{messages.profile.send}</span>
-                                                        <span className="hidden sm:inline">{messages.profile.sendEmail}</span>
-                                                    </a>
-                                                </div>
+                                                <p className="break-words">{value}</p>
+                                                {(link.isEmail || link.isPhone) && (
+                                                    <div className="mt-2">
+                                                        <a
+                                                            href={link.href}
+                                                            className="inline-flex items-center justify-center space-x-2 bg-accent hover:bg-accent-dark text-white px-3 py-1 rounded-md text-xs font-medium transition-colors duration-200 w-full sm:w-auto"
+                                                        >
+                                                            <ActionIcon className="h-4 w-4" />
+                                                            <span className="sm:hidden">{link.isPhone ? messages.profile.call : messages.profile.send}</span>
+                                                            <span className="hidden sm:inline">{link.isPhone ? messages.profile.callPhone : messages.profile.sendEmail}</span>
+                                                        </a>
+                                                    </div>
+                                                )}
                                             </div>
                                             <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-neutral-800"></div>
                                         </motion.div>

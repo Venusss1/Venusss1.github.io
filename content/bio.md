@@ -69,59 +69,41 @@
 
 ## Research Experience and Outcomes
 
-<div class="research-narrative">
-  <section class="research-line">
-    <span class="research-label">Research Thread</span>
-    <h3><a href="https://github.com/OpenDCAI/AgentFlow">OpenDCAI / AgentFlow</a>: from agent data to verifiable evaluation</h3>
-    <p>I work in Prof. Wentao Zhang's group at the PKU International Machine Learning Research Center within the broader OpenDCAI / AgentFlow project group, focusing on multimodal browsing-agent evaluation, data synthesis, and agent post-training.</p>
-  </section>
-
-  <article class="research-paper">
-    <div class="research-paper-main">
-      <span class="research-label">Representative Outcome</span>
-      <h3>BrowseComp-V³</h3>
-      <p><strong>Core Contributor</strong> to <a href="https://arxiv.org/abs/2602.12876">BrowseComp-V3: A Visual, Vertical, and Verifiable Benchmark for Multimodal Browsing Agents</a> and its <a href="https://github.com/Halcyon-Zhang/BrowseComp-V3">open-source repository</a>. This is my central research outcome so far: a benchmark for multimodal deep-browsing agents that emphasizes visual evidence, multi-hop search, public traceability, and process-level verification.</p>
-      <div class="research-paper-links">
-        <a href="https://arxiv.org/abs/2602.12876">arXiv Paper</a>
-        <a href="https://github.com/Halcyon-Zhang/BrowseComp-V3">GitHub Repo</a>
-      </div>
+<div class="research-brief-list">
+  <div>
+    <strong><a href="https://github.com/OpenDCAI/AgentFlow">OpenDCAI / AgentFlow</a></strong>
+    <div class="research-brief-tags">
+      <span>Prof. Wentao Zhang's Group</span>
+      <span>Multimodal Browsing Agents</span>
+      <span>Data Synthesis</span>
+      <span>Agent Post-Training</span>
     </div>
-    <div class="research-paper-stats">
-      <div><strong>300</strong><span>hand-crafted questions</span></div>
-      <div><strong>383</strong><span>multimodal images</span></div>
-      <div><strong>5 / 24</strong><span>primary / sub-domains</span></div>
-      <div><strong>V³</strong><span>Visual · Vertical · Verifiable</span></div>
+  </div>
+  <div>
+    <strong>BrowseComp-V³</strong>
+    <div class="research-brief-tags">
+      <span>Core Contributor</span>
+      <a href="https://arxiv.org/abs/2602.12876">arXiv</a>
+      <a href="https://github.com/Halcyon-Zhang/BrowseComp-V3">GitHub</a>
+      <span>Multimodal Browsing Benchmark</span>
     </div>
-  </article>
-
-  <article class="research-paper research-paper-ongoing">
-    <div class="research-paper-main">
-      <span class="research-label">Ongoing</span>
-      <h3>MMDeepSearch</h3>
-      <p>MMDeepSearch is an ongoing multimodal long-horizon search-agent track within OpenDCAI / AgentFlow. It extends the BrowseComp-V³ line toward automatic data synthesis and agent post-training.</p>
+  </div>
+  <div>
+    <strong>MMDeepSearch <span>Ongoing</span></strong>
+    <div class="research-brief-tags">
+      <span>Long-Horizon Search Agents</span>
+      <span>Automatic Data Synthesis</span>
+      <span>SFT / RL</span>
+      <span>Process Evaluation</span>
     </div>
-    <div class="research-paper-stats">
-      <div><strong>Agent</strong><span>multimodal long-horizon search</span></div>
-      <div><strong>Data</strong><span>automatic trajectory synthesis</span></div>
-      <div><strong>SFT / RL</strong><span>post-training pipeline</span></div>
-      <div><strong>Eval</strong><span>process evaluation and error analysis</span></div>
+  </div>
+  <div>
+    <strong>Other Research</strong>
+    <div class="research-brief-tags">
+      <span>Tsinghua TLLM Lab</span>
+      <span>Wafer Defect Detection</span>
+      <span>HITSZ</span>
+      <span>MotionRAG</span>
     </div>
-  </article>
-
-  <section class="research-line research-line-secondary">
-    <span class="research-label">Other Research Exploration</span>
-    <h3>From industrial data to physics-consistent generation</h3>
-    <p>Beyond the AgentFlow track, I also received research training in industrial AI and video generation, complementing my broader interest in multimodal agents and reliable evaluation.</p>
-  </section>
-
-  <div class="research-mini-grid">
-    <article>
-      <h4>Tsinghua University TLLM Lab</h4>
-      <p>Wafer defect detection and continual learning, with attention to scarce labels, class-incremental learning, and annotation cost in industrial scenarios.</p>
-    </article>
-    <article>
-      <h4>Harbin Institute of Technology, Shenzhen</h4>
-      <p>MotionRAG-based controllable video generation, focusing on retrieval-augmented generation, motion priors, physical laws, and output reliability.</p>
-    </article>
   </div>
 </div>
