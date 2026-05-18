@@ -98,7 +98,7 @@
     <div class="research-paper-main">
       <span class="research-label">Ongoing</span>
       <h3>MMDeepSearch</h3>
-      <p>MMDeepSearch is an ongoing multimodal long-horizon search-agent track within OpenDCAI / AgentFlow. It extends the BrowseComp-V³ line toward automatic data synthesis and agent post-training. For now, it is marked as work in progress.</p>
+      <p>MMDeepSearch is an ongoing multimodal long-horizon search-agent track within OpenDCAI / AgentFlow. It extends the BrowseComp-V³ line toward automatic data synthesis and agent post-training.</p>
     </div>
     <div class="research-paper-stats">
       <div><strong>Agent</strong><span>multimodal long-horizon search</span></div>
@@ -111,7 +111,7 @@
   <section class="research-line research-line-secondary">
     <span class="research-label">Other Research Exploration</span>
     <h3>From industrial data to physics-consistent generation</h3>
-    <p>Beyond the AgentFlow track, I also received research training in industrial AI and video generation. The detailed timeline is placed on the research experience page.</p>
+    <p>Beyond the AgentFlow track, I also received research training in industrial AI and video generation, complementing my broader interest in multimodal agents and reliable evaluation.</p>
   </section>
 
   <div class="research-mini-grid">

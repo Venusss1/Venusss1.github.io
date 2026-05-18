@@ -98,7 +98,7 @@
     <div class="research-paper-main">
       <span class="research-label">进行中</span>
       <h3>MMDeepSearch</h3>
-      <p>OpenDCAI / AgentFlow 项目组内正在推进的多模态长程搜索智能体方向，延续 BrowseComp-V³ 的评测与证据链思路，进一步面向自动化数据合成和 Agent 后训练。目前先标明为进行中。</p>
+      <p>OpenDCAI / AgentFlow 项目组内正在推进的多模态长程搜索智能体方向，延续 BrowseComp-V³ 的评测与证据链思路，进一步面向自动化数据合成和 Agent 后训练。</p>
     </div>
     <div class="research-paper-stats">
       <div><strong>Agent</strong><span>多模态长程搜索</span></div>
@@ -111,7 +111,7 @@
   <section class="research-line research-line-secondary">
     <span class="research-label">其他科研探索</span>
     <h3>从工业数据到物理一致性生成</h3>
-    <p>除 AgentFlow 主线外，我也参与过工业 AI 与视频生成方向的科研训练，详细过程放在科研经历页面展开。</p>
+    <p>除 AgentFlow 主线外，我也参与过工业 AI 与视频生成方向的科研训练，作为对多模态智能体和可信评测主线的补充。</p>
   </section>
 
   <div class="research-mini-grid">
