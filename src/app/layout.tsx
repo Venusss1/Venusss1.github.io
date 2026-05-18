@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import '@/styles/about.css';
 import '@/styles/research.css';
 import '@/styles/gallery.css';
 import Navigation from '@/components/layout/Navigation';

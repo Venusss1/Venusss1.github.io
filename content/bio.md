@@ -1,96 +1,172 @@
-I am a junior undergraduate (Class of 2023) majoring in Data Science and Big Data Technology at [Ocean University of China](https://www.ouc.edu.cn) (985 Project).
-
-## Basic Information
-
-<!-- CARDS_START -->
-<div class="cards-container">
-  <div class="academic-card">
-    <h3 class="text-lg font-semibold text-primary mb-4 pb-2 border-b border-neutral-200/60 dark:border-neutral-600/60 relative">
-      <span class="relative z-10">Academic Profile</span>
-      <div class="absolute bottom-0 left-0 w-8 h-0.5 bg-gradient-to-r from-accent to-primary rounded-full"></div>
-    </h3>
-    <ul class="space-y-3 relative z-10">
-      <li class="flex justify-between items-center py-1 border-b border-neutral-100/50 dark:border-neutral-700/30 last:border-b-0">
-        <span class="text-neutral-600 dark:text-neutral-400 text-sm">Academic Ranking</span>
-        <span class="font-medium bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">2/37</span>
-      </li>
-      <li class="flex justify-between items-center py-1 border-b border-neutral-100/50 dark:border-neutral-700/30 last:border-b-0">
-        <span class="text-neutral-600 dark:text-neutral-400 text-sm">GPA</span>
-        <span class="font-semibold text-accent bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">3.69/4.0</span>
-      </li>
-      <li class="flex justify-between items-center py-1 border-b border-neutral-100/50 dark:border-neutral-700/30 last:border-b-0">
-        <span class="text-neutral-600 dark:text-neutral-400 text-sm">CET-6</span>
-        <span class="font-medium bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">502</span>
-      </li>
-    </ul>
-  </div>
-  
-  <div class="personal-card">
-    <h3 class="text-lg font-semibold text-primary mb-4 pb-2 border-b border-neutral-200/60 dark:border-neutral-600/60 relative">
-      <span class="relative z-10">Personal Details</span>
-      <div class="absolute bottom-0 left-0 w-8 h-0.5 bg-gradient-to-r from-accent to-primary rounded-full"></div>
-    </h3>
-    <ul class="space-y-3 relative z-10">
-      <li class="flex justify-between items-center py-1 border-b border-neutral-100/50 dark:border-neutral-700/30 last:border-b-0">
-        <span class="text-neutral-600 dark:text-neutral-400 text-sm">University</span>
-        <span class="font-medium text-right max-w-[60%] text-primary">Ocean University of China (985)</span>
-      </li>
-      <li class="flex justify-between items-center py-1 border-b border-neutral-100/50 dark:border-neutral-700/30 last:border-b-0">
-        <span class="text-neutral-600 dark:text-neutral-400 text-sm">Major</span>
-        <span class="font-medium text-right max-w-[60%] text-primary">Data Science & Big Data Technology</span>
-      </li>
-      <li class="flex justify-between items-center py-1 border-b border-neutral-100/50 dark:border-neutral-700/30 last:border-b-0">
-        <span class="text-neutral-600 dark:text-neutral-400 text-sm">Political Status</span>
-        <span class="font-medium text-right max-w-[60%] text-primary">Probationary CPC Member</span>
-      </li>
-      <li class="flex justify-between items-center py-1 border-b border-neutral-100/50 dark:border-neutral-700/30 last:border-b-0">
-        <span class="text-neutral-600 dark:text-neutral-400 text-sm">Contact</span>
-        <span class="font-medium text-right max-w-[60%] text-accent hover:underline cursor-pointer">dyz8327@stu.ouc.edu.cn</span>
-      </li>
-      <li class="flex justify-between items-center py-1 border-b border-neutral-100/50 dark:border-neutral-700/30 last:border-b-0">
-        <span class="text-neutral-600 dark:text-neutral-400 text-sm">Phone/WeChat</span>
-        <span class="font-medium text-right max-w-[60%] text-primary">19963927952</span>
-      </li>
-    </ul>
+<div class="about-hero">
+  <span class="about-kicker">Profile</span>
+  <div class="about-title">About</div>
+  <p>I am a 2023 undergraduate majoring in Data Science and Big Data Technology at Ocean University of China (985), focusing on Data-Centric AI, multimodal agents, AI for Science, and large language model training.</p>
+  <div class="about-focus-tags">
+    <span>Data-Centric AI</span>
+    <span>Multi-Modal Agents</span>
+    <span>AI for Science</span>
+    <span>LLM Training</span>
   </div>
 </div>
-<!-- CARDS_END -->
+
+<div class="about-metrics">
+  <div class="metric-card">
+    <span>Ranking</span>
+    <strong>2/37</strong>
+    <p>Top of major</p>
+  </div>
+  <div class="metric-card">
+    <span>GPA</span>
+    <strong>3.69/4.0</strong>
+    <p>Consistent academic record</p>
+  </div>
+  <div class="metric-card">
+    <span>CET-6</span>
+    <strong>502</strong>
+    <p>English reading and writing</p>
+  </div>
+  <div class="metric-card">
+    <span>ACM Team</span>
+    <strong>Rank 5</strong>
+    <p>Algorithm training</p>
+  </div>
+</div>
+
+## Academic Profile
+
+<div class="profile-grid">
+  <div class="profile-card">
+    <span class="profile-label">University</span>
+    <strong>Ocean University of China (985)</strong>
+    <p>Undergraduate institution</p>
+  </div>
+  <div class="profile-card">
+    <span class="profile-label">Major</span>
+    <strong>Data Science & Big Data Technology</strong>
+    <p>Class of 2023</p>
+  </div>
+  <div class="profile-card">
+    <span class="profile-label">Political Status</span>
+    <strong>Probationary CPC Member</strong>
+    <p>Participating in collective service and development</p>
+  </div>
+  <div class="profile-card">
+    <span class="profile-label">Contact</span>
+    <strong>dyz8327@stu.ouc.edu.cn</strong>
+    <p>Phone / WeChat: 19963927952</p>
+  </div>
+</div>
 
 ## Core Courses
 
-| Course | Score |
-|--------|-------|
-| Probability & Statistics | 97.5 |
-| Python Scientific Computing | 94.5 |
-| Parallel & Distributed Computing | 93 |
-| Operating Systems | 92.5 |
-| Computer Networks | 91.5 |
+<div class="course-showcase">
+  <div class="course-pill">
+    <strong>97.5</strong>
+    <span>Probability & Statistics</span>
+  </div>
+  <div class="course-pill">
+    <strong>94.5</strong>
+    <span>Python Scientific Computing</span>
+  </div>
+  <div class="course-pill">
+    <strong>93</strong>
+    <span>Parallel & Distributed Computing</span>
+  </div>
+  <div class="course-pill">
+    <strong>92.5</strong>
+    <span>Operating Systems</span>
+  </div>
+  <div class="course-pill">
+    <strong>91.5</strong>
+    <span>Computer Networks</span>
+  </div>
+</div>
 
-## Awards
+## Awards & Competitions
 
-<div class="awards-list">
-  <div class="award-item flex justify-between items-center py-2 border-b border-neutral-200/50 dark:border-neutral-700/30 last:border-b-0">
-    <span class="text-neutral-600 dark:text-neutral-400 text-sm">2025.05</span>
-    <span class="font-medium text-right">Meritorious Winner (M Prize) - MCM/ICM Mathematical Modeling Contest</span>
+<div class="award-timeline">
+  <div class="award-row">
+    <time>2025.05</time>
+    <div>
+      <strong>Meritorious Winner (M Prize)</strong>
+      <p>MCM/ICM Mathematical Modeling Contest, reflecting mathematical modeling, English writing, and teamwork.</p>
+    </div>
   </div>
-  <div class="award-item flex justify-between items-center py-2 border-b border-neutral-200/50 dark:border-neutral-700/30 last:border-b-0">
-    <span class="text-neutral-600 dark:text-neutral-400 text-sm">2025</span>
-    <span class="font-medium text-right">ACM Training Team Member (Rank 5) - Ocean University of China</span>
+  <div class="award-row">
+    <time>2025</time>
+    <div>
+      <strong>ACM Training Team Member (Rank 5)</strong>
+      <p>Algorithm and programming training at Ocean University of China.</p>
+    </div>
   </div>
-  <div class="award-item flex justify-between items-center py-2 border-b border-neutral-200/50 dark:border-neutral-700/30 last:border-b-0">
-    <span class="text-neutral-600 dark:text-neutral-400 text-sm">2025.05-06</span>
-    <span class="font-medium text-right">Provincial Award - Lanqiao Cup Programming Contest</span>
+  <div class="award-row">
+    <time>2025.05-06</time>
+    <div>
+      <strong>Provincial Award, Lanqiao Cup Programming Contest</strong>
+      <p>Programming and algorithm competition experience.</p>
+    </div>
   </div>
-  <div class="award-item flex justify-between items-center py-2 border-b border-neutral-200/50 dark:border-neutral-700/30 last:border-b-0">
-    <span class="text-neutral-600 dark:text-neutral-400 text-sm">2025.05-06</span>
-    <span class="font-medium text-right">Provincial Award - Computer Challenge Competition</span>
+  <div class="award-row">
+    <time>2025.05-06</time>
+    <div>
+      <strong>Provincial Award, Computer Challenge Competition</strong>
+      <p>Comprehensive computer application and practice competition experience.</p>
+    </div>
   </div>
 </div>
 
 ## Technical Skills
 
-- **Programming:** Python, C/C++, PyTorch
-- **LLM Training:** LlamaFactory, Verl, vLLM/SGLang, DeepSpeed, Ms-Swift, VlmEvalkit
-- **Training Paradigms:** SFT/RL, AgentLoop/FunctionCalling, PPO/DPO/GRPO, LLM-as-Judge, RAG
-- **Infrastructure:** Linux, Git, Docker, Conda, tmux, multi-GPU training (A100/H20/4090)
-- **Writing & Tools:** LaTeX/Overleaf, proficient in English academic reading and writing
+<div class="skill-sections">
+  <div class="skill-card">
+    <span>Programming & Deep Learning</span>
+    <div>
+      <em>Python</em>
+      <em>C/C++</em>
+      <em>PyTorch</em>
+    </div>
+  </div>
+  <div class="skill-card">
+    <span>LLM / Agent Training</span>
+    <div>
+      <em>LlamaFactory</em>
+      <em>Verl</em>
+      <em>vLLM / SGLang</em>
+      <em>DeepSpeed</em>
+      <em>Ms-Swift</em>
+      <em>VLMEvalKit</em>
+    </div>
+  </div>
+  <div class="skill-card">
+    <span>Training Paradigms</span>
+    <div>
+      <em>SFT / RL</em>
+      <em>AgentLoop</em>
+      <em>Function Calling</em>
+      <em>PPO / DPO / GRPO</em>
+      <em>LLM-as-Judge</em>
+      <em>RAG</em>
+    </div>
+  </div>
+  <div class="skill-card">
+    <span>Infrastructure</span>
+    <div>
+      <em>Linux</em>
+      <em>Git</em>
+      <em>Docker</em>
+      <em>Conda</em>
+      <em>tmux</em>
+      <em>A100 / H20 / 4090</em>
+    </div>
+  </div>
+  <div class="skill-card">
+    <span>Research Writing</span>
+    <div>
+      <em>LaTeX</em>
+      <em>Overleaf</em>
+      <em>English Paper Reading</em>
+      <em>Academic Writing</em>
+    </div>
+  </div>
+</div>
