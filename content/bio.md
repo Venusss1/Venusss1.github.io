@@ -103,9 +103,6 @@
         <div class="intern-entry__date">2026.03 - 2026.05</div>
       </article>
     </div>
-    <div class="intern-detail-link">
-      <a class="pub-btn pub-btn--ghost" href="/research/">View the Research Experience page for details</a>
-    </div>
   </section>
 
   <section class="home-section competition-section" id="competitions">

@@ -103,9 +103,6 @@
         <div class="intern-entry__date">2026.03 - 2026.05</div>
       </article>
     </div>
-    <div class="intern-detail-link">
-      <a class="pub-btn pub-btn--ghost" href="/research/">查看科研经历页面来获得详细信息</a>
-    </div>
   </section>
 
   <section class="home-section competition-section" id="competitions">
