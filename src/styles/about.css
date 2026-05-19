@@ -859,3 +859,480 @@
     border-bottom-color: rgba(148, 163, 184, 0.2);
   }
 }
+
+/* Homepage redesign v2: reference-inspired academic layout */
+.homepage-redesign {
+  --home-ink: #243142;
+  --home-muted: #6f7785;
+  --home-line: #e8dccb;
+  --home-paper: #fffaf2;
+  --home-card: rgba(255, 253, 248, 0.96);
+  --home-card-soft: #fbf3e6;
+  --home-gold: #b98235;
+  --home-gold-deep: #8f5f24;
+  --home-blue: #234c63;
+  --home-shadow: 0 24px 70px rgba(87, 64, 35, 0.12);
+  gap: 1.15rem;
+  color: var(--home-ink);
+  font-family:
+    "Inter",
+    "Source Han Sans SC",
+    "Noto Sans CJK SC",
+    "Microsoft YaHei",
+    system-ui,
+    sans-serif;
+}
+
+.homepage-redesign .homepage-anchor {
+  position: sticky;
+  top: 5.2rem;
+  z-index: 5;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  padding: 0.68rem;
+  border: 1px solid rgba(185, 130, 53, 0.22);
+  border-radius: 999px;
+  background: rgba(255, 250, 242, 0.88);
+  box-shadow: 0 14px 36px rgba(87, 64, 35, 0.1);
+  backdrop-filter: blur(16px);
+}
+
+.homepage-redesign .homepage-anchor a {
+  border-radius: 999px;
+  padding: 0.42rem 0.72rem;
+  color: var(--home-muted) !important;
+  font-size: 0.78rem;
+  font-weight: 820;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  transition:
+    background 180ms ease,
+    color 180ms ease,
+    transform 180ms ease;
+}
+
+.homepage-redesign .homepage-anchor a:hover {
+  background: rgba(185, 130, 53, 0.12);
+  color: var(--home-gold-deep) !important;
+  transform: translateY(-1px);
+}
+
+.homepage-redesign .homepage-hero,
+.homepage-redesign .homepage-card,
+.homepage-redesign .homepage-thanks {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(185, 130, 53, 0.18);
+  border-radius: 1.65rem;
+  background:
+    radial-gradient(circle at top left, rgba(238, 210, 169, 0.34), transparent 34rem),
+    linear-gradient(135deg, rgba(255, 253, 248, 0.98), rgba(250, 242, 229, 0.9));
+  box-shadow: var(--home-shadow);
+}
+
+.homepage-redesign .homepage-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(15rem, 0.65fr);
+  gap: 1.25rem;
+  min-height: 20rem;
+  padding: clamp(1.35rem, 3vw, 2.1rem);
+}
+
+.homepage-redesign .homepage-card,
+.homepage-redesign .homepage-thanks {
+  padding: clamp(1.25rem, 2.8vw, 1.8rem);
+  scroll-margin-top: 7rem;
+}
+
+.homepage-redesign .homepage-hero::after,
+.homepage-redesign .homepage-card::after,
+.homepage-redesign .homepage-thanks::after {
+  content: "";
+  position: absolute;
+  right: -5rem;
+  bottom: -5rem;
+  width: 13rem;
+  height: 13rem;
+  border-radius: 999px;
+  background: rgba(185, 130, 53, 0.08);
+  pointer-events: none;
+}
+
+.homepage-redesign .homepage-hero-copy,
+.homepage-redesign .homepage-card > *,
+.homepage-redesign .homepage-thanks > * {
+  position: relative;
+  z-index: 1;
+}
+
+.homepage-redesign .homepage-eyebrow {
+  display: inline-flex;
+  margin-bottom: 0.55rem;
+  color: var(--home-gold-deep);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 850;
+  letter-spacing: 0.18em;
+}
+
+.homepage-redesign h2 {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  color: var(--home-ink);
+  font-family: var(--font-serif);
+  font-size: clamp(1.45rem, 2.8vw, 2.25rem);
+  font-weight: 820;
+  letter-spacing: -0.035em;
+  line-height: 1.12;
+}
+
+.homepage-redesign .homepage-hero h2 {
+  max-width: 34rem;
+  font-size: clamp(2.25rem, 5.4vw, 4.35rem);
+}
+
+.homepage-redesign h3 {
+  margin: 0;
+  color: var(--home-ink);
+  font-size: 1.05rem;
+  font-weight: 830;
+  line-height: 1.45;
+}
+
+.homepage-redesign p {
+  color: var(--home-muted);
+  line-height: 1.82;
+}
+
+.homepage-redesign .homepage-hero p {
+  max-width: 42rem;
+  margin-top: 1rem;
+  font-size: 1.02rem;
+}
+
+.homepage-redesign .homepage-hero-tags,
+.homepage-redesign .homepage-badges,
+.homepage-redesign .homepage-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 1rem;
+}
+
+.homepage-redesign .homepage-hero-tags span,
+.homepage-redesign .homepage-badges span,
+.homepage-redesign .homepage-status,
+.homepage-redesign .homepage-links a {
+  border: 1px solid rgba(185, 130, 53, 0.24);
+  border-radius: 999px;
+  padding: 0.38rem 0.72rem;
+  background: rgba(255, 255, 255, 0.54);
+  color: var(--home-gold-deep) !important;
+  font-size: 0.78rem;
+  font-weight: 820;
+  text-decoration: none;
+}
+
+.homepage-redesign .homepage-image-slot {
+  display: grid;
+  place-items: center;
+  min-height: 8rem;
+  border: 1px dashed rgba(143, 95, 36, 0.36);
+  border-radius: 1.35rem;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.45), rgba(250, 237, 217, 0.5)),
+    repeating-linear-gradient(
+      135deg,
+      rgba(143, 95, 36, 0.08) 0,
+      rgba(143, 95, 36, 0.08) 1px,
+      transparent 1px,
+      transparent 12px
+    );
+  color: rgba(143, 95, 36, 0.58);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 820;
+  letter-spacing: 0.16em;
+  text-align: center;
+}
+
+.homepage-redesign .homepage-hero-media {
+  min-height: 17rem;
+}
+
+.homepage-redesign .homepage-card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.homepage-redesign .section-mark {
+  display: inline-grid;
+  place-items: center;
+  flex: 0 0 auto;
+  width: 2.55rem;
+  height: 2.55rem;
+  border-radius: 0.9rem;
+  background: var(--home-blue);
+  color: #fffaf2;
+  font-family: var(--font-mono);
+  font-size: 0.84rem;
+  font-weight: 850;
+  box-shadow: 0 12px 28px rgba(35, 76, 99, 0.18);
+}
+
+.homepage-redesign .homepage-education-grid {
+  display: grid;
+  grid-template-columns: 10rem minmax(0, 1fr);
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.homepage-redesign .homepage-logo-slot {
+  min-height: 10rem;
+}
+
+.homepage-redesign .homepage-education-main,
+.homepage-redesign .homepage-publication-card,
+.homepage-redesign .homepage-experience-grid article,
+.homepage-redesign .homepage-award-list article {
+  border: 1px solid rgba(185, 130, 53, 0.16);
+  border-radius: 1.25rem;
+  background: rgba(255, 255, 255, 0.58);
+}
+
+.homepage-redesign .homepage-education-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.1rem 1.2rem;
+}
+
+.homepage-redesign .homepage-score-board {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.homepage-redesign .homepage-score-board div {
+  min-height: 8.2rem;
+  padding: 1rem;
+  border: 1px solid rgba(185, 130, 53, 0.18);
+  border-radius: 1.2rem;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.72), rgba(250, 237, 217, 0.5));
+}
+
+.homepage-redesign .homepage-score-board strong {
+  display: block;
+  margin-bottom: 0.45rem;
+  color: var(--home-blue);
+  font-family: var(--font-serif);
+  font-size: clamp(1.55rem, 3vw, 2rem);
+  font-weight: 860;
+  letter-spacing: -0.04em;
+}
+
+.homepage-redesign .homepage-score-board span {
+  color: var(--home-muted);
+  font-size: 0.82rem;
+  font-weight: 780;
+}
+
+.homepage-redesign .homepage-course-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.7rem;
+  margin-top: 0.85rem;
+}
+
+.homepage-redesign .homepage-course-grid article {
+  padding: 0.8rem 0.9rem;
+  border-left: 3px solid rgba(185, 130, 53, 0.52);
+  border-radius: 0.9rem;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.homepage-redesign .homepage-course-grid span {
+  display: block;
+  color: var(--home-gold-deep);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 850;
+}
+
+.homepage-redesign .homepage-course-grid p {
+  margin: 0.2rem 0 0;
+  color: var(--home-ink);
+  font-size: 0.9rem;
+  font-weight: 760;
+}
+
+.homepage-redesign .homepage-publication-card {
+  display: grid;
+  grid-template-columns: 12.5rem minmax(0, 1fr);
+  gap: 1.1rem;
+  padding: 1rem;
+}
+
+.homepage-redesign .homepage-paper-slot {
+  min-height: 12rem;
+}
+
+.homepage-redesign .homepage-publication-card p {
+  margin-top: 0.7rem;
+}
+
+.homepage-redesign .homepage-experience-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.homepage-redesign .homepage-experience-grid article {
+  padding: 1rem;
+}
+
+.homepage-redesign .homepage-mini-slot {
+  min-height: 5.8rem;
+  margin-bottom: 0.85rem;
+  border-radius: 1rem;
+}
+
+.homepage-redesign .homepage-experience-grid time {
+  display: inline-flex;
+  margin-bottom: 0.55rem;
+  color: var(--home-gold-deep);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 850;
+}
+
+.homepage-redesign .homepage-experience-grid p {
+  margin-top: 0.55rem;
+  font-size: 0.92rem;
+}
+
+.homepage-redesign .homepage-award-list {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.homepage-redesign .homepage-award-list article {
+  display: grid;
+  grid-template-columns: 8rem minmax(0, 1fr);
+  gap: 1rem;
+  align-items: center;
+  padding: 0.82rem 1rem;
+}
+
+.homepage-redesign .homepage-award-list span {
+  color: var(--home-gold-deep);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 850;
+}
+
+.homepage-redesign .homepage-award-list p {
+  margin: 0;
+  color: var(--home-ink);
+  font-weight: 720;
+}
+
+.homepage-redesign .homepage-thanks {
+  padding: clamp(1.5rem, 3.2vw, 2.25rem);
+  background:
+    linear-gradient(135deg, rgba(35, 76, 99, 0.95), rgba(143, 95, 36, 0.9)),
+    var(--home-blue);
+}
+
+.homepage-redesign .homepage-thanks .homepage-eyebrow,
+.homepage-redesign .homepage-thanks h2,
+.homepage-redesign .homepage-thanks p {
+  color: #fffaf2;
+}
+
+.homepage-redesign .homepage-thanks p {
+  max-width: 48rem;
+  margin-top: 0.85rem;
+  opacity: 0.9;
+}
+
+.homepage-redesign .homepage-thanks a {
+  color: #fff4cf !important;
+  font-weight: 850;
+}
+
+.dark .homepage-redesign {
+  --home-ink: #f8fafc;
+  --home-muted: #cbd5e1;
+  --home-line: rgba(148, 163, 184, 0.22);
+  --home-paper: #111827;
+  --home-card: rgba(15, 23, 42, 0.78);
+  --home-card-soft: rgba(30, 41, 59, 0.82);
+  --home-gold: #f0c37b;
+  --home-gold-deep: #f3d39a;
+  --home-blue: #38bdf8;
+  --home-shadow: 0 24px 70px rgba(0, 0, 0, 0.3);
+}
+
+.dark .homepage-redesign .homepage-anchor,
+.dark .homepage-redesign .homepage-hero,
+.dark .homepage-redesign .homepage-card {
+  border-color: rgba(240, 195, 123, 0.18);
+  background:
+    radial-gradient(circle at top left, rgba(240, 195, 123, 0.12), transparent 30rem),
+    rgba(15, 23, 42, 0.76);
+}
+
+.dark .homepage-redesign .homepage-image-slot,
+.dark .homepage-redesign .homepage-education-main,
+.dark .homepage-redesign .homepage-publication-card,
+.dark .homepage-redesign .homepage-experience-grid article,
+.dark .homepage-redesign .homepage-award-list article,
+.dark .homepage-redesign .homepage-score-board div,
+.dark .homepage-redesign .homepage-course-grid article {
+  border-color: rgba(240, 195, 123, 0.18);
+  background: rgba(15, 23, 42, 0.42);
+}
+
+.dark .homepage-redesign .section-mark {
+  background: rgba(56, 189, 248, 0.18);
+  color: #e0f2fe;
+}
+
+@media (max-width: 1100px) {
+  .homepage-redesign .homepage-score-board,
+  .homepage-redesign .homepage-course-grid,
+  .homepage-redesign .homepage-experience-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .homepage-redesign .homepage-anchor {
+    position: static;
+    border-radius: 1.2rem;
+  }
+
+  .homepage-redesign .homepage-hero,
+  .homepage-redesign .homepage-education-grid,
+  .homepage-redesign .homepage-publication-card,
+  .homepage-redesign .homepage-score-board,
+  .homepage-redesign .homepage-course-grid,
+  .homepage-redesign .homepage-experience-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .homepage-redesign .homepage-hero h2 {
+    font-size: clamp(2rem, 12vw, 3rem);
+  }
+
+  .homepage-redesign .homepage-award-list article {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+}
