@@ -1564,8 +1564,10 @@
 .acad-homepage .competition-item__main {
   flex: 1 1 auto;
   min-width: 0;
-  color: #222;
-  font-size: 0.98rem;
+  color: #2f2f2f;
+  font-family: "Trebuchet MS", Helvetica, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 0.96rem;
+  font-weight: 600;
   line-height: 1.45;
 }
 
@@ -1586,16 +1588,21 @@
 }
 
 .acad-homepage .competition-more {
+  display: flex;
+  flex-direction: column;
   margin-top: 0.9rem;
 }
 
 .acad-homepage .competition-more > summary {
+  order: 2;
   display: inline-flex;
   align-items: center;
-  border: 1px solid #bfdbfe;
+  align-self: flex-start;
+  border: 1px solid #d8d8d8;
   border-radius: 8px;
   padding: 0.45rem 1rem;
-  color: #2563eb;
+  color: #444;
+  background: #fff;
   cursor: pointer;
   font-weight: 600;
   list-style: none;
@@ -1607,8 +1614,8 @@
 }
 
 .acad-homepage .competition-more > summary:hover {
-  border-color: #93c5fd;
-  background: #eff6ff;
+  border-color: #bdbdbd;
+  background: #f6f6f6;
 }
 
 .acad-homepage .competition-more__close {
@@ -1624,7 +1631,8 @@
 }
 
 .acad-homepage .competition-more__content {
-  margin-top: 0.75rem;
+  order: 1;
+  margin-bottom: 0.75rem;
 }
 
 .acad-homepage .competition-more__content .competition-item:last-child {

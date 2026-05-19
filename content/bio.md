@@ -112,15 +112,15 @@
     <h2 class="home-section__title">💬 Competitions</h2>
     <div class="competition-list">
       <div class="competition-item">
-        <div class="competition-item__main"><strong>Meritorious Winner</strong>, Mathematical Contest in Modeling / Interdisciplinary Contest in Modeling (MCM/ICM)</div>
+        <div class="competition-item__main">Meritorious Winner，美国大学生数学建模竞赛（MCM/ICM）</div>
         <div class="competition-item__date">2025.05</div>
       </div>
       <div class="competition-item">
-        <div class="competition-item__main"><strong>Excellence Award (Top 10%)</strong>, CCF Computer Application Technology Competition - National Algorithm Elite Competition</div>
+        <div class="competition-item__main">Top 10%  CCF 计算机应用技术大赛 - 全国算法精英大赛</div>
         <div class="competition-item__date">2025</div>
       </div>
       <div class="competition-item">
-        <div class="competition-item__main"><strong>Team Rank 3</strong>, China Collegiate Programming Contest (CCPC) Campus Preliminary Contest</div>
+        <div class="competition-item__main">rk3 中国大学生程序设计竞赛（CCPC）校内队伍预选赛</div>
         <div class="competition-item__date">2026.04</div>
       </div>
       <details class="competition-more">
