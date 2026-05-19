@@ -3,7 +3,6 @@
     <h2 class="home-section__title">👋 欢迎！</h2>
     <div class="home-section__body">
       <p>这里是单衍喆的个人主页。</p>
-      <p>我目前就读于中国海洋大学数据科学与大数据技术专业，关注 Data-Centric AI、多模态智能体和 AI for Science。基本情况页面只保留核心信息；更完整的科研过程、项目细节和阶段性工作放在 <a href="/research/">科研经历</a> 页面展开。</p>
     </div>
     <div class="about-actions">
       <a href="/files/resume.pdf" class="about-btn" target="_blank" rel="noopener">个人简历</a>

@@ -3,10 +3,9 @@
     <h2 class="home-section__title">👋 Welcome!</h2>
     <div class="home-section__body">
       <p>Here is a homepage about Yanzhe Shan.</p>
-      <p>I am an undergraduate student in Data Science and Big Data Technology at Ocean University of China, with interests in Data-Centric AI, multimodal agents, and AI for Science. This page keeps only key information; a fuller research timeline is available on the <a href="/research/">Research</a> page.</p>
     </div>
     <div class="about-actions">
-      <a href="/files/resume.pdf" class="about-btn" target="_blank" rel="noopener">CV</a>
+      <a href="/files/resume.pdf" class="about-btn" target="_blank" rel="noopener">中文简历</a>
       <div class="about-contact">
         <button type="button" class="about-btn about-btn--secondary">Contact</button>
         <div class="about-contact-card">
