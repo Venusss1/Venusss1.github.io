@@ -47,7 +47,7 @@
       <div class="kv-item"><div class="kv-item__main"><strong>成绩排名：</strong><span class="top-rank">2/36</span></div></div>
       <div class="kv-item"><div class="kv-item__main"><strong>综合排名：</strong><span class="top-rank">1/36</span></div></div>
       <div class="kv-item"><div class="kv-item__main"><strong>英语六级：</strong>502</div></div>
-      <div class="kv-item"><div class="kv-item__main"><strong>核心课程：</strong>概率统计 97.5，Python 科学计算 94.5，并行与分布式计算 93，操作系统 92.5</div></div>
+      <div class="kv-item"><div class="kv-item__main course-row"><strong>核心课程：</strong><span class="course-tags"><span class="course-tag">概率统计 <em>97.5</em></span><span class="course-tag">Python 科学计算 <em>94.5</em></span><span class="course-tag">并行与分布式计算 <em>93</em></span><span class="course-tag">操作系统 <em>92.5</em></span></span></div></div>
     </div>
   </section>
 

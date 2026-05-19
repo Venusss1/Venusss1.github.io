@@ -1547,6 +1547,39 @@
   font-weight: 600;
 }
 
+.acad-homepage .course-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.acad-homepage .course-tags {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.acad-homepage .course-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 999px;
+  padding: 0.24rem 0.62rem;
+  background: #f8f8f8;
+  color: #333;
+  font-size: 0.88rem;
+  line-height: 1.25;
+  white-space: nowrap;
+}
+
+.acad-homepage .course-tag em {
+  color: #111;
+  font-style: normal;
+  font-weight: 700;
+}
+
 .acad-homepage .competition-list {
   display: flex;
   flex-direction: column;

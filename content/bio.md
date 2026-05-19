@@ -47,7 +47,7 @@
       <div class="kv-item"><div class="kv-item__main"><strong>Grade Ranking:</strong> <span class="top-rank">2/36</span></div></div>
       <div class="kv-item"><div class="kv-item__main"><strong>Overall Ranking:</strong> <span class="top-rank">1/36</span></div></div>
       <div class="kv-item"><div class="kv-item__main"><strong>CET-6:</strong> 502</div></div>
-      <div class="kv-item"><div class="kv-item__main"><strong>Core Coursework:</strong> Probability & Statistics 97.5, Python Scientific Computing 94.5, Parallel & Distributed Computing 93, Operating Systems 92.5</div></div>
+      <div class="kv-item"><div class="kv-item__main course-row"><strong>Core Coursework:</strong> <span class="course-tags"><span class="course-tag">Probability &amp; Statistics <em>97.5</em></span><span class="course-tag">Python Scientific Computing <em>94.5</em></span><span class="course-tag">Parallel &amp; Distributed Computing <em>93</em></span><span class="course-tag">Operating Systems <em>92.5</em></span></span></div></div>
     </div>
   </section>
 
