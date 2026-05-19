@@ -54,8 +54,8 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
   }
 
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-background min-h-screen">
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-background min-h-screen">
+      <div className="grid grid-cols-1 lg:grid-cols-[20rem_minmax(0,1fr)] gap-8 lg:gap-10">
         <div className="lg:col-span-1">
           <div className="bg-white dark:bg-neutral-800/50 rounded-2xl shadow-lg p-6 backdrop-blur-sm border border-neutral-200/50 dark:border-neutral-700/50">
             <Profile
@@ -67,9 +67,16 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
           </div>
         </div>
 
-        <div className="lg:col-span-2 space-y-8">
+        <div className="space-y-6">
           {data.pagesToShow.map((page) => (
-            <section key={page.id} id={page.id} className="scroll-mt-24 space-y-8 bg-white dark:bg-neutral-800/50 rounded-2xl shadow-lg p-6 sm:p-8 backdrop-blur-sm border border-neutral-200/50 dark:border-neutral-700/50">
+            <section
+              key={page.id}
+              id={page.id}
+              className={`scroll-mt-24 ${page.type === 'about'
+                ? 'space-y-6'
+                : 'space-y-8 bg-white dark:bg-neutral-800/50 rounded-2xl shadow-lg p-6 sm:p-8 backdrop-blur-sm border border-neutral-200/50 dark:border-neutral-700/50'
+                }`}
+            >
               {page.type === 'about' && page.sections.map((section: SectionConfig) => {
                 switch (section.type) {
                   case 'markdown':

@@ -1,14 +1,6 @@
 type = "about"
 title = "About"
 
-[profile]
-research_interests = [
-  "Data-Centric AI",
-  "Multi-Modal Agents",
-  "AI for Science",
-  "Large Language Models"
-]
-
 [[sections]]
 id = "about"
 type = "markdown"
