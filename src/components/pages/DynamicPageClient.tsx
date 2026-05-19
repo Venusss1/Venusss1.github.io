@@ -31,8 +31,11 @@ export default function DynamicPageClient({ dataByLocale, defaultLocale }: Dynam
   }
 
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <div className="bg-white dark:bg-neutral-800/50 rounded-2xl shadow-lg p-6 sm:p-8 backdrop-blur-sm border border-neutral-200/50 dark:border-neutral-700/50">
+    <div className="acad-dynamic-shell max-w-[1100px] mx-auto px-2 sm:px-3 lg:px-2 py-4">
+      <div className={`acad-dynamic-card ${pageData.type === 'text'
+        ? ''
+        : 'bg-white dark:bg-neutral-800/50 rounded-2xl shadow-lg p-6 sm:p-8 backdrop-blur-sm border border-neutral-200/50 dark:border-neutral-700/50'
+        }`}>
         {pageData.type === 'publication' && (
           <PublicationsList config={pageData.config} publications={pageData.publications} />
         )}
