@@ -1336,3 +1336,410 @@
     gap: 0.25rem;
   }
 }
+
+/* AcadHomepage-aligned homepage styles */
+.acad-page-shell {
+  background: #fafafa !important;
+  color: #4a4f55;
+}
+
+.acad-page-shell .acad-sidebar-card {
+  border: 1px solid #eee !important;
+  border-radius: 8px !important;
+  background: #fff !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06) !important;
+}
+
+.acad-homepage {
+  display: block;
+  color: #4a4f55;
+  font-family: "Trebuchet MS", Helvetica, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.acad-homepage a {
+  color: #2563eb !important;
+  text-decoration: none;
+}
+
+.acad-homepage a:hover {
+  text-decoration: underline;
+}
+
+.acad-homepage .home-section {
+  margin-bottom: 2.5rem;
+  padding: 1.5rem 1.75rem;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  scroll-margin-top: 7rem;
+}
+
+.acad-homepage .home-section:first-of-type {
+  margin-top: 0;
+}
+
+.acad-homepage .home-section__title {
+  margin: 0 0 1rem !important;
+  padding: 0 0 0.5rem !important;
+  border: 0 !important;
+  border-bottom: 2px solid #eee !important;
+  color: #333;
+  font-family: "Trebuchet MS", Helvetica, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 1.35em;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.acad-homepage .home-section__body p,
+.acad-homepage .home-section__body li,
+.acad-homepage .home-section__body ul {
+  margin-bottom: 0.5em;
+}
+
+.acad-homepage .edu-list,
+.acad-homepage .intern-list,
+.acad-homepage .kv-list,
+.acad-homepage .pub-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.acad-homepage .edu-list {
+  gap: 0.9rem;
+}
+
+.acad-homepage .pub-list {
+  gap: 1.25rem;
+}
+
+.acad-homepage .intern-list {
+  gap: 1rem;
+}
+
+.acad-homepage .edu-item {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.acad-homepage .edu-item__logo,
+.acad-homepage .intern-item__logo {
+  display: grid;
+  place-items: center;
+  flex: 0 0 44px;
+  width: 44px;
+  height: 44px;
+  border: 1px solid #e7e7e7;
+  border-radius: 999px;
+  background: #f3f4f6;
+  overflow: hidden;
+}
+
+.acad-homepage .placeholder-logo::after {
+  content: "";
+  width: 18px;
+  height: 18px;
+  border: 1px dashed #c9ced6;
+  border-radius: 50%;
+}
+
+.acad-homepage .edu-item__main,
+.acad-homepage .intern-item__main {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.acad-homepage .edu-item__title,
+.acad-homepage .intern-item__title {
+  overflow: hidden;
+  color: #222;
+  font-weight: 600;
+  line-height: 1.25;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.acad-homepage .edu-item__sub,
+.acad-homepage .intern-item__sub {
+  margin-top: 0.25rem;
+  color: #666;
+  font-size: 0.95em;
+}
+
+.acad-homepage .edu-item__date {
+  flex: 0 0 auto;
+  margin-left: auto;
+  border-radius: 999px;
+  padding: 0.2rem 0.65rem;
+  background: #4a4a4a;
+  color: #fff;
+  font-size: 0.78em;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.acad-homepage .kv-list {
+  gap: 0.55rem;
+}
+
+.acad-homepage .kv-item {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.acad-homepage .kv-item:last-child {
+  border-bottom: 0;
+}
+
+.acad-homepage .kv-item__main {
+  flex: 1 1 auto;
+  min-width: 0;
+  color: #222;
+  line-height: 1.35;
+}
+
+.acad-homepage .kv-item__main strong {
+  font-weight: 600;
+}
+
+.acad-homepage .top-rank {
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.acad-homepage .pub-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 4px 18px rgba(15, 23, 42, 0.06);
+}
+
+.acad-homepage .pub-card__thumb {
+  flex: 0 0 340px;
+  max-width: 380px;
+}
+
+.acad-homepage .placeholder-thumb {
+  display: grid;
+  place-items: center;
+  min-height: 190px;
+  border: 1px dashed #d1d5db;
+  border-radius: 6px;
+  background: #f9fafb;
+}
+
+.acad-homepage .placeholder-thumb::after {
+  content: "IMAGE";
+  color: #9ca3af;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+}
+
+.acad-homepage .pub-card__body {
+  flex: 1 1 260px;
+  min-width: 0;
+}
+
+.acad-homepage .pub-card__title {
+  margin: 0 0 0.35rem;
+  color: #111827;
+  font-size: 1.05em;
+  font-weight: 700;
+}
+
+.acad-homepage .pub-card__title a {
+  color: #111827 !important;
+  text-decoration: none;
+}
+
+.acad-homepage .pub-card__title a:hover {
+  text-decoration: underline;
+}
+
+.acad-homepage .pub-card__meta,
+.acad-homepage .pub-card__abstract {
+  font-size: 0.875rem;
+  font-weight: normal;
+  line-height: 1.45;
+}
+
+.acad-homepage .pub-card__meta {
+  margin-bottom: 0.4rem;
+}
+
+.acad-homepage .pub-card__authors {
+  color: #111;
+}
+
+.acad-homepage .pub-card__type {
+  display: block;
+  margin-top: 0.25rem;
+  color: #111;
+  font-style: italic;
+}
+
+.acad-homepage .pub-card__abstract {
+  margin: 0 0 0.6rem;
+  color: #6b7280;
+}
+
+.acad-homepage .pub-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.acad-homepage .pub-btn {
+  display: inline-block;
+  border: 1px solid #2563eb;
+  border-radius: 6px;
+  padding: 0.35rem 0.75rem;
+  background: #fff;
+  color: #2563eb !important;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.acad-homepage .pub-btn:hover {
+  background: #eff6ff;
+  text-decoration: none;
+}
+
+.acad-homepage .pub-btn--ghost {
+  border-color: #d1d5db;
+  color: #6b7280 !important;
+}
+
+.acad-homepage .pub-btn--ghost:hover {
+  border-color: #9ca3af;
+  background: #f9fafb;
+}
+
+.acad-homepage .intern-entry {
+  padding: 0.2rem 0;
+}
+
+.acad-homepage .intern-item {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.acad-homepage .intern-item__notes {
+  margin-top: 0.55rem;
+  margin-left: calc(44px + 0.9rem);
+  color: #444;
+  font-size: 0.85em;
+  line-height: 1.5;
+}
+
+.acad-homepage .home-section--closing {
+  padding: 2rem 1.75rem 1.5rem;
+  border-top: 2px solid #555;
+  text-align: center;
+}
+
+.acad-homepage .closing-card__greeting {
+  margin: 0 0 0.5rem !important;
+  padding: 0 !important;
+  border: 0 !important;
+  color: #333;
+  font-family: "Trebuchet MS", Helvetica, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 1.15em;
+  font-weight: 700;
+}
+
+.acad-homepage .closing-card__text {
+  margin-bottom: 0.3rem;
+  color: #444;
+  font-size: 1em;
+  line-height: 1.7;
+}
+
+.acad-homepage .closing-highlight {
+  padding: 0 0.15rem;
+  background: linear-gradient(to top, #bfdbfe 30%, transparent 30%);
+  color: #111;
+  font-weight: 700;
+}
+
+.acad-homepage .closing-card__sub {
+  margin-bottom: 1rem;
+  color: #9ca3af;
+  font-size: 0.88em;
+}
+
+.dark .acad-page-shell {
+  background: #fafafa !important;
+}
+
+.dark .acad-page-shell .acad-sidebar-card,
+.dark .acad-homepage .home-section,
+.dark .acad-homepage .edu-item,
+.dark .acad-homepage .pub-card {
+  background: #fff !important;
+  color: #4a4f55;
+}
+
+.dark .acad-homepage .home-section__title,
+.dark .acad-homepage .edu-item__title,
+.dark .acad-homepage .intern-item__title,
+.dark .acad-homepage .kv-item__main,
+.dark .acad-homepage .pub-card__title,
+.dark .acad-homepage .pub-card__title a,
+.dark .acad-homepage .closing-card__greeting {
+  color: #222 !important;
+}
+
+@media (max-width: 700px) {
+  .acad-homepage .home-section {
+    padding: 1rem;
+    scroll-margin-top: 5rem;
+  }
+
+  .acad-homepage .edu-item,
+  .acad-homepage .intern-item {
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .acad-homepage .edu-item__title,
+  .acad-homepage .intern-item__title {
+    white-space: normal;
+  }
+
+  .acad-homepage .edu-item__date {
+    margin-left: 0;
+  }
+
+  .acad-homepage .intern-item__notes {
+    margin-left: 0;
+  }
+
+  .acad-homepage .pub-card {
+    padding: 0.85rem 0.9rem;
+  }
+
+  .acad-homepage .pub-card__thumb {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}

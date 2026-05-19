@@ -1,149 +1,107 @@
-<div class="homepage-sections homepage-redesign">
-  <nav class="homepage-anchor">
-    <a href="#welcome">Welcome</a>
-    <a href="#education">Education</a>
-    <a href="#scores">Scores</a>
-    <a href="#publications">Publications</a>
-    <a href="#internships">Internships</a>
-    <a href="#competitions">Competitions</a>
-    <a href="#thanks">Thanks</a>
-  </nav>
-
-  <section class="homepage-hero" id="welcome">
-    <div class="homepage-hero-copy">
-      <span class="homepage-eyebrow">WELCOME</span>
-      <h2>Welcome to My Homepage</h2>
-      <p>I am Yanzhe Shan, an undergraduate student in Data Science and Big Data Technology at Ocean University of China. My current interests include Data-Centric AI, multimodal agents, and AI for Science, with an emphasis on engineering implementation, data construction, and verifiable evaluation.</p>
-      <div class="homepage-hero-tags">
-        <span>Data-Centric AI</span>
-        <span>Multimodal Agents</span>
-        <span>AI for Science</span>
-      </div>
-    </div>
-    <div class="homepage-image-slot homepage-hero-media">
-      <span>PHOTO / CAMPUS IMAGE</span>
+<div class="homepage-sections acad-homepage">
+  <section class="home-section" id="welcome">
+    <h2 class="home-section__title">👋 Welcome!</h2>
+    <div class="home-section__body">
+      <p>This is the personal homepage of Yanzhe Shan. I am an undergraduate student in Data Science and Big Data Technology at Ocean University of China, with interests in Data-Centric AI, multimodal agents, and AI for Science.</p>
+      <p>This page keeps only key information; a fuller research timeline is available on the <a href="/research/">Research</a> page.</p>
     </div>
   </section>
 
-  <section class="homepage-card" id="education">
-    <header class="homepage-card-header">
-      <span class="section-mark">01</span>
-      <div>
-        <span class="homepage-eyebrow">EDUCATION</span>
-        <h2>Education</h2>
-      </div>
-    </header>
-    <div class="homepage-education-grid">
-      <div class="homepage-image-slot homepage-logo-slot">
-        <span>UNIVERSITY LOGO</span>
-      </div>
-      <article class="homepage-education-main">
-        <h3>Ocean University of China (985) · School of Computer Science and Technology</h3>
-        <p>B.Eng. in Data Science and Big Data Technology, Class of 2023</p>
-        <div class="homepage-badges">
-          <span>2023 - Present</span>
-          <span>Probationary CPC Member</span>
-          <span>Qingdao, China</span>
+  <section class="home-section" id="education">
+    <h2 class="home-section__title">📖 Education</h2>
+    <div class="edu-list">
+      <article class="edu-item">
+        <div class="edu-item__logo placeholder-logo"></div>
+        <div class="edu-item__main">
+          <div class="edu-item__title">Ocean University of China (985) · School of Computer Science and Technology</div>
+          <div class="edu-item__sub">B.Eng. in Data Science and Big Data Technology, Class of 2023</div>
+        </div>
+        <div class="edu-item__date">2023 - Present</div>
+      </article>
+    </div>
+  </section>
+
+  <section class="home-section" id="scores">
+    <h2 class="home-section__title">📝 Scores</h2>
+    <div class="kv-list score-list">
+      <div class="kv-item"><div class="kv-item__main"><strong>GPA:</strong> <span class="top-rank">3.69/4.0</span></div></div>
+      <div class="kv-item"><div class="kv-item__main"><strong>Grade Ranking:</strong> <span class="top-rank">2/36</span></div></div>
+      <div class="kv-item"><div class="kv-item__main"><strong>Overall Ranking:</strong> <span class="top-rank">1/36</span></div></div>
+      <div class="kv-item"><div class="kv-item__main"><strong>CET-6:</strong> 502</div></div>
+      <div class="kv-item"><div class="kv-item__main"><strong>Core Coursework:</strong> Probability & Statistics 97.5, Python Scientific Computing 94.5, Parallel & Distributed Computing 93, Operating Systems 92.5</div></div>
+    </div>
+  </section>
+
+  <section class="home-section" id="publications">
+    <h2 class="home-section__title">📝 Publications</h2>
+    <div class="pub-list">
+      <article class="pub-card">
+        <div class="pub-card__thumb placeholder-thumb"></div>
+        <div class="pub-card__body">
+          <h3 class="pub-card__title"><a href="https://arxiv.org/abs/2602.12876">BrowseComp-V³: A Visual, Vertical, and Verifiable Benchmark for Multimodal Browsing Agents</a></h3>
+          <div class="pub-card__meta">
+            <span class="pub-card__authors">Core Contributor</span>
+            <span class="pub-card__type">arXiv Preprint</span>
+          </div>
+          <p class="pub-card__abstract">The work focuses on complex web search, visual understanding, cross-page aggregation, and verifiable evaluation for multimodal browsing agents.</p>
+          <div class="pub-card__actions">
+            <a class="pub-btn" href="https://arxiv.org/abs/2602.12876">arXiv</a>
+            <a class="pub-btn pub-btn--ghost" href="https://github.com/Halcyon-Zhang/BrowseComp-V3">GitHub</a>
+          </div>
         </div>
       </article>
     </div>
   </section>
 
-  <section class="homepage-card" id="scores">
-    <header class="homepage-card-header">
-      <span class="section-mark">02</span>
-      <div>
-        <span class="homepage-eyebrow">SCORES</span>
-        <h2>Scores</h2>
-      </div>
-    </header>
-    <div class="homepage-score-board">
-      <div><strong>3.69/4.0</strong><span>GPA</span></div>
-      <div><strong>2/36</strong><span>Grade Ranking</span></div>
-      <div><strong>1/36</strong><span>Overall Ranking</span></div>
-      <div><strong>502</strong><span>CET-6</span></div>
-    </div>
-    <div class="homepage-course-grid">
-      <article><span>97.5</span><p>Probability & Statistics</p></article>
-      <article><span>94.5</span><p>Python Scientific Computing</p></article>
-      <article><span>93</span><p>Parallel & Distributed Computing</p></article>
-      <article><span>92.5</span><p>Operating Systems</p></article>
-    </div>
-  </section>
-
-  <section class="homepage-card" id="publications">
-    <header class="homepage-card-header">
-      <span class="section-mark">03</span>
-      <div>
-        <span class="homepage-eyebrow">PUBLICATIONS</span>
-        <h2>Publications & Open Source</h2>
-      </div>
-    </header>
-    <article class="homepage-publication-card">
-      <div class="homepage-image-slot homepage-paper-slot">
-        <span>PAPER FIGURE</span>
-      </div>
-      <div>
-        <span class="homepage-status">Core Contributor</span>
-        <h3>BrowseComp-V³: A Visual, Vertical, and Verifiable Benchmark for Multimodal Browsing Agents</h3>
-        <p>The work focuses on complex web search, visual understanding, cross-page aggregation, and verifiable evaluation for multimodal browsing agents.</p>
-        <div class="homepage-links">
-          <a href="https://arxiv.org/abs/2602.12876">arXiv</a>
-          <a href="https://github.com/Halcyon-Zhang/BrowseComp-V3">GitHub</a>
+  <section class="home-section" id="internships">
+    <h2 class="home-section__title">💻 Internships</h2>
+    <div class="intern-list">
+      <article class="intern-entry">
+        <div class="intern-item">
+          <div class="intern-item__logo placeholder-logo"></div>
+          <div class="intern-item__main">
+            <div class="intern-item__title">Peking University · Prof. Wentao Zhang's Group</div>
+            <div class="intern-item__sub">OpenDCAI / AgentFlow · 2025.12 - Present</div>
+          </div>
         </div>
-      </div>
-    </article>
-  </section>
-
-  <section class="homepage-card" id="internships">
-    <header class="homepage-card-header">
-      <span class="section-mark">04</span>
-      <div>
-        <span class="homepage-eyebrow">INTERNSHIPS</span>
-        <h2>Research Internships</h2>
-      </div>
-    </header>
-    <div class="homepage-experience-grid">
-      <article>
-        <div class="homepage-image-slot homepage-mini-slot"><span>LOGO</span></div>
-        <time>2025.12 - Present</time>
-        <h3>Peking University · Prof. Wentao Zhang's Group</h3>
-        <p>Research on OpenDCAI / AgentFlow, including agent data synthesis, multimodal deep search, SFT / RL post-training, and process evaluation.</p>
+        <div class="intern-item__notes">Research on agent data synthesis, multimodal deep search, SFT / RL post-training, and process evaluation.</div>
       </article>
-      <article>
-        <div class="homepage-image-slot homepage-mini-slot"><span>LOGO</span></div>
-        <time>2025</time>
-        <h3>Tsinghua University · TLLM Lab</h3>
-        <p>Exploration of industrial large models, wafer defect detection, prognostics and health management, and continual learning.</p>
+      <article class="intern-entry">
+        <div class="intern-item">
+          <div class="intern-item__logo placeholder-logo"></div>
+          <div class="intern-item__main">
+            <div class="intern-item__title">Tsinghua University · TLLM Lab</div>
+            <div class="intern-item__sub">Industrial LLMs and wafer defect detection · 2025</div>
+          </div>
+        </div>
+        <div class="intern-item__notes">Exploration of wafer defect detection, prognostics and health management, continual learning, and class-incremental methods.</div>
       </article>
-      <article>
-        <div class="homepage-image-slot homepage-mini-slot"><span>LOGO</span></div>
-        <time>2025</time>
-        <h3>Harbin Institute of Technology, Shenzhen</h3>
-        <p>Literature review and reproduction on video generation, MotionRAG, and physical consistency.</p>
+      <article class="intern-entry">
+        <div class="intern-item">
+          <div class="intern-item__logo placeholder-logo"></div>
+          <div class="intern-item__main">
+            <div class="intern-item__title">Harbin Institute of Technology, Shenzhen</div>
+            <div class="intern-item__sub">Video generation, MotionRAG, and physical consistency · 2025</div>
+          </div>
+        </div>
+        <div class="intern-item__notes">Literature review and reproduction work related to visual generation models.</div>
       </article>
     </div>
   </section>
 
-  <section class="homepage-card" id="competitions">
-    <header class="homepage-card-header">
-      <span class="section-mark">05</span>
-      <div>
-        <span class="homepage-eyebrow">COMPETITIONS</span>
-        <h2>Competitions & Honors</h2>
-      </div>
-    </header>
-    <div class="homepage-award-list">
-      <article><span>2025.05</span><p>Meritorious Winner (M Prize), MCM/ICM Mathematical Modeling Contest</p></article>
-      <article><span>2025</span><p>ACM Training Team Member, Ocean University of China, ranked 5th</p></article>
-      <article><span>2025.05-06</span><p>Provincial Award, Lanqiao Cup Programming Contest</p></article>
-      <article><span>2025.05-06</span><p>Provincial Award, Computer Challenge Competition</p></article>
+  <section class="home-section" id="competitions">
+    <h2 class="home-section__title">💬 Competitions</h2>
+    <div class="kv-list">
+      <div class="kv-item"><div class="kv-item__main"><strong>2025.05</strong> Meritorious Winner (M Prize), MCM/ICM Mathematical Modeling Contest</div></div>
+      <div class="kv-item"><div class="kv-item__main"><strong>2025</strong> ACM Training Team Member, Ocean University of China, ranked 5th</div></div>
+      <div class="kv-item"><div class="kv-item__main"><strong>2025.05-06</strong> Provincial Award, Lanqiao Cup Programming Contest</div></div>
+      <div class="kv-item"><div class="kv-item__main"><strong>2025.05-06</strong> Provincial Award, Computer Challenge Competition</div></div>
     </div>
   </section>
 
-  <section class="homepage-thanks" id="thanks">
-    <span class="homepage-eyebrow">THANKS FOR VISITING</span>
-    <h2>Thanks for Stopping By</h2>
-    <p>I welcome conversations and collaboration around Data-Centric AI, multimodal agents, AI for Science, model training, and research projects. More detailed research experience is available on the <a href="/research/">Research</a> page.</p>
+  <section class="home-section home-section--closing" id="thanks">
+    <h2 class="closing-card__greeting">Thanks for stopping by!</h2>
+    <p class="closing-card__text">I welcome conversations and collaboration around <span class="closing-highlight">Data-Centric AI</span>, multimodal agents, AI for Science, model training, and research projects.</p>
+    <p class="closing-card__sub">Feel free to reach out.</p>
   </section>
 </div>
