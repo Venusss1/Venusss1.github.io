@@ -146,7 +146,7 @@
         <div class="about-contact-card">
           <div class="about-contact-card__row">
             <span class="about-contact-card__label">Email</span>
-            <span class="about-contact-card__value"><a href="mailto:dyz8327@stu.ouc.edu.cn">dyz8327@stu.ouc.edu.cn</a></span>
+            <span class="about-contact-card__value">dyz8327@stu.ouc.edu.cn</span>
           </div>
           <div class="about-contact-card__row">
             <span class="about-contact-card__label">Phone</span>
