@@ -11,7 +11,7 @@
     <h2 class="home-section__title">📖 教育背景</h2>
     <div class="edu-list">
       <article class="edu-item">
-        <div class="edu-item__logo placeholder-logo"></div>
+        <div class="edu-item__logo"><img src="/images/homepage/ouc-logo.png" alt="中国海洋大学校徽" /></div>
         <div class="edu-item__main">
           <div class="edu-item__title">中国海洋大学（985） · 计算机科学与技术学院</div>
           <div class="edu-item__sub">数据科学与大数据技术，2023 级本科生</div>
@@ -36,7 +36,7 @@
     <h2 class="home-section__title">📝 论文成果</h2>
     <div class="pub-list">
       <article class="pub-card">
-        <div class="pub-card__thumb placeholder-thumb"></div>
+        <div class="pub-card__thumb"><img src="/images/homepage/research-bcv3.png" alt="BrowseComp-V³ 数据构造流程图" /></div>
         <div class="pub-card__body">
           <h3 class="pub-card__title"><a href="https://arxiv.org/abs/2602.12876">BrowseComp-V³: A Visual, Vertical, and Verifiable Benchmark for Multimodal Browsing Agents</a></h3>
           <div class="pub-card__meta">
@@ -58,7 +58,7 @@
     <div class="intern-list">
       <article class="intern-entry">
         <div class="intern-item">
-          <div class="intern-item__logo placeholder-logo"></div>
+          <div class="intern-item__logo logo-wide"><img src="/images/homepage/pku-logo.png" alt="北京大学标志" /></div>
           <div class="intern-item__main">
             <div class="intern-item__title">北京大学 · 张文涛教授课题组</div>
             <div class="intern-item__sub">OpenDCAI / AgentFlow · 2025.12 至今</div>
@@ -68,7 +68,7 @@
       </article>
       <article class="intern-entry">
         <div class="intern-item">
-          <div class="intern-item__logo placeholder-logo"></div>
+          <div class="intern-item__logo logo-wide"><img src="/images/homepage/tsinghua-logo.png" alt="清华大学标志" /></div>
           <div class="intern-item__main">
             <div class="intern-item__title">清华大学 TLLM Lab</div>
             <div class="intern-item__sub">工业大模型与晶圆缺陷检测 · 2025</div>
@@ -78,7 +78,7 @@
       </article>
       <article class="intern-entry">
         <div class="intern-item">
-          <div class="intern-item__logo placeholder-logo"></div>
+          <div class="intern-item__logo logo-wide"><img src="/images/homepage/hitsz-logo.png" alt="哈尔滨工业大学深圳校区标志" /></div>
           <div class="intern-item__main">
             <div class="intern-item__title">哈尔滨工业大学（深圳）</div>
             <div class="intern-item__sub">视频生成、MotionRAG 与物理一致性 · 2025</div>

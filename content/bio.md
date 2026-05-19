@@ -11,7 +11,7 @@
     <h2 class="home-section__title">📖 Education</h2>
     <div class="edu-list">
       <article class="edu-item">
-        <div class="edu-item__logo placeholder-logo"></div>
+        <div class="edu-item__logo"><img src="/images/homepage/ouc-logo.png" alt="Ocean University of China logo" /></div>
         <div class="edu-item__main">
           <div class="edu-item__title">Ocean University of China (985) · School of Computer Science and Technology</div>
           <div class="edu-item__sub">B.Eng. in Data Science and Big Data Technology, Class of 2023</div>
@@ -36,7 +36,7 @@
     <h2 class="home-section__title">📝 Publications</h2>
     <div class="pub-list">
       <article class="pub-card">
-        <div class="pub-card__thumb placeholder-thumb"></div>
+        <div class="pub-card__thumb"><img src="/images/homepage/research-bcv3.png" alt="BrowseComp-V3 data construction pipeline" /></div>
         <div class="pub-card__body">
           <h3 class="pub-card__title"><a href="https://arxiv.org/abs/2602.12876">BrowseComp-V³: A Visual, Vertical, and Verifiable Benchmark for Multimodal Browsing Agents</a></h3>
           <div class="pub-card__meta">
@@ -58,7 +58,7 @@
     <div class="intern-list">
       <article class="intern-entry">
         <div class="intern-item">
-          <div class="intern-item__logo placeholder-logo"></div>
+          <div class="intern-item__logo logo-wide"><img src="/images/homepage/pku-logo.png" alt="Peking University logo" /></div>
           <div class="intern-item__main">
             <div class="intern-item__title">Peking University · Prof. Wentao Zhang's Group</div>
             <div class="intern-item__sub">OpenDCAI / AgentFlow · 2025.12 - Present</div>
@@ -68,7 +68,7 @@
       </article>
       <article class="intern-entry">
         <div class="intern-item">
-          <div class="intern-item__logo placeholder-logo"></div>
+          <div class="intern-item__logo logo-wide"><img src="/images/homepage/tsinghua-logo.png" alt="Tsinghua University logo" /></div>
           <div class="intern-item__main">
             <div class="intern-item__title">Tsinghua University · TLLM Lab</div>
             <div class="intern-item__sub">Industrial LLMs and wafer defect detection · 2025</div>
@@ -78,7 +78,7 @@
       </article>
       <article class="intern-entry">
         <div class="intern-item">
-          <div class="intern-item__logo placeholder-logo"></div>
+          <div class="intern-item__logo logo-wide"><img src="/images/homepage/hitsz-logo.png" alt="Harbin Institute of Technology, Shenzhen logo" /></div>
           <div class="intern-item__main">
             <div class="intern-item__title">Harbin Institute of Technology, Shenzhen</div>
             <div class="intern-item__sub">Video generation, MotionRAG, and physical consistency · 2025</div>

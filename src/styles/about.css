@@ -1442,6 +1442,26 @@
   overflow: hidden;
 }
 
+.acad-homepage .edu-item__logo img,
+.acad-homepage .intern-item__logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.acad-homepage .intern-item__logo.logo-wide {
+  flex-basis: 116px;
+  width: 116px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.acad-homepage .intern-item__logo.logo-wide img {
+  padding: 0.25rem 0.35rem;
+  object-fit: contain;
+}
+
 .acad-homepage .placeholder-logo::after {
   content: "";
   width: 18px;
@@ -1532,6 +1552,14 @@
 .acad-homepage .pub-card__thumb {
   flex: 0 0 340px;
   max-width: 380px;
+}
+
+.acad-homepage .pub-card__thumb img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
 }
 
 .acad-homepage .placeholder-thumb {
