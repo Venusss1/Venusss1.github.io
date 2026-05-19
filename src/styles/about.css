@@ -1431,7 +1431,7 @@
 }
 
 .acad-homepage .intern-list {
-  gap: 1rem;
+  gap: 0;
 }
 
 .acad-homepage .edu-item {
@@ -1686,7 +1686,68 @@
 }
 
 .acad-homepage .intern-entry {
-  padding: 0.2rem 0;
+  display: grid;
+  grid-template-columns: 52px minmax(0, 1fr) auto;
+  align-items: start;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.acad-homepage .intern-entry:last-child {
+  border-bottom: 0;
+}
+
+.acad-homepage .intern-entry__logo {
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border: 1px solid #e7e7e7;
+  border-radius: 50%;
+  background: #fff;
+  overflow: hidden;
+}
+
+.acad-homepage .intern-entry__logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0.22rem;
+  object-fit: contain;
+}
+
+.acad-homepage .intern-entry__title {
+  margin: 0 0 0.15rem;
+  color: #1f2933;
+  font-size: 1.02rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.acad-homepage .intern-entry__meta {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.35;
+}
+
+.acad-homepage .intern-entry__desc {
+  margin: 0.65rem 0 0 !important;
+  color: #333;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.acad-homepage .intern-entry__date {
+  margin-top: 0.2rem;
+  border-radius: 999px;
+  padding: 0.28rem 0.8rem;
+  background: #4a4a4a;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1.15;
+  white-space: nowrap;
 }
 
 .acad-homepage .intern-item {
@@ -1830,6 +1891,7 @@
 .dark .acad-page-shell .acad-sidebar-card,
 .dark .acad-homepage .home-section,
 .dark .acad-homepage .edu-item,
+.dark .acad-homepage .intern-entry,
 .dark .acad-homepage .pub-card {
   background: #fff !important;
   color: #4a4f55;
@@ -1837,6 +1899,7 @@
 
 .dark .acad-homepage .home-section__title,
 .dark .acad-homepage .edu-item__title,
+.dark .acad-homepage .intern-entry__title,
 .dark .acad-homepage .intern-item__title,
 .dark .acad-homepage .kv-item__main,
 .dark .acad-homepage .pub-card__title,
@@ -1868,6 +1931,22 @@
 
   .acad-homepage .intern-item__notes {
     margin-left: 0;
+  }
+
+  .acad-homepage .intern-entry {
+    grid-template-columns: 46px minmax(0, 1fr);
+    gap: 0.75rem;
+  }
+
+  .acad-homepage .intern-entry__logo {
+    width: 46px;
+    height: 46px;
+  }
+
+  .acad-homepage .intern-entry__date {
+    grid-column: 2;
+    justify-self: start;
+    margin-top: 0;
   }
 
   .acad-homepage .pub-card {

@@ -76,34 +76,31 @@
     <h2 class="home-section__title">💻 科研实习</h2>
     <div class="intern-list">
       <article class="intern-entry">
-        <div class="intern-item">
-          <div class="intern-item__logo logo-wide"><img src="/images/homepage/pku-logo.png" alt="北京大学标志" /></div>
-          <div class="intern-item__main">
-            <div class="intern-item__title">北京大学 · 张文涛教授课题组</div>
-            <div class="intern-item__sub">OpenDCAI / AgentFlow · 2025.12 至今</div>
-          </div>
+        <div class="intern-entry__logo"><img src="/images/homepage/pku-logo.png" alt="北京大学标志" /></div>
+        <div class="intern-entry__content">
+          <div class="intern-entry__title">DCAI, Peking University</div>
+          <div class="intern-entry__meta">Research Intern · Supervised by Prof. Wentao Zhang</div>
+          <p class="intern-entry__desc">围绕 Agent systems 与数据挖掘开展研究，重点关注面向搜索智能体的数据集构建、多模态大模型与搜索智能体训练和调优。参与设计与构建高质量任务样本，引入跨页面信息聚合与动态多跳推理约束，并负责关键实验、消融分析和基线模型评测。</p>
         </div>
-        <div class="intern-item__notes">围绕智能体数据合成、多模态深度搜索、SFT / RL 后训练和过程评测开展研究。</div>
+        <div class="intern-entry__date">2025.12 - Now</div>
       </article>
       <article class="intern-entry">
-        <div class="intern-item">
-          <div class="intern-item__logo logo-wide"><img src="/images/homepage/tsinghua-logo.png" alt="清华大学标志" /></div>
-          <div class="intern-item__main">
-            <div class="intern-item__title">清华大学 TLLM Lab</div>
-            <div class="intern-item__sub">工业大模型与晶圆缺陷检测 · 2025</div>
-          </div>
+        <div class="intern-entry__logo"><img src="/images/homepage/tsinghua-logo.png" alt="清华大学标志" /></div>
+        <div class="intern-entry__content">
+          <div class="intern-entry__title">TLLM Lab, Tsinghua University</div>
+          <div class="intern-entry__meta">Research Intern · Industrial LLMs and Wafer Defect Detection</div>
+          <p class="intern-entry__desc">参与工业场景下大模型与视觉检测方向研究，关注晶圆缺陷检测、故障预测健康管理、持续学习和类增量方法，完成相关方向调研、实验复现和模型评估。</p>
         </div>
-        <div class="intern-item__notes">关注晶圆缺陷检测、故障预测健康管理、持续学习和类增量方法。</div>
+        <div class="intern-entry__date">2025</div>
       </article>
       <article class="intern-entry">
-        <div class="intern-item">
-          <div class="intern-item__logo logo-wide"><img src="/images/homepage/hitsz-logo.png" alt="哈尔滨工业大学深圳校区标志" /></div>
-          <div class="intern-item__main">
-            <div class="intern-item__title">哈尔滨工业大学（深圳）</div>
-            <div class="intern-item__sub">视频生成、MotionRAG 与物理一致性 · 2025</div>
-          </div>
+        <div class="intern-entry__logo"><img src="/images/homepage/hitsz-logo.png" alt="哈尔滨工业大学深圳校区标志" /></div>
+        <div class="intern-entry__content">
+          <div class="intern-entry__title">Harbin Institute of Technology, Shenzhen</div>
+          <div class="intern-entry__meta">Research Intern · Video Generation and MotionRAG</div>
+          <p class="intern-entry__desc">参与视频生成、MotionRAG 与物理一致性相关方向调研和复现，补充视觉生成模型训练与评测经验。</p>
         </div>
-        <div class="intern-item__notes">参与相关方向调研和复现，补充视觉生成模型相关训练。</div>
+        <div class="intern-entry__date">2025</div>
       </article>
     </div>
   </section>
