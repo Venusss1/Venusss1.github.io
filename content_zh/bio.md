@@ -101,7 +101,23 @@
 
   <section class="home-section home-section--closing" id="thanks">
     <h2 class="closing-card__greeting">感谢来访！</h2>
-    <p class="closing-card__text">欢迎交流 <span class="closing-highlight">Data-Centric AI</span>、多模态智能体、AI for Science、模型训练与科研项目合作。</p>
-    <p class="closing-card__sub">Thanks for stopping by.</p>
+    <p class="closing-card__text">我正在积极寻求硕士阶段的学习与科研机会，期待在 <span class="closing-highlight">Data-Centric AI</span>、多模态智能体和 AI for Science 等方向继续深入训练。</p>
+    <p class="closing-card__sub">如果你愿意交流、合作或提供建议，欢迎通过以下方式联系我。</p>
+    <div class="about-actions">
+      <a class="about-btn" href="mailto:dyz8327@stu.ouc.edu.cn">发送邮件</a>
+      <div class="about-contact">
+        <button type="button" class="about-btn about-btn--secondary">联系方式</button>
+        <div class="about-contact-card">
+          <div class="about-contact-card__row">
+            <span class="about-contact-card__label">Email</span>
+            <span class="about-contact-card__value"><a href="mailto:dyz8327@stu.ouc.edu.cn">dyz8327@stu.ouc.edu.cn</a></span>
+          </div>
+          <div class="about-contact-card__row">
+            <span class="about-contact-card__label">Phone</span>
+            <span class="about-contact-card__value">19963927952</span>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </div>

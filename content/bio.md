@@ -101,7 +101,23 @@
 
   <section class="home-section home-section--closing" id="thanks">
     <h2 class="closing-card__greeting">Thanks for stopping by!</h2>
-    <p class="closing-card__text">I welcome conversations and collaboration around <span class="closing-highlight">Data-Centric AI</span>, multimodal agents, AI for Science, model training, and research projects.</p>
-    <p class="closing-card__sub">Feel free to reach out.</p>
+    <p class="closing-card__text">I am actively seeking a master&apos;s program opportunity and hope to continue research training around <span class="closing-highlight">Data-Centric AI</span>, multimodal agents, and AI for Science.</p>
+    <p class="closing-card__sub">Feel free to reach out for collaboration, advice, or research opportunities.</p>
+    <div class="about-actions">
+      <a class="about-btn" href="mailto:dyz8327@stu.ouc.edu.cn">Send Email</a>
+      <div class="about-contact">
+        <button type="button" class="about-btn about-btn--secondary">Contact</button>
+        <div class="about-contact-card">
+          <div class="about-contact-card__row">
+            <span class="about-contact-card__label">Email</span>
+            <span class="about-contact-card__value"><a href="mailto:dyz8327@stu.ouc.edu.cn">dyz8327@stu.ouc.edu.cn</a></span>
+          </div>
+          <div class="about-contact-card__row">
+            <span class="about-contact-card__label">Phone</span>
+            <span class="about-contact-card__value">19963927952</span>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </div>

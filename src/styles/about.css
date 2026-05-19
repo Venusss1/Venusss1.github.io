@@ -1727,6 +1727,90 @@
   font-size: 0.88em;
 }
 
+.acad-homepage .about-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+.acad-homepage .about-btn {
+  display: inline-block;
+  border: none;
+  border-radius: 6px;
+  padding: 0.4rem 0.9rem;
+  background: #4a4a4a;
+  color: #fff !important;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.acad-homepage .about-btn:hover {
+  background: #333;
+  text-decoration: none;
+}
+
+.acad-homepage .about-btn--secondary {
+  border: 1px solid #ddd;
+  background: #fff;
+  color: #444 !important;
+}
+
+.acad-homepage .about-btn--secondary:hover {
+  border-color: #ccc;
+  background: #f5f5f5;
+}
+
+.acad-homepage .about-contact {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.acad-homepage .about-contact-card {
+  position: absolute;
+  top: 115%;
+  right: 0;
+  z-index: 20;
+  min-width: 250px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 0.75rem 0.9rem;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  color: #333;
+  font-size: 0.9em;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-4px);
+  transition: opacity 0.16s ease, transform 0.16s ease;
+}
+
+.acad-homepage .about-contact-card__row + .about-contact-card__row {
+  margin-top: 0.4rem;
+}
+
+.acad-homepage .about-contact-card__label {
+  display: inline-block;
+  min-width: 4.2rem;
+  color: #555;
+  font-weight: 600;
+}
+
+.acad-homepage .about-contact-card__value a {
+  color: #2563eb !important;
+}
+
+.acad-homepage .about-contact:hover .about-contact-card,
+.acad-homepage .about-contact:focus-within .about-contact-card {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
 .dark .acad-page-shell {
   background: #fafafa !important;
 }
