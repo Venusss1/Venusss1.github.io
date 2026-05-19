@@ -2,7 +2,7 @@
   <section class="home-section research-hero-v2">
     <span class="research-kicker">Research Journey</span>
     <h2 class="home-section__title">Research Experience</h2>
-    <p>This is the core part of my homepage. The top section uses overlapping lanes to show concurrent research tracks, and each detailed section expands into a vertical timeline with time, event, and takeaways.</p>
+    <p>My research experience started from paper reproduction and engineering practice, and gradually moved into benchmark construction, automated quality control, experimental analysis, multimodal agent post-training, and physics-aware video generation. The timeline highlights how these tracks connect, while the detailed records emphasize growth, research judgment, and concrete outputs.</p>
   </section>
 
   <section class="home-section">
@@ -59,8 +59,8 @@
         <article class="detail-step">
           <time>2025.04.16</time>
           <div>
-            <h4>Entered the 3DGS research direction</h4>
-            <p>After contacting Yong Du at OUC, I started my first formal research experience around 3D Gaussian Splatting. The initial goal was to understand the paper, rendering pipeline, method flow, and code organization before attempting any innovation.</p>
+            <h4>Entered research through 3DGS reproduction</h4>
+            <p>Under Yong Du's guidance, I began with 3D Gaussian Splatting paper reading and code reproduction, focusing on problem formulation, rendering pipeline, method assumptions, and code organization rather than only surface-level conclusions.</p>
             <div class="gain-tags">
               <span>Research Entry✅️</span>
               <span>3DGS✅️</span>
@@ -71,8 +71,8 @@
         <article class="detail-step">
           <time>2025.04.16 - 2025.04.23</time>
           <div>
-            <h4>Finished the first round of paper reading, setup, and reproduction</h4>
-            <p>I spent about one week reading the paper, configuring dependencies, identifying code entry points, resolving environment and path issues, and trying to run the basic reproduction pipeline. This experience taught me that research requires connecting method, code, environment, and results into a working chain.</p>
+            <h4>Connected paper, code, environment, and experiments</h4>
+            <p>After configuring dependencies, tracing code entry points, and running the initial pipeline, I learned that reproduction is not just understanding a method; it requires a verifiable loop from implementation details to experimental results.</p>
             <div class="gain-tags">
               <span>Environment Setup✅️</span>
               <span>Code Reproduction✅️</span>
@@ -98,8 +98,8 @@
         <article class="detail-step">
           <time>2025.09.09</time>
           <div>
-            <h4>Systematically learned deep learning fundamentals</h4>
-            <p>The Chunya Training Camp helped me build a clearer foundation in neural networks, model training, experimental evaluation, and basic engineering practice. It prepared me for later work in multimodal retrieval, browser agents, data construction, and evaluation frameworks.</p>
+            <h4>Built foundations in deep learning and evaluation</h4>
+            <p>The Chunya Training Camp helped me consolidate neural networks, model training, experimental evaluation, and basic engineering practice, turning early reproduction experience into a more systematic AI research foundation.</p>
             <div class="gain-tags">
               <span>Deep Learning✅️</span>
               <span>Model Training✅️</span>
@@ -125,8 +125,8 @@
         <article class="detail-step">
           <time>2025.10.24 - 2025.10.25</time>
           <div>
-            <h4>Joined the PKU research internship and aligned on the direction</h4>
-            <p>I applied for an online research internship at the Center on Frontiers of Computing Studies, Peking University. Wentao Zhang introduced me to Huanyao Zhang, and after our first meeting I started reading DeepResearch, MMSearch-R1, and DeepMMSearch-R1 to understand multimodal retrieval, tool use, long-horizon search, and browser-agent evaluation.</p>
+            <h4>Joined the OpenDCAI / AgentFlow research track</h4>
+            <p>After joining Wentao Zhang's group at Peking University, my focus shifted from early reproduction practice to Data-Centric AI, multimodal agents, Deep Search, and benchmark construction, exposing me to more complete research problem cycles.</p>
             <div class="gain-tags">
               <span>OpenDCAI✅️</span>
               <span>DCAI⬆️</span>
@@ -138,8 +138,8 @@
         <article class="detail-step">
           <time>2025.11.01 - 2025.11.23</time>
           <div>
-            <h4>Entered the project group, learned remote research workflow, and integrated VLMEvalKit</h4>
-            <p>I joined the MM-DeepSearch / DCAI collaboration group, started using research documents, meetings, remote servers, and shared data directories, and connected to a dual-4090 server through SSH for the first time. In November I integrated a new benchmark into VLMEvalKit: preparing TSV files, converting images to base64, uploading data with MD5 checks, registering the dataset, implementing evaluation logic, reusing inference results, and understanding the LLM-based verifier configuration. I later shared the process and pitfalls within the group.</p>
+            <h4>Learned real research workflow and integrated VLMEvalKit</h4>
+            <p>I entered the MM-DeepSearch / DCAI collaboration workflow with shared documents, remote servers, data directories, and SSH-based development. I then integrated a new benchmark into VLMEvalKit, covering data conversion, image encoding, dataset registration, evaluation logic, and LLM-as-Judge configuration, and summarized the process for reuse within the group.</p>
             <div class="gain-tags">
               <span>SSH✅️</span>
               <span>Remote Development✅️</span>
@@ -152,8 +152,8 @@
         <article class="detail-step">
           <time>2025.12</time>
           <div>
-            <h4>Participated in BrowseComp-V3 / MM-DeepResearch manual data synthesis</h4>
-            <p>I learned that a high-quality multimodal browsing benchmark requires questions that cannot be solved by common knowledge, images that provide indispensable visual clues, textual evidence hidden behind web or multi-hop search, and tightly aligned sub_goals, key_info, answer, and trajectory fields. I worked on Culture-domain data, collaborated on game data conversion and checking, fixed unstable evidence chains, and supported music, film, game, and sports samples.</p>
+            <h4>Built standards for high-quality multimodal benchmarks</h4>
+            <p>During BrowseComp-V3 / MM-DeepResearch data production, I learned that strong benchmark samples require indispensable visual clues, publicly searchable textual evidence, multi-hop difficulty, and strict consistency among sub_goals, key_info, answer, and trajectory. I applied these standards to Culture-domain conversion, evidence-chain checking, and multi-category sample validation.</p>
             <div class="gain-tags">
               <span>BrowseComp-V3✅️</span>
               <span>Evidence Chain✅️</span>
@@ -167,8 +167,8 @@
         <article class="detail-step">
           <time>2026.01 - 2026.02</time>
           <div>
-            <h4>Delivered datasets, ran web testing and human evaluation, and moved toward automated QA</h4>
-            <p>I helped reorganize and deliver the Culture subset, checked image paths and JSON-image consistency, aligned Science & Tech fields, and participated in web-side testing with models such as GPT-5.2-Thinking and Gemini 3 Pro. I also joined Human Evaluation, recording key information, final answers, process scores, and subgoal vectors. In February I wrote JSON checking scripts covering URL leakage, timestamps, tool names, WebVisit inputs, ReverseImageSearch inputs, continuous steps, filename-id consistency, and tool-count consistency, then analyzed hop count versus final and process scores.</p>
+            <h4>Moved from dataset delivery to automated QA and analysis</h4>
+            <p>I helped deliver Culture and Science & Tech subsets by checking JSON-image consistency, answer alignment, ability labels, metadata, and trajectories. I also participated in web-side model testing and Human Evaluation, then wrote JSON checking scripts for URLs, timestamps, tool calls, step continuity, and file consistency, moving from manual inspection toward automated quality control and experimental analysis.</p>
             <div class="gain-tags">
               <span>JSON Structuring✅️</span>
               <span>Science Data Alignment✅️</span>
@@ -183,8 +183,8 @@
         <article class="detail-step">
           <time>2026.03 - 2026.05</time>
           <div>
-            <h4>Extended from benchmark construction to automatic data synthesis and agent post-training</h4>
-            <p>After March, my focus expanded from high-quality evaluation data to automatically synthesized training data. I organized Qwen2.5-VL LoRA SFT smoke configs, worked on H20 cluster Docker and GPU container setup under TencentOS constraints, handled proxy and dockerd issues, explored seed-image multi-hop QA synthesis, debugged Explore Chat Gateway streaming/non-streaming behavior, organized seed380 examples, processed Wikidata English entity relations, categorized model errors, and analyzed VDR-8B subgoal completion tables.</p>
+            <h4>Extended toward data synthesis and agent post-training</h4>
+            <p>After March, I expanded from evaluation data to trainable data synthesis, working on Qwen2.5-VL LoRA SFT configs, H20 cluster and GPU container setup, image-driven multi-hop QA synthesis, Wikidata entity-relation extraction, model error taxonomy, and VDR-8B process evaluation. This helped me connect benchmark design with downstream agent post-training.</p>
             <div class="gain-tags">
               <span>Qwen2.5-VL SFT⬆️</span>
               <span>LoRA⬆️</span>
@@ -215,8 +215,8 @@
         <article class="detail-step">
           <time>2026.01.29 - 2026.02.02</time>
           <div>
-            <h4>Started industrial AI research and studied wafer defect data</h4>
-            <p>I joined the Tsinghua TIIM Lab / industrial AI collaboration and began with literature research on attention, gating, sparse attention, and long-context reasoning. I then studied wafer defect detection, wafer map representation, defect categories, 52×52-to-224×224 conversion, and the MixedWM38 dataset.</p>
+            <h4>Expanded into industrial AI and PHM scenarios</h4>
+            <p>Through the Tsinghua TIIM Lab / industrial AI collaboration, I moved into industrial LLMs, wafer defect detection, and prognostics and health management, extending my multimodal and data-centric experience to manufacturing and reliability analysis.</p>
             <div class="gain-tags">
               <span>Industrial AI✅️</span>
               <span>Attention✅️</span>
@@ -229,8 +229,8 @@
         <article class="detail-step">
           <time>2026.02.04 - 2026.02.13</time>
           <div>
-            <h4>Ran fault diagnosis experiments and prepared MixedWM38 presentation</h4>
-            <p>I started running fault diagnosis code, noticed suspiciously high CWRU accuracy, and learned to question whether results were credible. I compared DMGD and AdamW, read training logs, and prepared a group presentation on MixedWM38, including dataset background, defect types, preprocessing, and visual model input adaptation.</p>
+            <h4>Ran fault diagnosis experiments with result scrutiny</h4>
+            <p>In CWRU fault diagnosis experiments, I noticed suspiciously high accuracy and treated it as a potential setup issue rather than accepting it directly. I compared DMGD and AdamW logs and prepared a MixedWM38 presentation, strengthening my sensitivity to data adaptation and result credibility.</p>
             <div class="gain-tags">
               <span>Training Debugging✅️</span>
               <span>CWRU✅️</span>
@@ -243,8 +243,8 @@
         <article class="detail-step">
           <time>2026.02.23 - 2026.03.11</time>
           <div>
-            <h4>Moved into continual learning and migrated code across datasets</h4>
-            <p>After joining group meetings, I surveyed continual learning and class-incremental learning papers, then adapted Nested Learning to wafer datasets by modifying dataset registration, MixedWM38 interfaces, training scripts, and evaluation scripts. I handled GPU-memory constraints on a local 4060, organized runnable commands, and then migrated the pipeline to the Paderborn bearing fault dataset with preprocessing, tokens.npy, labels.npy, meta.json, checkpoints, evaluation metrics, and run.md documentation.</p>
+            <h4>Adapted Nested Learning across industrial datasets</h4>
+            <p>After surveying continual and class-incremental learning, I adapted Nested Learning to wafer datasets by modifying dataset registration, interfaces, training, and evaluation scripts. I then migrated the workflow to the Paderborn bearing fault dataset, covering preprocessing, token construction, checkpoints, metrics, and runnable documentation.</p>
             <div class="gain-tags">
               <span>Continual Learning✅️</span>
               <span>Class-Incremental Learning✅️</span>
@@ -258,8 +258,8 @@
         <article class="detail-step">
           <time>2026.03.11 - late 2026.03</time>
           <div>
-            <h4>Wrapped up the Tsinghua track with remote reproduction support, project materials, and distillation research</h4>
-            <p>I helped clarify preprocessing scripts, data paths, and training script usage for remote reproduction. I also touched industrial project proposal materials and learned to judge task scope and delivery boundaries. In late March I collected knowledge distillation papers; after that, this Tsinghua TLLM track was completed and my research focus moved on to the HITSZ physics video generation direction.</p>
+            <h4>Completed the track with reproduction support and scope awareness</h4>
+            <p>Near the end of this track, I supported remote reproduction by clarifying scripts, paths, and training usage, and also encountered project proposal and defense materials. This experience improved my sense of research collaboration, task boundaries, and delivery rhythm.</p>
             <div class="gain-tags">
               <span>Remote Reproduction⬆️</span>
               <span>Project Materials✅️</span>
@@ -287,8 +287,8 @@
         <article class="detail-step">
           <time>2026.03.13 - 2026.03.20</time>
           <div>
-            <h4>Entered the visual generation direction and built video-generation foundations</h4>
-            <p>I joined discussions with Yangyang Xu and Yue Ma, and started studying image-to-video, text-to-video, Motion RAG, and physics consistency. I reviewed VAE, UNet, DDPM, DDIM, Stable Diffusion, CLIP, ControlNet, DiT, Flow Matching, and then expanded to VideoREPA, physical-engine feedback loops, Forcing Prompting, Test-Time Scaling, and multi-round editing.</p>
+            <h4>Entered visual generation and physics consistency</h4>
+            <p>Under Yangyang Xu's guidance, I started studying image-to-video, text-to-video, Motion RAG, and physics consistency, while consolidating foundations in diffusion models, Stable Diffusion, DiT, and Flow Matching, then expanding to video-generation evaluation, physical feedback, and test-time scaling.</p>
             <div class="gain-tags">
               <span>Video Generation✅️</span>
               <span>Diffusion✅️</span>
@@ -301,8 +301,8 @@
         <article class="detail-step">
           <time>2026.03.23 - 2026.04.09</time>
           <div>
-            <h4>Focused on MotionRAG, DiT-Mem, and staged reporting</h4>
-            <p>After a meeting, MotionRAG became the main direction. I studied what the retrieval component retrieves, how motion representations are encoded, and how retrieved priors are injected into video-generation backbones. I prepared MotionRAG + DiT-Mem slides covering LanceDB, gte-base-en-v1.5, top-k retrieval, DINO and VideoMAE features, Action Transformer, CAMA, CogVideoX attention processor replacement, and training settings. Because of compute limits, we chose a strategy of code reading, small-scale pipeline reproduction, and result analysis.</p>
+            <h4>Analyzed retrieval-augmented video generation</h4>
+            <p>After MotionRAG became the main direction, I studied what should be retrieved, how motion representations are encoded, and how retrieved priors can be injected into video-generation backbones. I organized staged reports to move from paper reading toward clear research-question formulation.</p>
             <div class="gain-tags">
               <span>MotionRAG✅️</span>
               <span>DiT-Mem✅️</span>
@@ -316,8 +316,8 @@
         <article class="detail-step">
           <time>2026.04.12 - 2026.04.18</time>
           <div>
-            <h4>Configured remote servers, ran a small MotionRAG pipeline, and analyzed reproduction gaps</h4>
-            <p>I connected to the remote server through intranet tunneling, debugged SSH, port, local network, proxy, and Codex configuration issues, then prepared environments, weights, annotations, and a small OpenVid subset. I ran the MotionRAG pipeline and analyzed why generated results were weak: small subset retrieval quality, differences from paper settings, limits of the CogVideoX base model, and coverage of motion priors. I compared action_mae and DINO with paper-side expectations.</p>
+            <h4>Ran a small MotionRAG pipeline and analyzed gaps</h4>
+            <p>On a remote server, I prepared the environment, weights, annotations, and a small OpenVid subset, then ran an initial MotionRAG generation pipeline. I analyzed gaps from the paper in terms of retrieval quality, experimental setting differences, base-model limits, and motion-prior coverage, comparing action_mae and DINO signals where applicable.</p>
             <div class="gain-tags">
               <span>SSH✅️</span>
               <span>Proxy Debugging✅️</span>
@@ -331,8 +331,8 @@
         <article class="detail-step">
           <time>2026.04.18 - 2026.05</time>
           <div>
-            <h4>Shifted toward physics-consistency evaluation and improvement ideas</h4>
-            <p>After MotionRAG reproduction analysis, I shifted from asking whether RAG improves visual quality to whether generated videos obey physical laws. I surveyed physical video datasets such as PhysInOne, latent world-model reward, and inference-time physics alignment. I formed the view that generic video data and generic text retrieval are not enough for physics-consistent generation; the retrieval library or training data should encode motion, contact, force, and physical state changes.</p>
+            <h4>Shifted toward physics-consistency evaluation and method design</h4>
+            <p>Based on reproduction analysis, I shifted from visual quality to whether generated videos obey constraints on motion, contact, and deformation. After surveying PhysInOne, latent world-model rewards, and inference-time physics alignment, I formed the view that physics-consistent generation requires retrieval libraries or training data organized around motion, contact, force, and state changes.</p>
             <div class="gain-tags">
               <span>Physics Alignment⬆️</span>
               <span>World Model Reward⬆️</span>

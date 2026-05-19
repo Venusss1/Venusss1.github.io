@@ -2,7 +2,7 @@
   <section class="home-section research-hero-v2">
     <span class="research-kicker">Research Journey</span>
     <h2 class="home-section__title">科研经历</h2>
-    <p>这部分是我主页里最核心的经历：上方用轨道式时间轴展示多条科研线的交叉关系，下方每段经历按垂直时间线展开，逐条记录时间、事件和收获。</p>
+    <p>我的科研经历从论文复现和工程入门起步，逐步进入 Benchmark 构造、自动化质检、实验分析、多模态 Agent 后训练与物理视频生成等方向。时间线记录不同科研主线的衔接关系，详细经历侧重展示能力递进、问题意识和阶段性产出。</p>
   </section>
 
   <section class="home-section">
@@ -59,8 +59,8 @@
         <article class="detail-step">
           <time>2025.04.16</time>
           <div>
-            <h4>开始接触科研，进入 3DGS 方向</h4>
-            <p>联系本校都勇老师后，我正式开始接触科研，进入 3D Gaussian Splatting 相关方向。最开始的任务不是直接做创新，而是先理解 3DGS 的论文主线、方法流程、渲染机制和工程代码组织方式。</p>
+            <h4>以 3DGS 复现进入科研训练</h4>
+            <p>在都勇老师指导下，我从 3D Gaussian Splatting 论文阅读与代码复现开始建立科研基本功，重点理解问题定义、渲染流程、方法假设和工程组织，而不是停留在表层结论。</p>
             <div class="gain-tags">
               <span>科研入门✅️</span>
               <span>3DGS✅️</span>
@@ -71,8 +71,8 @@
         <article class="detail-step">
           <time>2025.04.16 - 2025.04.23</time>
           <div>
-            <h4>完成第一轮论文阅读、环境搭建和初步复现</h4>
-            <p>这一周主要处理 3DGS 复现链路：阅读论文、配置依赖、理解代码入口、解决环境和路径问题，并尝试跑通基本流程。这个阶段让我意识到科研任务并不是“看懂论文”就结束，而是要把方法、代码、环境和实验结果串成可运行的完整链路。</p>
+            <h4>打通论文、代码、环境与实验链路</h4>
+            <p>完成依赖配置、代码入口梳理和初步运行后，我开始意识到科研复现不仅是理解方法，还需要把实验环境、实现细节和结果验证连接成可检查的闭环。</p>
             <div class="gain-tags">
               <span>环境配置✅️</span>
               <span>代码复现✅️</span>
@@ -84,8 +84,8 @@
         <article class="detail-step">
           <time>2025.04 - 2025.09</time>
           <div>
-            <h4>持续补齐从课程学习到科研实践的基础能力</h4>
-            <p>在 3DGS 学习过程中，我逐渐从单篇论文和单个代码仓库出发，开始理解科研中的问题定义、实验复现、结果观察和失败排查。这段经历虽然还处在入门阶段，但为后续接触多模态检索、智能体评测和数据构造提供了最早的科研工程经验。</p>
+            <h4>形成早期科研工程意识</h4>
+            <p>这段经历帮助我从课程学习转向科研实践，逐步建立问题拆解、复现实验、观察异常和定位失败原因的意识，为后续多模态检索、智能体评测和数据构造奠定基础。</p>
             <div class="gain-tags">
               <span>问题拆解⬆️</span>
               <span>实验意识⬆️</span>
@@ -110,8 +110,8 @@
         <article class="detail-step">
           <time>2025.09.09</time>
           <div>
-            <h4>参加 OUC 春芽训练营，系统接触深度学习基础</h4>
-            <p>训练营让我系统补齐深度学习基础，包括神经网络、训练流程、实验评估和基础工程实践。相比 3DGS 入门阶段更多依赖单点复现，这段经历让我开始形成更完整的 AI 科研基础框架。</p>
+            <h4>系统补齐深度学习与实验基础</h4>
+            <p>春芽训练营帮助我补齐神经网络、模型训练、实验评估与基础工程实践，使早期单点复现经验逐步转化为更完整的 AI 科研知识框架。</p>
             <div class="gain-tags">
               <span>深度学习✅️</span>
               <span>模型训练✅️</span>
@@ -122,8 +122,8 @@
         <article class="detail-step">
           <time>2025.09 后</time>
           <div>
-            <h4>为多模态检索、浏览智能体和 Benchmark 构造打基础</h4>
-            <p>训练营补齐了我从课程学习进入 AI 科研实践所需的基础能力，使我后续能够更快理解多模态检索、数据构造、评测框架、模型训练和实验分析等更复杂任务。</p>
+            <h4>支撑后续多模态与评测研究</h4>
+            <p>在这一阶段建立的训练流程和评测意识，使我后续能够更快进入多模态检索、数据构造、评测框架和模型实验分析等更复杂任务。</p>
             <div class="gain-tags">
               <span>AI 科研基础✅️</span>
               <span>多模态准备⬆️</span>
@@ -148,8 +148,8 @@
         <article class="detail-step">
           <time>2025.10.24</time>
           <div>
-            <h4>申请北京大学国际机器学习研究中心线上科研实习</h4>
-            <p>我申请加入北京大学张文涛老师课题组进行线上科研实习，当天收到回复后，张老师将我推荐给张桓耀博士师兄。这个节点标志着我的科研方向从早期论文复现，正式转向 Data-Centric AI、多模态智能体、Deep Search 与 Benchmark 构造。</p>
+            <h4>进入 OpenDCAI / AgentFlow 科研主线</h4>
+            <p>加入北京大学张文涛老师课题组后，我的研究重心从早期复现训练转向 Data-Centric AI、多模态智能体、Deep Search 与 Benchmark 构造，开始接触更完整的研究问题闭环。</p>
             <div class="gain-tags">
               <span>OpenDCAI✅️</span>
               <span>科研方向转换✅️</span>
@@ -160,8 +160,8 @@
         <article class="detail-step">
           <time>2025.10.25</time>
           <div>
-            <h4>第一次与张桓耀师兄会议讨论，确定研究方向</h4>
-            <p>第一次会议后，我开始阅读阿里 DeepResearch、MMSearch-R1、DeepMMSearch-R1 等论文，重点理解多模态检索、长链路信息搜索、工具调用和浏览智能体评测。这个阶段我开始学习如何拆解任务定义、数据构造方式、工具链设计、评测指标和实验分析逻辑。</p>
+            <h4>从论文调研进入任务定义与评测逻辑</h4>
+            <p>围绕 DeepResearch、MMSearch-R1 和 DeepMMSearch-R1 等工作，我重点学习多模态检索、长程搜索、工具调用和浏览智能体评测，并开始从任务定义、数据构造、工具链和评测指标理解研究设计。</p>
             <div class="gain-tags">
               <span>DeepResearch✅️</span>
               <span>工具调用⬆️</span>
@@ -172,8 +172,8 @@
         <article class="detail-step">
           <time>2025.11.01 - 2025.11.03</time>
           <div>
-            <h4>正式参与项目组，并第一次使用 SSH 进入远程科研环境</h4>
-            <p>11 月初我正式加入 MM-DeepSearch / DCAI 相关项目协作群，开始接触组内文档、腾讯会议、远程服务器、数据目录和协作流程。11 月 3 日第一次使用 SSH 连接双卡 4090 服务器，接触跳板机、远程开发和 VS Code Remote-SSH。</p>
+            <h4>进入真实科研协作与远程实验环境</h4>
+            <p>加入 MM-DeepSearch / DCAI 项目协作后，我开始使用组内文档、远程服务器、共享数据目录和会议流程，并通过 SSH 与 VS Code Remote-SSH 进入真实科研工程环境。</p>
             <div class="gain-tags">
               <span>SSH✅️</span>
               <span>远程开发✅️</span>
@@ -185,8 +185,8 @@
         <article class="detail-step">
           <time>2025.11 中旬 - 2025.11.23</time>
           <div>
-            <h4>完成 VLMEvalKit Benchmark 接入并进行组内分享</h4>
-            <p>我学习 VLMEvalKit 框架并完成新 Benchmark 接入：准备 TSV 数据，将图片转换为 base64，上传数据并生成 MD5，修改数据集注册文件，实现 evaluate 逻辑，学习使用 --reuse 复用推理结果，并理解 omni_verifier.py 中大模型辅助评测的配置方式。11 月 23 日，我在组内分享接入经验，并将踩坑记录沉淀为可复用文档。</p>
+            <h4>完成 VLMEvalKit 接入并沉淀可复用经验</h4>
+            <p>我完成新 Benchmark 在 VLMEvalKit 中的接入，覆盖数据格式转换、图片编码、数据注册、评测逻辑和 LLM-as-Judge 配置，并在组内分享流程与踩坑记录，开始从执行任务转向可复用方法沉淀。</p>
             <div class="gain-tags">
               <span>VLMEvalKit✅️</span>
               <span>Benchmark 接入✅️</span>
@@ -199,8 +199,8 @@
         <article class="detail-step">
           <time>2025.12 上旬</time>
           <div>
-            <h4>理解多模态浏览题目的构造标准</h4>
-            <p>进入 BrowseComp-V3 / MM-DeepResearch 手工数据生产阶段后，我逐步理解高质量 Benchmark 的核心标准：问题不能靠常识直接回答，图像必须提供不可替代的视觉线索，文本证据要隐藏在网页或多步检索链条中，sub_goals、key_info、answer、trajectory 必须互相对应，英文题还需要用英文 query 验证。</p>
+            <h4>建立高质量多模态 Benchmark 构造标准</h4>
+            <p>在 BrowseComp-V3 / MM-DeepResearch 数据生产中，我逐步理解高质量评测样例的关键标准：视觉线索不可替代，文本证据可公开检索，问题需具备多跳检索难度，sub_goals、key_info、answer 与 trajectory 需要严格一致。</p>
             <div class="gain-tags">
               <span>Benchmark 构造✅️</span>
               <span>证据链核查✅️</span>
@@ -212,8 +212,8 @@
         <article class="detail-step">
           <time>2025.12.19 - 2025.12.28</time>
           <div>
-            <h4>推进 Culture 领域数据转化、核查与多领域协作</h4>
-            <p>我与陈骄阳围绕游戏领域数据协作，补充和解释题目检索链路，修正可搜索性问题，确认 TextSearch 和 WebVisit 的使用方式，并对英文 query 搜不到、网页不可访问、反向图搜链路不稳定等问题进行修复。随后继续推进 Culture 领域音乐、游戏、影视、体育数据，对题目难度、link、query、图片证据和最终答案进行核查。</p>
+            <h4>推进 Culture 数据转化、核查与协作</h4>
+            <p>我参与 Culture 领域多类样例的转化与核查，围绕检索链路、可搜索性、网页可访问性、反向图搜稳定性和最终答案一致性进行修正，逐步形成面向证据链质量控制的判断能力。</p>
             <div class="gain-tags">
               <span>Culture 数据✅️</span>
               <span>TextSearch✅️</span>
@@ -226,8 +226,8 @@
         <article class="detail-step">
           <time>2026.01.02 - 2026.01.16</time>
           <div>
-            <h4>Culture / Science & Tech 数据交付、网页端实验和 Human Evaluation</h4>
-            <p>1 月初我参与 Culture 子集整理与交付，包括目录重组、图片统一管理、路径修复、JSON 与图片对应关系检查和图片格式统一。随后参与 Science & Tech 数据对齐，核查 question、images、answer、sub_goals、ability、metadata 和 trajectory 是否严格一致。1 月 7 日至 12 日参与网页端题目测试，观察 GPT-5.2-Thinking、Gemini 3 Pro 等模型是否可解题；1 月 12 日至 16 日参与 Human Evaluation，记录 key information、final answer、过程评分和 subgoal_vector。</p>
+            <h4>参与数据交付、网页端实验与 Human Evaluation</h4>
+            <p>我参与 Culture 与 Science & Tech 子集交付，核查 JSON、图片、答案、能力标签、metadata 与轨迹的一致性；随后参与网页端模型测试和 Human Evaluation，记录 key information、final answer、过程评分与 subgoal_vector，将数据构造推进到评测与分析阶段。</p>
             <div class="gain-tags">
               <span>Science 数据对齐✅️</span>
               <span>JSON 结构化✅️</span>
@@ -240,8 +240,8 @@
         <article class="detail-step">
           <time>2026.01 中旬 - 2026.02.13</time>
           <div>
-            <h4>从人工核查走向自动化质检和论文实验分析</h4>
-            <p>1 月中旬我继续参与 Culture 与 Life 领域问题复查，处理歧义、时间限定、答案暴露、工具调用格式和 metadata 对齐问题。2 月初形成 end-to-end Culture 数据版本。2 月 5 日编写 JSON 自动化检查脚本，覆盖 key_info URL、timestamp、工具名称、WebVisit 输入、ReverseImageSearch 输入、steps 连续性、文件名与 id 一致性等规则。2 月 6 日分析 Hop 数与模型最终得分、过程得分的关系，并在 BrowseComp-V3 论文版本形成时参与数据最终核查、实验结果分析和错误原因整理。</p>
+            <h4>从人工核查推进到自动化质检与实验分析</h4>
+            <p>在多轮人工复查后，我编写 JSON 自动化检查脚本，覆盖 URL、timestamp、工具调用、步骤连续性与文件一致性等规则；随后参与 Hop / Score 关系分析、最终数据核查和错误原因整理，开始承担更接近论文实验分析的工作。</p>
             <div class="gain-tags">
               <span>自动化质检✅️</span>
               <span>check.py✅️</span>
@@ -254,8 +254,8 @@
         <article class="detail-step">
           <time>2026.03 - 2026.05</time>
           <div>
-            <h4>从 Benchmark 构造延伸到自动数据合成与 Agent 后训练</h4>
-            <p>3 月后，我的关注点从“构造高质量评测数据”扩展到“自动化合成高质量训练数据”。我整理 Qwen2.5-VL LoRA SFT smoke 配置，探索搜索/浏览类数据进入多模态模型后训练的方式；4 月整理 H20 集群 Docker 与 GPU 容器配置，处理内部源、代理、无 systemd 环境下手动启动 dockerd 和 NVIDIA Container Toolkit；随后参与图像驱动多跳 QA 合成、Explore Chat Gateway 流式/非流式异常排查、seed380 样例整理、Wikidata 英文实体关系抽取、模型错误分类体系、VDR-8B 子目标完成度评测等工作。</p>
+            <h4>延伸到自动数据合成与 Agent 后训练</h4>
+            <p>3 月后，我将关注点从高质量评测数据扩展到可训练数据合成，参与 Qwen2.5-VL LoRA SFT 配置、H20 集群与 GPU 容器环境、图像驱动多跳 QA 合成、Wikidata 实体关系抽取、模型错误分类和 VDR-8B 过程评测等工作，进一步理解 Benchmark 与 Agent 后训练之间的衔接。</p>
             <div class="gain-tags">
               <span>Qwen2.5-VL SFT⬆️</span>
               <span>LoRA⬆️</span>
@@ -286,8 +286,8 @@
         <article class="detail-step">
           <time>2026.01.29</time>
           <div>
-            <h4>加入清工智维 / 清华 TIIM Lab 相关科研交流</h4>
-            <p>我与清工智维-何佳红师兄建立联系，并进入清华大学 TIIM Lab 团队群，开始接触工业大模型、工业视觉检测和故障预测健康管理方向。这个方向面向高端制造、质量可靠性、晶圆缺陷检测和工业设备故障诊断，与我此前偏多模态搜索和数据合成的经历形成互补。</p>
+            <h4>拓展到工业 AI 与 PHM 场景</h4>
+            <p>通过清工智维 / 清华 TIIM Lab 相关交流，我开始接触工业大模型、晶圆缺陷检测和故障预测健康管理方向，将此前多模态搜索与数据构造经验拓展到高端制造和可靠性分析场景。</p>
             <div class="gain-tags">
               <span>工业 AI 入门✅️</span>
               <span>科研协作链路✅️</span>
@@ -298,8 +298,8 @@
         <article class="detail-step">
           <time>2026.01.29 - 2026.02.02</time>
           <div>
-            <h4>调研 Attention / Gating，并熟悉晶圆缺陷检测数据</h4>
-            <p>加入后第一个任务是检索最新注意力机制和门控机制论文，整理结构图与算法原理，并做成 PPT。随后我开始熟悉晶圆方向材料，理解 wafer map 通常由 52×52 矩阵表示，如何转换为 224×224 RGB 图像，以及 Center、Donut/Ring、Edge-Loc、Edge-Ring、Localized、Scratch 等缺陷类别和 MixedWM38 数据集构造逻辑。</p>
+            <h4>调研模型机制并理解晶圆缺陷数据</h4>
+            <p>我调研 Attention / Gating 等机制并整理汇报，同时学习 wafer map 表示、缺陷类别、图像化转换和 MixedWM38 数据集构造逻辑，建立从工业数据形态到视觉模型输入的理解。</p>
             <div class="gain-tags">
               <span>Attention✅️</span>
               <span>Gating✅️</span>
@@ -312,8 +312,8 @@
         <article class="detail-step">
           <time>2026.02.04 - 2026.02.13</time>
           <div>
-            <h4>首次参与故障诊断实验，比较 DMGD / AdamW，并完成 MixedWM38 汇报</h4>
-            <p>2 月初我开始接触故障诊断代码实验。第一次训练时发现 CWRU 数据集准确率异常接近 100%，我没有直接接受结果，而是判断可能存在代码或数据设置问题，并反馈需要 debug。随后根据建议调整 GLU 相关设置，分别使用 DMGD 和 AdamW 训练，对比训练日志和验证准确率。之后深入研究 MixedWM38 / 晶圆缺陷数据集，完成约 8 页组内汇报材料，解释数据背景、缺陷类别、数据格式转换和视觉模型输入适配。</p>
+            <h4>参与故障诊断实验并关注结果可信性</h4>
+            <p>在 CWRU 故障诊断实验中，我注意到异常接近 100% 的准确率并主动判断可能存在设置问题，随后比较 DMGD / AdamW 训练日志与验证表现，并完成 MixedWM38 汇报，强化了对实验可信性和数据适配的敏感度。</p>
             <div class="gain-tags">
               <span>训练 Debug✅️</span>
               <span>结果可信性判断⬆️</span>
@@ -328,8 +328,8 @@
         <article class="detail-step">
           <time>2026.02.23 - 2026.03.08</time>
           <div>
-            <h4>进入持续学习 / 类增学习，改造 Nested Learning 到晶圆数据集</h4>
-            <p>2 月下旬开始参与线上会议和阶段性汇报，随后调研持续学习与类增学习论文，整理 Class-Incremental Learning 资料包。3 月初，师兄给出 Nested Learning 项目作为参考，我开始阅读项目结构，并把 wafer 数据集接入原始训练流程，改动包括 wafer 数据集注册、MixedWM38 数据接口、训练脚本和评估脚本。实验中遇到本地 4060 显存不足和训练时间过长问题，我尝试降低 seq-len-pixels、减小 batch size，并整理代码说明交付给师兄。</p>
+            <h4>将 Nested Learning 适配到晶圆类增场景</h4>
+            <p>在调研持续学习与类增学习后，我阅读 Nested Learning 项目结构并将 wafer 数据接入训练流程，完成数据注册、接口、训练与评估脚本改造，同时处理显存限制与训练时长问题，提升了跨任务代码适配能力。</p>
             <div class="gain-tags">
               <span>Continual Learning✅️</span>
               <span>Class-Incremental Learning✅️</span>
@@ -343,8 +343,8 @@
         <article class="detail-step">
           <time>2026.03.07 - 2026.03.11</time>
           <div>
-            <h4>整理晶圆类增实验命令，并迁移到帕德博恩轴承故障数据集</h4>
-            <p>在晶圆代码改造后，我进一步整理 train_cil_finetune.py 的运行命令、数据路径、设备、配置文件、task-aware、task size 和 epoch 等参数。随后将代码从晶圆数据迁移到一维振动信号场景，面向帕德博恩轴承数据集做故障分类和持续学习，整理 preprocess_paderborn.py、tokens.npy、labels.npy、meta.json、训练脚本、checkpoint 和评测指标等完整流程，并写入 run.md。</p>
+            <h4>从晶圆数据迁移到轴承故障数据</h4>
+            <p>我进一步整理类增实验命令、配置和运行文档，并将流程迁移到帕德博恩轴承故障数据集，覆盖预处理、token 构造、训练脚本、checkpoint 与评测指标，完成从二维视觉数据到一维振动信号的任务迁移。</p>
             <div class="gain-tags">
               <span>运行脚本整理✅️</span>
               <span>Paderborn✅️</span>
@@ -357,8 +357,8 @@
         <article class="detail-step">
           <time>2026.03.11 - 2026.03 下旬</time>
           <div>
-            <h4>完成清华线收尾：远程复现支持、项目材料与知识蒸馏调研</h4>
-            <p>在帕德博恩任务中，我协助说明预处理脚本位置、数据集路径参数和训练脚本读取逻辑，帮助师兄排查服务器侧路径与训练问题。3 月中旬接触工业大模型项目申报和澳门答辩材料，意识到科研协作中也需要判断任务周期和交付边界。3 月下旬整理知识蒸馏论文资料包后，这条清华 TLLM 相关经历阶段性结束，后续科研重心转向哈工深 Physics 视频生成方向。</p>
+            <h4>完成远程复现支持与方向收尾</h4>
+            <p>在项目收尾阶段，我协助远程复现、路径说明和训练问题排查，并接触项目申报与答辩材料，进一步理解科研协作中的任务边界、交付节奏和方向切换。</p>
             <div class="gain-tags">
               <span>远程复现意识⬆️</span>
               <span>项目申报材料✅️</span>
@@ -386,8 +386,8 @@
         <article class="detail-step">
           <time>2026.03.13 - 2026.03.20</time>
           <div>
-            <h4>加入哈深视觉生成方向，补齐视频生成基础</h4>
-            <p>徐洋洋老师将我拉入与马跃老师的讨论群，我开始接触视觉生成、图生视频、文生视频、Motion RAG 和物理一致性方向。根据老师规划，我系统学习 VAE、UNet、DDPM、DDIM、Stable Diffusion、CLIP、ControlNet、DiT、Flow Matching 等基础，并整理第一批论文阅读笔记。随后扩展阅读 VideoREPA、物理引擎与视频生成闭环、Forcing Prompting、Test-Time Scaling 和多轮编辑等方向。</p>
+            <h4>进入视觉生成与物理一致性方向</h4>
+            <p>在徐洋洋老师指导下，我开始学习图生视频、文生视频、Motion RAG 与物理一致性方向，系统补齐 Diffusion、Stable Diffusion、DiT、Flow Matching 等基础，并扩展阅读视频生成评测、物理反馈和 Test-Time Scaling 相关工作。</p>
             <div class="gain-tags">
               <span>视频生成入门✅️</span>
               <span>Diffusion✅️</span>
@@ -401,8 +401,8 @@
         <article class="detail-step">
           <time>2026.03.23 - 2026.03.30</time>
           <div>
-            <h4>确定围绕 MotionRAG 展开，并准备阶段性汇报</h4>
-            <p>第一次阶段性会议后，马跃老师明确提出 MotionRAG 作为重点方向，我开始研究检索增强视频生成：RAG 检索的到底是文本、视频片段还是运动表征，检索结果如何编码为 motion token 或 memory，以及如何注入 CogVideoX / Wan 等视频生成基座。随后准备 MotionRAG 与 DiT-Mem 阶段性 PPT，按任务背景、论文故事线、模型输入输出、模块结构、创新点和后续计划组织汇报。</p>
+            <h4>围绕 MotionRAG 拆解检索增强视频生成</h4>
+            <p>确定 MotionRAG 方向后，我重点分析检索对象、运动表征编码、memory / token 注入方式以及与 CogVideoX / Wan 等视频生成基座的结合，并据此组织阶段性汇报，训练从论文阅读到研究问题表达的能力。</p>
             <div class="gain-tags">
               <span>MotionRAG✅️</span>
               <span>DiT-Mem✅️</span>
@@ -415,8 +415,8 @@
         <article class="detail-step">
           <time>2026.04.05 - 2026.04.09</time>
           <div>
-            <h4>完成 MotionRAG + DiT-Mem 汇报材料，并裁剪复现方案</h4>
-            <p>我完成 MotionRAG + DiT-Mem 汇报材料，拆解 RAG 数据库构建、LanceDB、gte-base-en-v1.5、Top-k 检索、Action Transformer、DINO 图像特征、VideoMAE 视频特征、motion tokens、appearance tokens、CAMA 模块、CogVideoX attention processor 替换和训练配置。由于算力和远程环境限制，后续与老师讨论后采用“先读代码、跑通小规模 pipeline、再分析效果”的复现策略。</p>
+            <h4>完成代码级拆解并制定可行复现策略</h4>
+            <p>我对 MotionRAG + DiT-Mem 的检索库、特征抽取、motion / appearance token、CAMA 模块和 CogVideoX attention 改造进行代码级拆解；在算力受限条件下，与老师确定“小规模跑通 pipeline，再分析效果差异”的复现策略。</p>
             <div class="gain-tags">
               <span>代码级论文理解✅️</span>
               <span>LanceDB✅️</span>
@@ -430,8 +430,8 @@
         <article class="detail-step">
           <time>2026.04.12 - 2026.04.18</time>
           <div>
-            <h4>配置远程服务器，跑通 MotionRAG 小样本 pipeline 并分析差异</h4>
-            <p>徐洋洋老师搭建内网穿透后，我开始连接远程服务器，排查 SSH、端口、本地网络、代理和 Codex 配置等问题。连接稳定后，我完成 MotionRAG 环境、权重、标注数据和小样本 OpenVid 数据准备。由于原始 OpenVid 规模巨大，我采用小样本子集验证 pipeline，成功跑通初步视频生成。随后分析生成效果较差的原因：小规模数据导致检索质量不足、论文设置与复现设置存在差异、CogVideoX 基座能力上限、motion prior 受数据覆盖度影响等，并结合 action_mae 和 DINO 指标对照论文结果。</p>
+            <h4>跑通小样本 pipeline 并分析复现差异</h4>
+            <p>在远程服务器上完成环境、权重、标注和小样本 OpenVid 数据准备后，我跑通 MotionRAG 初步生成流程，并从检索质量、实验设置差异、基座模型能力和 motion prior 覆盖度等角度分析生成效果与论文结果之间的差异。</p>
             <div class="gain-tags">
               <span>SSH✅️</span>
               <span>代理排错✅️</span>
@@ -446,8 +446,8 @@
         <article class="detail-step">
           <time>2026.04.18 - 2026.05 上旬</time>
           <div>
-            <h4>转向物理一致性评测，形成视频生成物理对齐改进思路</h4>
-            <p>在分析 MotionRAG 复现结果后，老师建议进一步测试物理相关效果，我开始关注生成视频中物体运动是否合理、接触和形变是否符合物理规律，以及 RAG 检索增强是否能改善物理一致性。随后调研 PhysInOne 等物理视频数据集、latent world model reward、inference-time physics alignment 等方向，逐步形成思路：通用视频数据和通用文本检索不足以提升物理一致性，需要面向物理现象构造更有针对性的检索库或训练数据，检索结果也应提供动作、接触、受力和物理状态变化先验。</p>
+            <h4>转向物理一致性评测与方法思考</h4>
+            <p>在复现分析基础上，我进一步关注生成视频是否满足运动、接触、形变等物理约束，调研 PhysInOne、latent world model reward 和 inference-time physics alignment 等方向，并形成判断：提升物理一致性需要面向动作、接触、受力和状态变化构造更有针对性的检索库或训练数据。</p>
             <div class="gain-tags">
               <span>Physics Alignment⬆️</span>
               <span>World Model Reward⬆️</span>
