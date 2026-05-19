@@ -82,7 +82,7 @@
           <div class="intern-entry__meta">Research Intern · Supervised by Prof. Wentao Zhang</div>
           <p class="intern-entry__desc">Conducted research on Agent systems and data mining, with a focus on dataset construction for search-oriented Agents, multimodal large language models, and search Agent training and fine-tuning. Contributed to high-quality task samples, cross-page information aggregation constraints, key experiments, ablation studies, and baseline model evaluation.</p>
         </div>
-        <div class="intern-entry__date">2025.12 - Now</div>
+        <div class="intern-entry__date">2025.10 - Present</div>
       </article>
       <article class="intern-entry">
         <div class="intern-entry__logo"><img src="/images/homepage/tsinghua-logo.png" alt="Tsinghua University logo" /></div>
@@ -91,7 +91,7 @@
           <div class="intern-entry__meta">Research Intern · Industrial LLMs and Wafer Defect Detection</div>
           <p class="intern-entry__desc">Explored large models and visual detection in industrial scenarios, including wafer defect detection, prognostics and health management, continual learning, and class-incremental methods. Completed literature review, reproduction experiments, and model evaluation.</p>
         </div>
-        <div class="intern-entry__date">2025</div>
+        <div class="intern-entry__date">2026.01 - 2026.03</div>
       </article>
       <article class="intern-entry">
         <div class="intern-entry__logo"><img src="/images/homepage/hitsz-logo.png" alt="Harbin Institute of Technology, Shenzhen logo" /></div>
@@ -100,8 +100,11 @@
           <div class="intern-entry__meta">Research Intern · Video Generation and MotionRAG</div>
           <p class="intern-entry__desc">Worked on literature review and reproduction for video generation, MotionRAG, and physical consistency, strengthening training and evaluation experience with visual generation models.</p>
         </div>
-        <div class="intern-entry__date">2025</div>
+        <div class="intern-entry__date">2026.03 - 2026.05</div>
       </article>
+    </div>
+    <div class="intern-detail-link">
+      <a class="pub-btn pub-btn--ghost" href="/research/">View the Research Experience page for details</a>
     </div>
   </section>
 
