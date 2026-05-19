@@ -141,7 +141,6 @@
     <p class="closing-card__text">I am actively seeking master&apos;s program opportunities through the 2026 recommendation-based admission cycle, with enrollment expected in 2027.</p>
     <p class="closing-card__sub">Feel free to reach out for collaboration, advice, or research opportunities.</p>
     <div class="about-actions">
-      <a class="about-btn" href="mailto:dyz8327@stu.ouc.edu.cn">dyz8327@stu.ouc.edu.cn</a>
       <div class="about-contact">
         <button type="button" class="about-btn about-btn--secondary">Contact</button>
         <div class="about-contact-card">
