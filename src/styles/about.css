@@ -2327,6 +2327,298 @@
   font-weight: 600;
 }
 
+.acad-text-page .research-page {
+  display: block;
+}
+
+.acad-text-page .research-page .home-section {
+  margin-bottom: 2.5rem;
+}
+
+.acad-text-page .research-page p {
+  color: #4a4f55;
+  line-height: 1.58;
+}
+
+.acad-text-page .research-page .research-hero-v2 {
+  padding: 1.5rem 1.75rem;
+}
+
+.acad-text-page .research-quick-stats,
+.acad-text-page .research-focus-grid,
+.acad-text-page .research-point-grid,
+.acad-text-page .research-output-stats,
+.acad-text-page .research-skill-grid {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.acad-text-page .research-quick-stats {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 1.1rem;
+}
+
+.acad-text-page .research-quick-stats div,
+.acad-text-page .research-output-stats div {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 0.8rem 0.9rem;
+  background: #fafafa;
+}
+
+.acad-text-page .research-quick-stats strong,
+.acad-text-page .research-output-stats strong {
+  display: block;
+  color: #222;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.acad-text-page .research-quick-stats span,
+.acad-text-page .research-output-stats span {
+  display: block;
+  margin-top: 0.25rem;
+  color: #6b7280;
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+.acad-text-page .research-focus-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.acad-text-page .research-focus-card,
+.acad-text-page .research-point-grid > div,
+.acad-text-page .research-skill-grid > div {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 0.9rem 1rem;
+  background: #fff;
+}
+
+.acad-text-page .research-focus-card h3,
+.acad-text-page .research-point-grid strong,
+.acad-text-page .research-skill-grid strong {
+  display: block;
+  margin: 0 0 0.45rem !important;
+  color: #222 !important;
+  font-size: 0.98rem !important;
+  font-weight: 700 !important;
+  line-height: 1.3;
+}
+
+.acad-text-page .research-focus-card p,
+.acad-text-page .research-point-grid p {
+  margin: 0 !important;
+  font-size: 0.92rem;
+}
+
+.acad-text-page .research-timeline-v2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.acad-text-page .research-timeline-v2 article {
+  display: grid;
+  grid-template-columns: 10rem minmax(0, 1fr);
+  gap: 1rem;
+  padding: 0.95rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.acad-text-page .research-timeline-v2 article:last-child {
+  border-bottom: 0;
+}
+
+.acad-text-page .research-timeline-v2 time {
+  align-self: start;
+  border-radius: 999px;
+  padding: 0.28rem 0.75rem;
+  background: #4a4a4a;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1.15;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.acad-text-page .research-timeline-v2 h3 {
+  margin: 0 0 0.25rem !important;
+  color: #222 !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+}
+
+.acad-text-page .research-timeline-v2 p {
+  margin: 0 !important;
+  font-size: 0.92rem;
+}
+
+.acad-text-page .research-experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.acad-text-page .research-experience-card {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: #fff;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+.acad-text-page .research-experience-card > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.1rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.acad-text-page .research-experience-card > summary::-webkit-details-marker {
+  display: none;
+}
+
+.acad-text-page .research-experience-card h3 {
+  margin: 0.15rem 0 0 !important;
+  color: #222 !important;
+  font-size: 1.02rem !important;
+  font-weight: 700 !important;
+  line-height: 1.3;
+}
+
+.acad-text-page .research-card-body {
+  border-top: 1px solid #f0f0f0;
+  padding: 1rem 1.1rem 1.15rem;
+}
+
+.acad-text-page .research-card-body > p {
+  margin: 0 0 0.9rem !important;
+}
+
+.acad-text-page .research-point-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-bottom: 0.9rem;
+}
+
+.acad-text-page .research-output-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(14rem, 0.55fr);
+  gap: 1.25rem;
+  align-items: start;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 1.1rem 1.2rem;
+  background: #fff;
+}
+
+.acad-text-page .research-output-card h3 {
+  margin: 0.25rem 0 0.5rem !important;
+  color: #111827 !important;
+  font-size: 1.15rem !important;
+  font-weight: 700 !important;
+  line-height: 1.25;
+}
+
+.acad-text-page .research-output-card h3 a {
+  color: #111827 !important;
+}
+
+.acad-text-page .research-output-card p {
+  margin: 0 0 0.75rem !important;
+}
+
+.acad-text-page .research-output-stats {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.acad-text-page .research-skill-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.acad-text-page .research-skill-grid > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.acad-text-page .research-skill-grid strong {
+  flex-basis: 100%;
+}
+
+.acad-text-page .research-skill-grid span {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+  border-radius: 999px;
+  padding: 0.22rem 0.58rem;
+  background: #f8f8f8;
+  color: #333;
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.acad-text-page .research-page .pub-btn {
+  display: inline-block;
+  border: 1px solid #2563eb;
+  border-radius: 6px;
+  padding: 0.35rem 0.75rem;
+  color: #2563eb !important;
+  font-size: 0.86rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.acad-text-page .research-page .pub-btn:hover {
+  background: #eff6ff;
+  text-decoration: none;
+}
+
+.acad-text-page .research-page .pub-btn--ghost {
+  border-color: #d1d5db;
+  color: #6b7280 !important;
+}
+
+.acad-text-page .research-page .pub-btn--ghost:hover {
+  border-color: #9ca3af;
+  background: #f9fafb;
+}
+
+@media (max-width: 800px) {
+  .acad-text-page .research-quick-stats,
+  .acad-text-page .research-focus-grid,
+  .acad-text-page .research-point-grid,
+  .acad-text-page .research-output-card,
+  .acad-text-page .research-output-stats,
+  .acad-text-page .research-skill-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .acad-text-page .research-timeline-v2 article {
+    grid-template-columns: 1fr;
+    gap: 0.45rem;
+  }
+
+  .acad-text-page .research-timeline-v2 time {
+    justify-self: start;
+  }
+
+  .acad-text-page .research-experience-card > summary {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .acad-text-page .research-period {
+    white-space: normal;
+  }
+}
+
 .acad-text-page .album-grid,
 .acad-text-page .story-grid,
 .acad-text-page .activity-list,
