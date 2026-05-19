@@ -51,21 +51,21 @@
     </div>
   </section>
 
-  <section class="home-section" id="publications">
-    <h2 class="home-section__title">📝 论文成果</h2>
+  <section class="home-section publication-section" id="publications">
+    <h2 class="home-section__title">精选论文</h2>
     <div class="pub-list">
       <article class="pub-card">
         <div class="pub-card__thumb"><img src="/images/homepage/research-bcv3.png" alt="BrowseComp-V³ 数据构造流程图" /></div>
         <div class="pub-card__body">
           <h3 class="pub-card__title"><a href="https://arxiv.org/abs/2602.12876">BrowseComp-V³: A Visual, Vertical, and Verifiable Benchmark for Multimodal Browsing Agents</a></h3>
           <div class="pub-card__meta">
-            <span class="pub-card__authors">Core Contributor</span>
-            <span class="pub-card__type">arXiv Preprint</span>
+            <span class="pub-card__authors">Huanyao Zhang, Jiepeng Zhou, Bo Li, Bowen Zhou, Yanzhe Shan... <span class="pub-card__more-authors">+20</span></span>
+            <span class="pub-card__type">Arxiv Preprint</span>
           </div>
-          <p class="pub-card__abstract">参与多模态网页浏览智能体评测基准建设，工作聚焦复杂网页搜索、视觉理解、跨页面聚合与可验证评测。</p>
+          <p class="pub-card__abstract">一个面向多模态智能体的视觉网页浏览基准，覆盖 5 个垂直领域，包含跨页面信息聚合与多跳推理任务，用于评估模型的视觉定位和复杂搜索能力。</p>
           <div class="pub-card__actions">
-            <a class="pub-btn" href="https://arxiv.org/abs/2602.12876">arXiv</a>
-            <a class="pub-btn pub-btn--ghost" href="https://github.com/Halcyon-Zhang/BrowseComp-V3">GitHub</a>
+            <a class="pub-btn" href="https://arxiv.org/abs/2602.12876">Paper</a>
+            <a class="pub-btn pub-btn--ghost" href="/research/">Detail</a>
           </div>
         </div>
       </article>

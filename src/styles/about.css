@@ -1556,8 +1556,8 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 1rem;
-  padding: 1rem 1.1rem;
+  gap: 1.25rem;
+  padding: 1.15rem 1.25rem;
   border: 1px solid #e5e7eb;
   border-radius: 10px;
   background: #fff;
@@ -1565,8 +1565,8 @@
 }
 
 .acad-homepage .pub-card__thumb {
-  flex: 0 0 340px;
-  max-width: 380px;
+  flex: 0 0 min(42%, 420px);
+  max-width: 420px;
 }
 
 .acad-homepage .pub-card__thumb img {
@@ -1595,15 +1595,16 @@
 }
 
 .acad-homepage .pub-card__body {
-  flex: 1 1 260px;
+  flex: 1 1 360px;
   min-width: 0;
 }
 
 .acad-homepage .pub-card__title {
   margin: 0 0 0.35rem;
   color: #111827;
-  font-size: 1.05em;
+  font-size: 1.22em;
   font-weight: 700;
+  line-height: 1.18;
 }
 
 .acad-homepage .pub-card__title a {
@@ -1630,6 +1631,12 @@
   color: #111;
 }
 
+.acad-homepage .pub-card__more-authors {
+  color: #9ca3af;
+  font-size: 0.85em;
+  font-weight: 500;
+}
+
 .acad-homepage .pub-card__type {
   display: block;
   margin-top: 0.25rem;
@@ -1638,8 +1645,10 @@
 }
 
 .acad-homepage .pub-card__abstract {
-  margin: 0 0 0.6rem;
+  margin: 0 0 0.75rem;
   color: #6b7280;
+  font-size: 0.94rem;
+  line-height: 1.5;
 }
 
 .acad-homepage .pub-card__actions {
