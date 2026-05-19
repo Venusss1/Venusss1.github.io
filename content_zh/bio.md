@@ -105,13 +105,34 @@
     </div>
   </section>
 
-  <section class="home-section" id="competitions">
-    <h2 class="home-section__title">💬 竞赛与荣誉</h2>
-    <div class="kv-list">
-      <div class="kv-item"><div class="kv-item__main"><strong>2025.05</strong> 美国大学生数学建模竞赛 M 奖</div></div>
-      <div class="kv-item"><div class="kv-item__main"><strong>2025</strong> 中国海洋大学 ACM 集训队成员，队内排名第 5</div></div>
-      <div class="kv-item"><div class="kv-item__main"><strong>2025.05-06</strong> 蓝桥杯程序设计竞赛省级奖项</div></div>
-      <div class="kv-item"><div class="kv-item__main"><strong>2025.05-06</strong> 计算机挑战赛省级奖项</div></div>
+  <section class="home-section competition-section" id="competitions">
+    <h2 class="home-section__title">💬 竞赛经历</h2>
+    <div class="competition-list">
+      <div class="competition-item">
+        <div class="competition-item__main"><strong>Meritorious Winner</strong>，美国大学生数学建模竞赛（MCM/ICM）</div>
+        <div class="competition-item__date">2025.05</div>
+      </div>
+      <div class="competition-item">
+        <div class="competition-item__main"><strong>优胜奖（Top 10%）</strong>，CCF 计算机应用技术大赛 - 全国算法精英大赛</div>
+        <div class="competition-item__date">2025</div>
+      </div>
+      <div class="competition-item">
+        <div class="competition-item__main"><strong>队伍排名第 3</strong>，中国大学生程序设计竞赛（CCPC）校内预选赛</div>
+        <div class="competition-item__date">2026.04</div>
+      </div>
+      <details class="competition-more">
+        <summary><span class="competition-more__open">查看更多竞赛</span><span class="competition-more__close">收起</span></summary>
+        <div class="competition-more__content">
+          <div class="competition-item">
+            <div class="competition-item__main"><strong>省级三等奖</strong>，蓝桥杯全国软件和信息技术专业人才大赛</div>
+            <div class="competition-item__date">2025.05</div>
+          </div>
+          <div class="competition-item">
+            <div class="competition-item__main"><strong>省级三等奖</strong>，计算机创新挑战赛</div>
+            <div class="competition-item__date">2025.06</div>
+          </div>
+        </div>
+      </details>
     </div>
   </section>
 

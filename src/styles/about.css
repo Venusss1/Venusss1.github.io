@@ -1547,6 +1547,90 @@
   font-weight: 600;
 }
 
+.acad-homepage .competition-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.acad-homepage .competition-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.95rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.acad-homepage .competition-item__main {
+  flex: 1 1 auto;
+  min-width: 0;
+  color: #222;
+  font-size: 0.98rem;
+  line-height: 1.45;
+}
+
+.acad-homepage .competition-item__main strong {
+  font-weight: 700;
+}
+
+.acad-homepage .competition-item__date {
+  flex: 0 0 auto;
+  border-radius: 999px;
+  padding: 0.28rem 0.75rem;
+  background: #4a4a4a;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1.15;
+  white-space: nowrap;
+}
+
+.acad-homepage .competition-more {
+  margin-top: 0.9rem;
+}
+
+.acad-homepage .competition-more > summary {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #bfdbfe;
+  border-radius: 8px;
+  padding: 0.45rem 1rem;
+  color: #2563eb;
+  cursor: pointer;
+  font-weight: 600;
+  list-style: none;
+  transition: background 0.16s ease, border-color 0.16s ease;
+}
+
+.acad-homepage .competition-more > summary::-webkit-details-marker {
+  display: none;
+}
+
+.acad-homepage .competition-more > summary:hover {
+  border-color: #93c5fd;
+  background: #eff6ff;
+}
+
+.acad-homepage .competition-more__close {
+  display: none;
+}
+
+.acad-homepage .competition-more[open] .competition-more__open {
+  display: none;
+}
+
+.acad-homepage .competition-more[open] .competition-more__close {
+  display: inline;
+}
+
+.acad-homepage .competition-more__content {
+  margin-top: 0.75rem;
+}
+
+.acad-homepage .competition-more__content .competition-item:last-child {
+  border-bottom: 0;
+}
+
 .acad-homepage .top-rank {
   color: #2563eb;
   font-weight: 600;
@@ -1902,6 +1986,7 @@
 .dark .acad-homepage .intern-entry__title,
 .dark .acad-homepage .intern-item__title,
 .dark .acad-homepage .kv-item__main,
+.dark .acad-homepage .competition-item__main,
 .dark .acad-homepage .pub-card__title,
 .dark .acad-homepage .pub-card__title a,
 .dark .acad-homepage .closing-card__greeting {
@@ -1947,6 +2032,12 @@
     grid-column: 2;
     justify-self: start;
     margin-top: 0;
+  }
+
+  .acad-homepage .competition-item {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 0.45rem 0.75rem;
   }
 
   .acad-homepage .pub-card {

@@ -105,13 +105,34 @@
     </div>
   </section>
 
-  <section class="home-section" id="competitions">
+  <section class="home-section competition-section" id="competitions">
     <h2 class="home-section__title">💬 Competitions</h2>
-    <div class="kv-list">
-      <div class="kv-item"><div class="kv-item__main"><strong>2025.05</strong> Meritorious Winner (M Prize), MCM/ICM Mathematical Modeling Contest</div></div>
-      <div class="kv-item"><div class="kv-item__main"><strong>2025</strong> ACM Training Team Member, Ocean University of China, ranked 5th</div></div>
-      <div class="kv-item"><div class="kv-item__main"><strong>2025.05-06</strong> Provincial Award, Lanqiao Cup Programming Contest</div></div>
-      <div class="kv-item"><div class="kv-item__main"><strong>2025.05-06</strong> Provincial Award, Computer Challenge Competition</div></div>
+    <div class="competition-list">
+      <div class="competition-item">
+        <div class="competition-item__main"><strong>Meritorious Winner</strong>, Mathematical Contest in Modeling / Interdisciplinary Contest in Modeling (MCM/ICM)</div>
+        <div class="competition-item__date">2025.05</div>
+      </div>
+      <div class="competition-item">
+        <div class="competition-item__main"><strong>Excellence Award (Top 10%)</strong>, CCF Computer Application Technology Competition - National Algorithm Elite Competition</div>
+        <div class="competition-item__date">2025</div>
+      </div>
+      <div class="competition-item">
+        <div class="competition-item__main"><strong>Team Rank 3</strong>, China Collegiate Programming Contest (CCPC) Campus Preliminary Contest</div>
+        <div class="competition-item__date">2026.04</div>
+      </div>
+      <details class="competition-more">
+        <summary><span class="competition-more__open">View All Competitions</span><span class="competition-more__close">Collapse</span></summary>
+        <div class="competition-more__content">
+          <div class="competition-item">
+            <div class="competition-item__main"><strong>Provincial Third Prize</strong>, Lanqiao Cup National Software and Information Technology Professionals Competition</div>
+            <div class="competition-item__date">2025.05</div>
+          </div>
+          <div class="competition-item">
+            <div class="competition-item__main"><strong>Provincial Third Prize</strong>, Computer Innovation Challenge</div>
+            <div class="competition-item__date">2025.06</div>
+          </div>
+        </div>
+      </details>
     </div>
   </section>
 
