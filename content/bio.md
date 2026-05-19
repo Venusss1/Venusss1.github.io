@@ -71,16 +71,16 @@
 
 <div class="research-brief-list">
   <div>
-    <strong><a href="https://github.com/OpenDCAI/AgentFlow">OpenDCAI / AgentFlow</a></strong>
+    <strong>Research Focus: Data-Centric AI and Multimodal Agents</strong>
     <div class="research-brief-tags">
-      <span>Prof. Wentao Zhang's Group</span>
-      <span>Multimodal Browsing Agents</span>
+      <a href="https://github.com/OpenDCAI/AgentFlow">OpenDCAI / AgentFlow</a>
       <span>Data Synthesis</span>
-      <span>Agent Post-Training</span>
+      <span>Multimodal Deep Search</span>
+      <span>SFT / RL</span>
     </div>
   </div>
   <div>
-    <strong>BrowseComp-V³</strong>
+    <strong>Representative Outcome: BrowseComp-V³</strong>
     <div class="research-brief-tags">
       <span>Core Contributor</span>
       <a href="https://arxiv.org/abs/2602.12876">arXiv</a>
@@ -89,21 +89,11 @@
     </div>
   </div>
   <div>
-    <strong>MMDeepSearch <span>Ongoing</span></strong>
+    <strong><a href="/research/">Full Research Timeline</a></strong>
     <div class="research-brief-tags">
-      <span>Long-Horizon Search Agents</span>
-      <span>Automatic Data Synthesis</span>
-      <span>SFT / RL</span>
-      <span>Process Evaluation</span>
-    </div>
-  </div>
-  <div>
-    <strong>Other Research</strong>
-    <div class="research-brief-tags">
-      <span>Tsinghua TLLM Lab</span>
-      <span>Wafer Defect Detection</span>
-      <span>HITSZ</span>
-      <span>MotionRAG</span>
+      <span>Project Timeline</span>
+      <span>Research Contributions</span>
+      <span>Technical Growth</span>
     </div>
   </div>
 </div>

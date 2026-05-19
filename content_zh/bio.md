@@ -71,39 +71,29 @@
 
 <div class="research-brief-list">
   <div>
-    <strong><a href="https://github.com/OpenDCAI/AgentFlow">OpenDCAI / AgentFlow</a></strong>
+    <strong>研究主线：Data-Centric AI 与多模态智能体</strong>
     <div class="research-brief-tags">
-      <span>北大张文涛教授课题组</span>
-      <span>多模态浏览智能体评测</span>
+      <a href="https://github.com/OpenDCAI/AgentFlow">OpenDCAI / AgentFlow</a>
       <span>数据合成</span>
-      <span>Agent 后训练</span>
+      <span>多模态深度搜索</span>
+      <span>SFT / RL</span>
     </div>
   </div>
   <div>
-    <strong>BrowseComp-V³</strong>
+    <strong>代表成果：BrowseComp-V³</strong>
     <div class="research-brief-tags">
       <span>Core Contributor</span>
       <a href="https://arxiv.org/abs/2602.12876">arXiv</a>
       <a href="https://github.com/Halcyon-Zhang/BrowseComp-V3">GitHub</a>
-      <span>多模态深度浏览 Benchmark</span>
+      <span>多模态浏览 Benchmark</span>
     </div>
   </div>
   <div>
-    <strong>MMDeepSearch <span>进行中</span></strong>
+    <strong><a href="/research/">查看完整科研经历</a></strong>
     <div class="research-brief-tags">
-      <span>多模态长程搜索智能体</span>
-      <span>自动化数据合成</span>
-      <span>SFT / RL</span>
-      <span>过程评测</span>
-    </div>
-  </div>
-  <div>
-    <strong>其他科研探索</strong>
-    <div class="research-brief-tags">
-      <span>清华大学 TLLM Lab</span>
-      <span>晶圆缺陷检测</span>
-      <span>哈工深</span>
-      <span>MotionRAG</span>
+      <span>项目时间线</span>
+      <span>阶段性工作</span>
+      <span>技术积累</span>
     </div>
   </div>
 </div>
