@@ -78,7 +78,7 @@
       <article class="intern-entry">
         <div class="intern-entry__logo"><img src="/images/homepage/pku-logo.png" alt="Peking University logo" /></div>
         <div class="intern-entry__content">
-          <div class="intern-entry__title">DCAI, Peking University</div>
+          <div class="intern-entry__title">北京大学 · DCAI</div>
           <div class="intern-entry__meta">Research Intern · Supervised by Prof. Wentao Zhang</div>
           <p class="intern-entry__desc">Conducted research on Agent systems and data mining, with a focus on dataset construction for search-oriented Agents, multimodal large language models, and search Agent training and fine-tuning. Contributed to high-quality task samples, cross-page information aggregation constraints, key experiments, ablation studies, and baseline model evaluation.</p>
         </div>
@@ -87,7 +87,7 @@
       <article class="intern-entry">
         <div class="intern-entry__logo"><img src="/images/homepage/tsinghua-logo.png" alt="Tsinghua University logo" /></div>
         <div class="intern-entry__content">
-          <div class="intern-entry__title">TLLM Lab, Tsinghua University</div>
+          <div class="intern-entry__title">清华大学 · TLLM Lab</div>
           <div class="intern-entry__meta">Research Intern · Industrial LLMs and Wafer Defect Detection</div>
           <p class="intern-entry__desc">Explored large models and visual detection in industrial scenarios, including wafer defect detection, prognostics and health management, continual learning, and class-incremental methods. Completed literature review, reproduction experiments, and model evaluation.</p>
         </div>
@@ -96,7 +96,7 @@
       <article class="intern-entry">
         <div class="intern-entry__logo"><img src="/images/homepage/hitsz-logo.png" alt="Harbin Institute of Technology, Shenzhen logo" /></div>
         <div class="intern-entry__content">
-          <div class="intern-entry__title">Harbin Institute of Technology, Shenzhen</div>
+          <div class="intern-entry__title">哈尔滨工业大学（深圳） · Physics Video Generation</div>
           <div class="intern-entry__meta">Research Intern · Video Generation and MotionRAG</div>
           <p class="intern-entry__desc">Worked on literature review and reproduction for video generation, MotionRAG, and physical consistency, strengthening training and evaluation experience with visual generation models.</p>
         </div>
