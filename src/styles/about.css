@@ -2173,6 +2173,43 @@
   line-height: 1.5;
 }
 
+.acad-text-page .research-page .home-section {
+  margin-bottom: 2.5rem;
+  padding: 1.5rem 1.75rem;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.acad-text-page .research-page .home-section__title {
+  margin: 0 0 1rem !important;
+  padding: 0 0 0.5rem !important;
+  border: 0 !important;
+  border-bottom: 2px solid #eee !important;
+  color: #333 !important;
+  font-size: 1.35em !important;
+  font-weight: 700 !important;
+  line-height: 1.2;
+}
+
+.acad-text-page .research-page .research-hero-v2 p {
+  margin: 0 !important;
+  color: #4a4f55 !important;
+  line-height: 1.55;
+}
+
+.acad-text-page .research-page .timeline-lanes {
+  border: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  background: transparent !important;
+}
+
+.acad-text-page .research-page .research-details {
+  margin-top: 0;
+}
+
 .acad-text-page .research-kicker,
 .acad-text-page .section-kicker,
 .acad-text-page .research-label,
