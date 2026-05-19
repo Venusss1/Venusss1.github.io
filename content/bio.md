@@ -2,8 +2,28 @@
   <section class="home-section" id="welcome">
     <h2 class="home-section__title">👋 Welcome!</h2>
     <div class="home-section__body">
-      <p>This is the personal homepage of Yanzhe Shan. I am an undergraduate student in Data Science and Big Data Technology at Ocean University of China, with interests in Data-Centric AI, multimodal agents, and AI for Science.</p>
-      <p>This page keeps only key information; a fuller research timeline is available on the <a href="/research/">Research</a> page.</p>
+      <p>Here is a homepage about Yanzhe Shan.</p>
+      <p>I am an undergraduate student in Data Science and Big Data Technology at Ocean University of China, with interests in Data-Centric AI, multimodal agents, and AI for Science. This page keeps only key information; a fuller research timeline is available on the <a href="/research/">Research</a> page.</p>
+    </div>
+    <div class="about-actions">
+      <a href="/files/resume.pdf" class="about-btn" target="_blank" rel="noopener">CV</a>
+      <div class="about-contact">
+        <button type="button" class="about-btn about-btn--secondary">Contact</button>
+        <div class="about-contact-card">
+          <div class="about-contact-card__row">
+            <span class="about-contact-card__label">Email</span>
+            <span class="about-contact-card__value"><a href="mailto:dyz8327@stu.ouc.edu.cn">dyz8327@stu.ouc.edu.cn</a></span>
+          </div>
+          <div class="about-contact-card__row">
+            <span class="about-contact-card__label">Phone</span>
+            <span class="about-contact-card__value">19963927952</span>
+          </div>
+          <div class="about-contact-card__row">
+            <span class="about-contact-card__label">WeChat</span>
+            <span class="about-contact-card__value">19963927952</span>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
