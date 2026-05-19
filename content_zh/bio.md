@@ -144,7 +144,7 @@
     <p class="closing-card__text">我正在积极寻求 2026 年推免、2027 年入学的硕士阶段学习与科研机会。</p>
     <p class="closing-card__sub">如果你愿意交流、合作或提供建议，欢迎通过以下方式联系我。</p>
     <div class="about-actions">
-      <a class="about-btn" href="mailto:dyz8327@stu.ouc.edu.cn">发送邮件</a>
+      <a class="about-btn" href="mailto:dyz8327@stu.ouc.edu.cn">dyz8327@stu.ouc.edu.cn</a>
       <div class="about-contact">
         <button type="button" class="about-btn about-btn--secondary">联系方式</button>
         <div class="about-contact-card">
