@@ -1344,6 +1344,9 @@
 }
 
 .acad-page-shell .acad-sidebar-card {
+  position: sticky;
+  top: 4rem;
+  align-self: flex-start;
   border: 1px solid #eee !important;
   border-radius: 8px !important;
   background: #fff !important;

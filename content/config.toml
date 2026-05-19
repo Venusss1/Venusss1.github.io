@@ -22,6 +22,7 @@ location_details = [
 ]
 github = "https://github.com/Venusss1"
 phone = "19963927952"
+wechat = "19963927952"
 
 [features]
 # Show a like button on the about page
