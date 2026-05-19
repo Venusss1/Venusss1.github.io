@@ -138,7 +138,7 @@
 
   <section class="home-section home-section--closing" id="thanks">
     <h2 class="closing-card__greeting">Thanks for stopping by!</h2>
-    <p class="closing-card__text">I am actively seeking a master&apos;s program opportunity and hope to continue research training around <span class="closing-highlight">Data-Centric AI</span>, multimodal agents, and AI for Science.</p>
+    <p class="closing-card__text">I am actively seeking master&apos;s program opportunities through the 2026 recommendation-based admission cycle, with enrollment expected in 2027.</p>
     <p class="closing-card__sub">Feel free to reach out for collaboration, advice, or research opportunities.</p>
     <div class="about-actions">
       <a class="about-btn" href="mailto:dyz8327@stu.ouc.edu.cn">Send Email</a>

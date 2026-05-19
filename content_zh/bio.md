@@ -138,7 +138,7 @@
 
   <section class="home-section home-section--closing" id="thanks">
     <h2 class="closing-card__greeting">感谢来访！</h2>
-    <p class="closing-card__text">我正在积极寻求硕士阶段的学习与科研机会，期待在 <span class="closing-highlight">Data-Centric AI</span>、多模态智能体和 AI for Science 等方向继续深入训练。</p>
+    <p class="closing-card__text">我正在积极寻求 2026 年推免、2027 年入学的硕士阶段学习与科研机会。</p>
     <p class="closing-card__sub">如果你愿意交流、合作或提供建议，欢迎通过以下方式联系我。</p>
     <div class="about-actions">
       <a class="about-btn" href="mailto:dyz8327@stu.ouc.edu.cn">发送邮件</a>
