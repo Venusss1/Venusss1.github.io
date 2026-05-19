@@ -59,13 +59,13 @@
         <div class="pub-card__body">
           <h3 class="pub-card__title"><a href="https://arxiv.org/abs/2602.12876">BrowseComp-V³: A Visual, Vertical, and Verifiable Benchmark for Multimodal Browsing Agents</a></h3>
           <div class="pub-card__meta">
-            <span class="pub-card__authors">Huanyao Zhang, Jiepeng Zhou, Bo Li, Bowen Zhou, Yanzhe Shan... <span class="pub-card__more-authors">+20</span></span>
+            <span class="pub-card__authors">Core Contributor <span class="pub-card__more-authors">+20</span></span>
             <span class="pub-card__type">Arxiv Preprint</span>
           </div>
           <p class="pub-card__abstract">一个面向多模态智能体的视觉网页浏览基准，覆盖 5 个垂直领域，包含跨页面信息聚合与多跳推理任务，用于评估模型的视觉定位和复杂搜索能力。</p>
           <div class="pub-card__actions">
             <a class="pub-btn" href="https://arxiv.org/abs/2602.12876">Paper</a>
-            <a class="pub-btn pub-btn--ghost" href="/research/">Detail</a>
+            <a class="pub-btn pub-btn--ghost" href="https://github.com/Halcyon-Zhang/BrowseComp-V3">GitHub</a>
           </div>
         </div>
       </article>

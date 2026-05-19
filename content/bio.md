@@ -59,13 +59,13 @@
         <div class="pub-card__body">
           <h3 class="pub-card__title"><a href="https://arxiv.org/abs/2602.12876">BrowseComp-V³: A Visual, Vertical, and Verifiable Benchmark for Multimodal Browsing Agents</a></h3>
           <div class="pub-card__meta">
-            <span class="pub-card__authors">Huanyao Zhang, Jiepeng Zhou, Bo Li, Bowen Zhou, Yanzhe Shan... <span class="pub-card__more-authors">+20</span></span>
+            <span class="pub-card__authors">Core Contributor <span class="pub-card__more-authors">+20</span></span>
             <span class="pub-card__type">arXiv Preprint</span>
           </div>
           <p class="pub-card__abstract">A visual web browsing benchmark for multimodal Agents, spanning 5 vertical domains with cross-page aggregation and multi-hop reasoning tasks to evaluate visual grounding capabilities.</p>
           <div class="pub-card__actions">
             <a class="pub-btn" href="https://arxiv.org/abs/2602.12876">Paper</a>
-            <a class="pub-btn pub-btn--ghost" href="/research/">Detail</a>
+            <a class="pub-btn pub-btn--ghost" href="https://github.com/Halcyon-Zhang/BrowseComp-V3">GitHub</a>
           </div>
         </div>
       </article>
